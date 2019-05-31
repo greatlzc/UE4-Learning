@@ -364,10 +364,12 @@
     <NMakeOutput>..\..\Binaries\HTML5\MyProjectCpp-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\MyProjectCpp\HierarchyActor.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\MyFirstActor.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\MyGameMode.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\MyGameState.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\MyUserProfile.cpp" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\HierarchyActor.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\MyFirstActor.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\MyGameMode.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\MyGameState.h" />

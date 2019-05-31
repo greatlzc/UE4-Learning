@@ -14,10 +14,11 @@ AMyFirstActor::AMyFirstActor()
 
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>("BaseMeshComponent");
 	RootComponent = Mesh;
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset(TEXT("StaticMesh'/Engine/BasicShapes/Cube.Cube'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset(TEXT("StaticMesh'/Game/StarterContent/Props/SM_Rock.SM_Rock'"));
 	if (MeshAsset.Succeeded())
 	{
 		Mesh->SetStaticMesh(MeshAsset.Object);
+		Mesh->SetWorldScale3D(FVector(0.5f));
 	}
 }
 

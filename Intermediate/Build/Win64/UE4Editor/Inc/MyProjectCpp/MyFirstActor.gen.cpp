@@ -54,11 +54,12 @@ void EmptyLinkFunctionForGeneratedCodeMyFirstActor() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyFirstActor_Statics::NewProp_Mesh_MetaData[] = {
+		{ "Category", "MyFirstActor" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MyFirstActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyFirstActor_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyFirstActor, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyFirstActor_Statics::NewProp_Mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyFirstActor_Statics::NewProp_Mesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyFirstActor_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyFirstActor, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyFirstActor_Statics::NewProp_Mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyFirstActor_Statics::NewProp_Mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyFirstActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyFirstActor_Statics::NewProp_Mesh,
 	};
@@ -89,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeMyFirstActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyFirstActor, 2911417460);
+	IMPLEMENT_CLASS(AMyFirstActor, 2296682961);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AMyFirstActor>()
 	{
 		return AMyFirstActor::StaticClass();
