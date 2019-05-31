@@ -686,3 +686,5 @@ d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/I
 d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SSlider.h
 d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SComboBox.h
 d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Docking/LayoutService.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\MyProjectCppHUD.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyProjectCppHUD.generated.h
