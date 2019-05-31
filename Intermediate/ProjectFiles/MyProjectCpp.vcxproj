@@ -369,11 +369,13 @@
     <ClCompile Include="..\..\Source\MyProjectCpp\MyGameMode.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\MyGameState.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\MyUserProfile.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\RandomMovementComponent.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\HierarchyActor.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\MyFirstActor.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\MyGameMode.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\MyGameState.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\MyUserProfile.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\RandomMovementComponent.h" />
     <None Include="..\..\MyProjectCpp.uproject" />
     <None Include="..\..\Source\MyProjectCpp.Target.cs" />
     <None Include="..\..\Source\MyProjectCppEditor.Target.cs" />
