@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\MyProjectCppEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\ActorSpawnerComponent.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\HierarchyActor.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\MyFirstActor.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\MyGameMode.cpp.obj"
@@ -18,6 +19,7 @@
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\MyProjectCppProjectile.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\MyUserProfile.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\RandomMovementComponent.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\ActorSpawnerComponent.gen.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\HierarchyActor.gen.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\MyFirstActor.gen.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\MyGameMode.gen.cpp.obj"
