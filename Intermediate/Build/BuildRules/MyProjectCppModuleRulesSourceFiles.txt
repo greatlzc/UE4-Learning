@@ -1,0 +1,3 @@
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\MyProjectCpp.Build.cs
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp.Target.cs
+F:\UE Projects\MyProjectCpp\Source\MyProjectCppEditor.Target.cs

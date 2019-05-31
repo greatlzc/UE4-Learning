@@ -1,0 +1,12 @@
+MyProjectCpp/Binaries/Win64/MyProjectCpp.pdb	2019-05-31T02:40:52.816Z
+Engine/Content/SlateDebug/Fonts/LastResort.tps	2019-05-16T07:41:15.837Z
+Engine/Content/SlateDebug/Fonts/LastResort.ttf	2019-05-16T07:41:15.948Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.pdb	2019-05-16T07:39:28.548Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.pdb	2019-05-16T07:39:28.581Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.pdb	2019-05-16T07:39:28.341Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CookingPROFILE_x64.pdb	2019-05-16T07:39:27.865Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.pdb	2019-05-16T07:39:27.842Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.pdb	2019-05-16T07:39:24.426Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.pdb	2019-05-16T07:39:26.127Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkPROFILE_x64.pdb	2019-05-16T07:39:26.883Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvClothPROFILE_x64.pdb	2019-05-16T07:39:26.920Z
