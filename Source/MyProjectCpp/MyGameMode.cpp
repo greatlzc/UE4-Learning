@@ -4,12 +4,17 @@
 #include "MyGameMode.h"
 #include "Engine.h"
 #include "MyProjectCppHUD.h"
+#include "InventoryCharacter.h"
+
+AMyGameMode::AMyGameMode()
+{
+	HUDClass = AMyProjectCppHUD::StaticClass();
+	DefaultPawnClass = AInventoryCharacter::StaticClass();
+}
 
 void AMyGameMode::BeginPlay()
 {
 	Super::BeginPlay();
-
-	HUDClass = AMyProjectCppHUD::StaticClass();
 
 	UE_LOG(LogTemp, Warning, TEXT("Some WARNING Messages:"));
 

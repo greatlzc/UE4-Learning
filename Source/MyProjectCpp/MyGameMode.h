@@ -16,6 +16,7 @@ class MYPROJECTCPP_API AMyGameMode : public AGameMode
 {
 	GENERATED_BODY()
 public:
+	AMyGameMode();
 	UPROPERTY()
 		AMyFirstActor* SpawnedActor;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Unit")
