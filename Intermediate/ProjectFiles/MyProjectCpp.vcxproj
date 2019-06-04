@@ -365,6 +365,8 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MyProjectCpp\ActorSpawnerComponent.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\Barracks.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\BarracksUnit.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\HierarchyActor.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\InventoryActor.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\InventoryCharacter.cpp" />
@@ -377,6 +379,8 @@
     <ClCompile Include="..\..\Source\MyProjectCpp\RandomMovementComponent.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Warrior.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\ActorSpawnerComponent.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\Barracks.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\BarracksUnit.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\HierarchyActor.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\InventoryActor.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\InventoryCharacter.h" />

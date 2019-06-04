@@ -33,6 +33,8 @@
 /FUNCTIONPADMIN
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\MyProjectCppEditor\Development\Engine\SharedPCH.Engine.h.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\ActorSpawnerComponent.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\Barracks.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\BarracksUnit.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\HierarchyActor.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\InventoryActor.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\InventoryCharacter.cpp.obj"
@@ -50,6 +52,8 @@
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\RandomMovementComponent.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\Warrior.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\ActorSpawnerComponent.gen.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\Barracks.gen.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\BarracksUnit.gen.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\HierarchyActor.gen.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\InventoryActor.gen.cpp.obj"
 "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\InventoryCharacter.gen.cpp.obj"
