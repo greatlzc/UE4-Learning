@@ -12,6 +12,7 @@ AInventoryActor::AInventoryActor():Super()
 	{
 		GetStaticMeshComponent()->SetStaticMesh(MeshAsset.Object);
 		GetStaticMeshComponent()->SetCollisionProfileName(FName(TEXT("Pawn")));
+		GetStaticMeshComponent()->SetWorldScale3D(FVector(0.2f));
 	}
 	GetStaticMeshComponent()->SetMobility(EComponentMobility::Movable);
 	SetActorEnableCollision(true);

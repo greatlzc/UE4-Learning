@@ -100,6 +100,9 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\InventoryCharacter.h">
       <Filter>Source\MyProjectCpp</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\ObittingMovementComponent.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MyProjectCpp\MyUserProfile.cpp">
@@ -133,6 +136,9 @@
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MyProjectCpp\InventoryCharacter.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\ObittingMovementComponent.cpp">
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
   </ItemGroup>
