@@ -11,6 +11,9 @@
 /**
  * 
  */
+DECLARE_DELEGATE(FStandardDelegateSignature)
+DECLARE_DELEGATE_OneParam(FParamDelegateSignature, FLinearColor)
+DECLARE_MULTICAST_DELEGATE(FMulticastDelegateSignature)
 UCLASS(Blueprintable)
 class MYPROJECTCPP_API AMyGameMode : public AGameMode
 {
@@ -23,6 +26,9 @@ public:
 		TSubclassOf<UMyUserProfile> UPClassName;
 	UFUNCTION()
 		void DestroyActorFunction();
+	FStandardDelegateSignature MyStandardDelegate;
+	FParamDelegateSignature MyParameterDelegate;
+	FMulticastDelegateSignature MyMulticastDelegate;
 protected:
 	virtual void BeginPlay() override;
 	
