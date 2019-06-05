@@ -381,6 +381,8 @@
     <ClCompile Include="..\..\Source\MyProjectCpp\MyUserProfile.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\ObittingMovementComponent.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\ParamDelegateListener.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\Pickup.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\PickupSpawner.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\RandomMovementComponent.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\TimeOfDayHandler.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\TriggerVolEventListener.cpp" />
@@ -402,6 +404,8 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\MyUserProfile.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\ObittingMovementComponent.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\ParamDelegateListener.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\Pickup.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\PickupSpawner.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\RandomMovementComponent.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\TimeOfDayHandler.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\TriggerVolEventListener.h" />
