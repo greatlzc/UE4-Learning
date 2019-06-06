@@ -365,10 +365,12 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MyProjectCpp\ActorSpawnerComponent.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\AntiGravityVolume.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Barracks.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\BarracksUnit.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Clock.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\DelegateListener.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\GravityObject.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\HierarchyActor.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\InventoryActor.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\InventoryCharacter.cpp" />
@@ -382,6 +384,7 @@
     <ClCompile Include="..\..\Source\MyProjectCpp\MyUserProfile.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\ObittingMovementComponent.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\ParamDelegateListener.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\PhysicsCube.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Pickup.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\PickupSpawner.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\RandomMovementComponent.cpp" />
@@ -390,10 +393,12 @@
     <ClCompile Include="..\..\Source\MyProjectCpp\TriggerVolEventListener.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Warrior.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\ActorSpawnerComponent.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\AntiGravityVolume.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Barracks.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\BarracksUnit.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Clock.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\DelegateListener.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\GravityObject.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\HierarchyActor.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\InventoryActor.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\InventoryCharacter.h" />
@@ -407,6 +412,7 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\MyUserProfile.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\ObittingMovementComponent.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\ParamDelegateListener.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\PhysicsCube.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Pickup.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\PickupSpawner.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\RandomMovementComponent.h" />
