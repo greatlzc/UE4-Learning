@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_AMyGameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameMode();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
+	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AMyGameMode_ButtonClicked();
 	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AMyGameMode_DestroyActorFunction();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UMyUserProfile_NoRegister();
@@ -26,9 +27,33 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 	{
 		UClass* Class = AMyGameMode::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "ButtonClicked", &AMyGameMode::execButtonClicked },
 			{ "DestroyActorFunction", &AMyGameMode::execDestroyActorFunction },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::Function_MetaDataParams[] = {
+		{ "Category", "UIFuncs" },
+		{ "ModuleRelativePath", "MyGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyGameMode, nullptr, "ButtonClicked", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyGameMode_ButtonClicked()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AMyGameMode_DestroyActorFunction_Statics
 	{
@@ -80,6 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMyGameMode_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AMyGameMode_ButtonClicked, "ButtonClicked" }, // 1189765480
 		{ &Z_Construct_UFunction_AMyGameMode_DestroyActorFunction, "DestroyActorFunction" }, // 3359240378
 	};
 #if WITH_METADATA
@@ -136,7 +162,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyGameMode, 3380891076);
+	IMPLEMENT_CLASS(AMyGameMode, 1116736587);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AMyGameMode>()
 	{
 		return AMyGameMode::StaticClass();

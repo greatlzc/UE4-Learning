@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execButtonClicked) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ButtonClicked(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDestroyActorFunction) \
 	{ \
 		P_FINISH; \
@@ -25,6 +33,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execButtonClicked) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ButtonClicked(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execDestroyActorFunction) \
 	{ \

@@ -26,6 +26,11 @@ public:
 		TSubclassOf<UMyUserProfile> UPClassName;
 	UFUNCTION()
 		void DestroyActorFunction();
+	UFUNCTION(BlueprintCallable, Category = UIFuncs)
+	void ButtonClicked()
+	{
+		UE_LOG(LogTemp, Warning, TEXT("UI Button Clicked"));
+	}
 	FStandardDelegateSignature MyStandardDelegate;
 	FParamDelegateSignature MyParameterDelegate;
 	FMulticastDelegateSignature MyMulticastDelegate;

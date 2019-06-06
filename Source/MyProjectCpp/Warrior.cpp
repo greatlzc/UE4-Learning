@@ -2,6 +2,7 @@
 
 
 #include "Warrior.h"
+#include "GameFramework/PlayerInput.h"
 
 // Sets default values
 AWarrior::AWarrior()
@@ -39,10 +40,19 @@ void AWarrior::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
+
+	//key mapping
+	//FInputAxisKeyMapping back("Back", EKeys::S, 1.f);
+	//FInputActionKeyMapping jump("Jump", EKeys::SpaceBar, 0, 0, 0, 0);
+	//GetWorld()->GetFirstPlayerController()->PlayerInput->AddAxisMapping(back); // method 1
+	//UPlayerInput::AddEngineDefinedActionMapping(jump); // method 2
+
+	//key binding
 	PlayerInputComponent->BindAxis("Forward", this, &AWarrior::Forward);
 	PlayerInputComponent->BindAxis("Back", this, &AWarrior::Back);
 	PlayerInputComponent->BindAxis("Right", this, &AWarrior::Right);
 	PlayerInputComponent->BindAxis("Left", this, &AWarrior::Left);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AWarrior::Jump);
 }
 
 void AWarrior::Forward(float amount)
