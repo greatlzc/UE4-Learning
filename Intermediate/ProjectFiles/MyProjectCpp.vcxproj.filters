@@ -136,6 +136,12 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\PickupSpawner.h">
       <Filter>Source\MyProjectCpp</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\MyInterface.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\SingleInterfaceActor.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MyProjectCpp\MyUserProfile.cpp">
@@ -205,6 +211,12 @@
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MyProjectCpp\PickupSpawner.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\MyInterface.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\SingleInterfaceActor.cpp">
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
   </ItemGroup>

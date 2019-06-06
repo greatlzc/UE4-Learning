@@ -6,6 +6,7 @@
 #include "GameFramework/GameMode.h"
 #include "MyFirstActor.h"
 #include "MyUserProfile.h"
+#include "MyInterface.h"
 #include "MyGameMode.generated.h"
 
 /**
@@ -27,10 +28,11 @@ public:
 	UFUNCTION()
 		void DestroyActorFunction();
 	UFUNCTION(BlueprintCallable, Category = UIFuncs)
-	void ButtonClicked()
-	{
-		UE_LOG(LogTemp, Warning, TEXT("UI Button Clicked"));
-	}
+		void ButtonClicked()
+		{
+			UE_LOG(LogTemp, Warning, TEXT("UI Button Clicked"));
+		}
+	TArray<IMyInterface*> MyInterfaceInstances;
 	FStandardDelegateSignature MyStandardDelegate;
 	FParamDelegateSignature MyParameterDelegate;
 	FMulticastDelegateSignature MyMulticastDelegate;

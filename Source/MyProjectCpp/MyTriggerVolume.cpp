@@ -30,7 +30,7 @@ void AMyTriggerVolume::Tick(float DeltaTime)
 
 void AMyTriggerVolume::NotifyActorBeginOverlap(AActor* OtherActor)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, FString::Printf(TEXT("%s entered me"),	*(OtherActor->GetName())));
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, FString::Printf(TEXT("%s entered me"),	*(OtherActor->GetName())));
 
 	AMyGameMode* MyGameMode = Cast<AMyGameMode>(UGameplayStatics::GetGameMode(this));
 	MyGameMode->MyStandardDelegate.ExecuteIfBound();
@@ -40,6 +40,6 @@ void AMyTriggerVolume::NotifyActorBeginOverlap(AActor* OtherActor)
 }
 void AMyTriggerVolume::NotifyActorEndOverlap(AActor* OtherActor)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, FString::Printf(TEXT("%s left me"), *(OtherActor->GetName())));
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, FString::Printf(TEXT("%s left me"), *(OtherActor->GetName())));
 }
 

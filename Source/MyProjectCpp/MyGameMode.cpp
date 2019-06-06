@@ -4,6 +4,8 @@
 #include "MyGameMode.h"
 #include "Engine.h"
 #include "MyProjectCppHUD.h"
+#include "MyInterface.h"
+#include "SingleInterfaceActor.h"
 #include "InventoryCharacter.h"
 
 AMyGameMode::AMyGameMode()
@@ -30,12 +32,30 @@ void AMyGameMode::BeginPlay()
 	FString string2 = FString::Format(TEXT("Name = {0} Health = {1}"), args);
 	UE_LOG(LogTemp, Warning, TEXT("Your String2: %s"), *string2);
 
-	GEngine->AddOnScreenDebugMessage(-1, -1, FColor::Red, TEXT("Actor Spawning..."));
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Actor Spawning..."));
 
 	SpawnedActor = (AMyFirstActor*)GetWorld()->SpawnActor(AMyFirstActor::StaticClass());
 
 	FTimerHandle Timer;
 	GetWorldTimerManager().SetTimer(Timer, this, &AMyGameMode::DestroyActorFunction, 10);
+
+	FTransform SpawnLocation;
+	ASingleInterfaceActor* SpawnedActor = GetWorld()->SpawnActor<ASingleInterfaceActor>(ASingleInterfaceActor::StaticClass(), SpawnLocation);
+	if (SpawnedActor->GetClass()->ImplementsInterface(UMyInterface::StaticClass()))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Spawned actor implements interface!"));
+	}
+
+	for (TActorIterator<AActor> It(GetWorld(), AActor::StaticClass()); It; ++It)
+	{
+		AActor* Actor = *It;
+		IMyInterface* MyInterfaceInstance = Cast<IMyInterface>(Actor);
+		if (MyInterfaceInstance)
+		{
+			MyInterfaceInstances.Add(MyInterfaceInstance);
+		}
+	}
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, FString::Printf(TEXT("%d actors implement the interface"), MyInterfaceInstances.Num()));
 }
 
 void AMyGameMode::DestroyActorFunction()

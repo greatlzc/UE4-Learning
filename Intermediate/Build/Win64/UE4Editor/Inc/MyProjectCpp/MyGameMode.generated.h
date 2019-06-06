@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_MyGameMode_generated_h
 
-#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_RPC_WRAPPERS \
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execButtonClicked) \
 	{ \
@@ -32,7 +32,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execButtonClicked) \
 	{ \
@@ -51,7 +51,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_INCLASS_NO_PURE_DECLS \
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyGameMode(); \
 	friend struct Z_Construct_UClass_AMyGameMode_Statics; \
@@ -60,7 +60,7 @@ public: \
 	DECLARE_SERIALIZER(AMyGameMode)
 
 
-#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_INCLASS \
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyGameMode(); \
 	friend struct Z_Construct_UClass_AMyGameMode_Statics; \
@@ -69,7 +69,7 @@ public: \
 	DECLARE_SERIALIZER(AMyGameMode)
 
 
-#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_STANDARD_CONSTRUCTORS \
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyGameMode) \
@@ -82,7 +82,7 @@ private: \
 public:
 
 
-#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_ENHANCED_CONSTRUCTORS \
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyGameMode(AMyGameMode&&); \
@@ -93,26 +93,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyGameMode)
 
 
-#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_PRIVATE_PROPERTY_OFFSET
-#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_17_PROLOG
-#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_GENERATED_BODY_LEGACY \
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_PRIVATE_PROPERTY_OFFSET
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_18_PROLOG
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_PRIVATE_PROPERTY_OFFSET \
-	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_RPC_WRAPPERS \
-	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_INCLASS \
-	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_STANDARD_CONSTRUCTORS \
+	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_RPC_WRAPPERS \
+	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_INCLASS \
+	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_GENERATED_BODY \
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_PRIVATE_PROPERTY_OFFSET \
-	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_INCLASS_NO_PURE_DECLS \
-	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_20_ENHANCED_CONSTRUCTORS \
+	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_INCLASS_NO_PURE_DECLS \
+	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
