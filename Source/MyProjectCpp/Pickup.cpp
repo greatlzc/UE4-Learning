@@ -18,9 +18,10 @@ APickup::APickup()
 	if (MeshAsset.Succeeded())
 	{
 		MyMesh->SetStaticMesh(MeshAsset.Object);
+		MyMesh->SetCollisionProfileName(FName(TEXT("Item")));
 	}
-	MyMesh->SetCollisionProfileName(TEXT("OverlapAllDynamic"));
 	RotatingComponent->RotationRate = FRotator(10, 0, 10);
+	SetActorEnableCollision(true);
 }
 
 // Called when the game starts or when spawned

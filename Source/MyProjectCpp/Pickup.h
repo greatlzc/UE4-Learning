@@ -25,7 +25,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* MyMesh;
 	UPROPERTY()
 		class URotatingMovementComponent* RotatingComponent;

@@ -298,3 +298,19 @@ bool AMyProjectCppCharacter::EnableTouchscreenMovement(class UInputComponent* Pl
 	
 	return false;
 }
+
+void AMyProjectCppCharacter::OnOverlapsBegin_Implementation(UPrimitiveComponent* Comp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
+	int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Overlaps began"));
+}
+
+void AMyProjectCppCharacter::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	if (RootComponent)
+	{
+		// Attach contact function to all bounding components.
+		GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AMyProjectCppCharacter::OnOverlapsBegin);
+	}
+}

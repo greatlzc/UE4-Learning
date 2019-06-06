@@ -17,6 +17,10 @@ void EmptyLinkFunctionForGeneratedCodeMyProjectCppCharacter() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_AMyProjectCppCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
+	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -27,8 +31,98 @@ void EmptyLinkFunctionForGeneratedCodeMyProjectCppCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_AMyProjectCppCharacter_OnOverlapsBegin = FName(TEXT("OnOverlapsBegin"));
+	void AMyProjectCppCharacter::OnOverlapsBegin(UPrimitiveComponent* Comp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, FHitResult const& SweepResult)
+	{
+		MyProjectCppCharacter_eventOnOverlapsBegin_Parms Parms;
+		Parms.Comp=Comp;
+		Parms.OtherActor=OtherActor;
+		Parms.OtherComp=OtherComp;
+		Parms.OtherBodyIndex=OtherBodyIndex;
+		Parms.bFromSweep=bFromSweep ? true : false;
+		Parms.SweepResult=SweepResult;
+		ProcessEvent(FindFunctionChecked(NAME_AMyProjectCppCharacter_OnOverlapsBegin),&Parms);
+	}
 	void AMyProjectCppCharacter::StaticRegisterNativesAMyProjectCppCharacter()
 	{
+		UClass* Class = AMyProjectCppCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnOverlapsBegin", &AMyProjectCppCharacter::execOnOverlapsBegin },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SweepResult_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SweepResult;
+		static void NewProp_bFromSweep_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bFromSweep;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_OtherBodyIndex;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Comp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Comp;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_SweepResult_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_SweepResult = { "SweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyProjectCppCharacter_eventOnOverlapsBegin_Parms, SweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_SweepResult_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_SweepResult_MetaData)) };
+	void Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_bFromSweep_SetBit(void* Obj)
+	{
+		((MyProjectCppCharacter_eventOnOverlapsBegin_Parms*)Obj)->bFromSweep = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_bFromSweep = { "bFromSweep", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(MyProjectCppCharacter_eventOnOverlapsBegin_Parms), &Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_bFromSweep_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_OtherBodyIndex = { "OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyProjectCppCharacter_eventOnOverlapsBegin_Parms, OtherBodyIndex), METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_OtherComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyProjectCppCharacter_eventOnOverlapsBegin_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_OtherComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_OtherComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyProjectCppCharacter_eventOnOverlapsBegin_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_Comp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_Comp = { "Comp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyProjectCppCharacter_eventOnOverlapsBegin_Parms, Comp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_Comp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_Comp_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_SweepResult,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_bFromSweep,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_OtherBodyIndex,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_OtherComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_OtherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::NewProp_Comp,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Collision" },
+		{ "ModuleRelativePath", "MyProjectCppCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyProjectCppCharacter, nullptr, "OnOverlapsBegin", sizeof(MyProjectCppCharacter_eventOnOverlapsBegin_Parms), Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08420C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AMyProjectCppCharacter_NoRegister()
 	{
@@ -37,6 +131,7 @@ void EmptyLinkFunctionForGeneratedCodeMyProjectCppCharacter() {}
 	struct Z_Construct_UClass_AMyProjectCppCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -108,6 +203,9 @@ void EmptyLinkFunctionForGeneratedCodeMyProjectCppCharacter() {}
 	UObject* (*const Z_Construct_UClass_AMyProjectCppCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AMyProjectCppCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AMyProjectCppCharacter_OnOverlapsBegin, "OnOverlapsBegin" }, // 138366947
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProjectCppCharacter_Statics::Class_MetaDataParams[] = {
@@ -276,11 +374,11 @@ void EmptyLinkFunctionForGeneratedCodeMyProjectCppCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AMyProjectCppCharacter_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		ARRAY_COUNT(Z_Construct_UClass_AMyProjectCppCharacter_Statics::PropPointers),
 		0,
 		0x008000A0u,
@@ -295,7 +393,7 @@ void EmptyLinkFunctionForGeneratedCodeMyProjectCppCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyProjectCppCharacter, 3886210692);
+	IMPLEMENT_CLASS(AMyProjectCppCharacter, 3345878491);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AMyProjectCppCharacter>()
 	{
 		return AMyProjectCppCharacter::StaticClass();

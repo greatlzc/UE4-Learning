@@ -64,11 +64,12 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickup_Statics::NewProp_RotatingComponent = { "RotatingComponent", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickup, RotatingComponent), Z_Construct_UClass_URotatingMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickup_Statics::NewProp_RotatingComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickup_Statics::NewProp_RotatingComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickup_Statics::NewProp_MyMesh_MetaData[] = {
+		{ "Category", "Pickup" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Pickup.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickup_Statics::NewProp_MyMesh = { "MyMesh", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickup, MyMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickup_Statics::NewProp_MyMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickup_Statics::NewProp_MyMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickup_Statics::NewProp_MyMesh = { "MyMesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickup, MyMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickup_Statics::NewProp_MyMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickup_Statics::NewProp_MyMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APickup_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickup_Statics::NewProp_RotatingComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickup_Statics::NewProp_MyMesh,
@@ -100,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickup, 3294460129);
+	IMPLEMENT_CLASS(APickup, 313973113);
 	template<> MYPROJECTCPP_API UClass* StaticClass<APickup>()
 	{
 		return APickup::StaticClass();
