@@ -7,11 +7,12 @@
 #include "MyInterface.h"
 #include "SingleInterfaceActor.h"
 #include "InventoryCharacter.h"
+#include "TalkingPawn.h"
 
 AMyGameMode::AMyGameMode()
 {
 	HUDClass = AMyProjectCppHUD::StaticClass();
-	DefaultPawnClass = AInventoryCharacter::StaticClass();
+	DefaultPawnClass = ATalkingPawn::StaticClass();
 }
 
 void AMyGameMode::BeginPlay()

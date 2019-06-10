@@ -151,6 +151,51 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\PhysicsCube.h">
       <Filter>Source\MyProjectCpp</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Killable.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Undead.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Snail.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Zombie.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Selectable.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\SelectableCube.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\NonSelectableCube.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\PostBeginPlay.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\PostBeginPlayTest.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\AttackAvoider.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Wearable.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Boots.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Talker.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\TalkingMesh.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\TalkingPawn.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MyProjectCpp\MyUserProfile.cpp">
@@ -235,6 +280,51 @@
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MyProjectCpp\PhysicsCube.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Killable.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Undead.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Snail.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Zombie.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Selectable.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\SelectableCube.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\NonSelectableCube.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\PostBeginPlay.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\PostBeginPlayTest.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\AttackAvoider.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Wearable.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Boots.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Talker.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\TalkingMesh.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\TalkingPawn.cpp">
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
   </ItemGroup>

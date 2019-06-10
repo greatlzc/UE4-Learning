@@ -11,6 +11,9 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
 f:\ue projects\myprojectcpp\source\myprojectcpp\GravityObject.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\GravityObject.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\AttackAvoider.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\AttackAvoider.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\AttackAvoider.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Barracks.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\Barracks.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
@@ -27,64 +30,11 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\BarracksUnit.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\BarracksUnit.cpp
-F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Clock.cpp
-f:\ue projects\myprojectcpp\source\myprojectcpp\Clock.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Clock.generated.h
-f:\ue projects\myprojectcpp\source\myprojectcpp\TimeOfDayHandler.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\TimeOfDayHandler.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
-d:\program files\epic games\ue_4.22\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
-F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\DelegateListener.cpp
-f:\ue projects\myprojectcpp\source\myprojectcpp\DelegateListener.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\DelegateListener.generated.h
-f:\ue projects\myprojectcpp\source\myprojectcpp\MyGameMode.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
-f:\ue projects\myprojectcpp\source\myprojectcpp\MyFirstActor.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyFirstActor.generated.h
-f:\ue projects\myprojectcpp\source\myprojectcpp\MyUserProfile.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyUserProfile.generated.h
-f:\ue projects\myprojectcpp\source\myprojectcpp\MyInterface.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyInterface.generated.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyGameMode.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/PointLightComponent.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/LocalLightComponent.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/LightComponent.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/LightComponentBase.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponentBase.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponent.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LocalLightComponent.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PointLightComponent.generated.h
-F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\GravityObject.cpp
-F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\HierarchyActor.cpp
-f:\ue projects\myprojectcpp\source\myprojectcpp\HierarchyActor.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\HierarchyActor.generated.h
-F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\InventoryActor.cpp
-f:\ue projects\myprojectcpp\source\myprojectcpp\InventoryActor.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\InventoryActor.generated.h
-F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\InventoryCharacter.cpp
-f:\ue projects\myprojectcpp\source\myprojectcpp\InventoryCharacter.h
-f:\ue projects\myprojectcpp\source\myprojectcpp\InventoryComponent.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\InventoryComponent.generated.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\InventoryCharacter.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Boots.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\Boots.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\Wearable.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Wearable.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Boots.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\Engine.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Core.h
@@ -232,6 +182,10 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 d:\program files\epic games\ue_4.22\engine\source\runtime\engine\public\Scalability.h
 d:\program files\epic games\ue_4.22\engine\source\runtime\engine\public\EngineMinimal.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
@@ -260,8 +214,26 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleEmitter.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleEmitter.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/LightComponent.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/LightComponentBase.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponentBase.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponent.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/PointLightComponent.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/LocalLightComponent.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LocalLightComponent.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PointLightComponent.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SpotLightComponent.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpotLightComponent.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/AmbientSound.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AmbientSound.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/BlockingVolume.h
@@ -320,6 +292,8 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFra
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameStateBase.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameStateBase.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameState.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/SkyLight.h
@@ -374,6 +348,8 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SceneCapture2D.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/SceneCaptureCube.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SceneCaptureCube.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/TargetPoint.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TargetPoint.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\VectorField/VectorFieldVolume.h
@@ -722,7 +698,42 @@ d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/I
 d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SSlider.h
 d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SComboBox.h
 d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Docking/LayoutService.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Clock.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\Clock.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Clock.generated.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\TimeOfDayHandler.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\TimeOfDayHandler.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\DelegateListener.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\DelegateListener.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\DelegateListener.generated.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\MyGameMode.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\MyFirstActor.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyFirstActor.generated.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\MyUserProfile.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyUserProfile.generated.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\MyInterface.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyInterface.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyGameMode.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\GravityObject.cpp
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\HierarchyActor.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\HierarchyActor.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\HierarchyActor.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\InventoryActor.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\InventoryActor.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\InventoryActor.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\InventoryCharacter.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\InventoryCharacter.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\InventoryComponent.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\InventoryComponent.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\InventoryCharacter.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\InventoryComponent.cpp
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Killable.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\Killable.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Killable.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\MulticastDelegateListener.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\MulticastDelegateListener.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MulticastDelegateListener.generated.h
@@ -732,6 +743,8 @@ f:\ue projects\myprojectcpp\source\myprojectcpp\MyProjectCppHUD.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyProjectCppHUD.generated.h
 f:\ue projects\myprojectcpp\source\myprojectcpp\SingleInterfaceActor.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\SingleInterfaceActor.generated.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\TalkingPawn.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\TalkingPawn.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\MyGameState.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\MyGameState.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyGameState.generated.h
@@ -764,6 +777,15 @@ F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\MyTriggerVolume.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\MyTriggerVolume.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyTriggerVolume.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\MyUserProfile.cpp
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\NonSelectableCube.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\NonSelectableCube.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\SelectableCube.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\PhysicsCube.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\PhysicsCube.generated.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\Selectable.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Selectable.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\SelectableCube.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\NonSelectableCube.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\ObittingMovementComponent.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\ObittingMovementComponent.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\ObittingMovementComponent.generated.h
@@ -771,22 +793,45 @@ F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\ParamDelegateListener.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\ParamDelegateListener.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\ParamDelegateListener.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\PhysicsCube.cpp
-f:\ue projects\myprojectcpp\source\myprojectcpp\PhysicsCube.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\PhysicsCube.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Pickup.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\Pickup.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Pickup.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\PickupSpawner.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\PickupSpawner.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\PickupSpawner.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\PostBeginPlay.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\PostBeginPlay.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\PostBeginPlay.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\PostBeginPlayTest.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\PostBeginPlayTest.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\PostBeginPlayTest.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\RandomMovementComponent.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\RandomMovementComponent.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\RandomMovementComponent.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Selectable.cpp
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\SelectableCube.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\SingleInterfaceActor.cpp
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Snail.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\Snail.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\Undead.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Undead.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Snail.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Talker.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\Talker.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Talker.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\TalkingMesh.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\TalkingMesh.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\TalkingMesh.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\TalkingPawn.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\TimeOfDayHandler.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\TriggerVolEventListener.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\TriggerVolEventListener.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\TriggerVolEventListener.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Undead.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Warrior.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\Warrior.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Warrior.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Wearable.cpp
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Zombie.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\Zombie.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Zombie.generated.h

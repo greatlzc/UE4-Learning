@@ -1,7 +1,0 @@
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\Definitions.MyProjectCpp.h
-f:\ue projects\myprojectcpp\source\myprojectcpp\Pickup.h
-F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Pickup.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RotatingMovementComponent.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RotatingMovementComponent.generated.h
