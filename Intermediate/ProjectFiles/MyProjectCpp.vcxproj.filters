@@ -196,6 +196,21 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\TalkingPawn.h">
       <Filter>Source\MyProjectCpp</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Interactable.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Openable.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\DoorBell.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\Door.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\AInteractingPawn.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MyProjectCpp\MyUserProfile.cpp">
@@ -325,6 +340,21 @@
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MyProjectCpp\TalkingPawn.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Interactable.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Openable.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\DoorBell.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\Door.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\AInteractingPawn.cpp">
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
   </ItemGroup>

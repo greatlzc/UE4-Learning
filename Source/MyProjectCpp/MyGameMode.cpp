@@ -8,11 +8,12 @@
 #include "SingleInterfaceActor.h"
 #include "InventoryCharacter.h"
 #include "TalkingPawn.h"
+#include "AInteractingPawn.h"
 
 AMyGameMode::AMyGameMode()
 {
 	HUDClass = AMyProjectCppHUD::StaticClass();
-	DefaultPawnClass = ATalkingPawn::StaticClass();
+	DefaultPawnClass = AAInteractingPawn::StaticClass();
 }
 
 void AMyGameMode::BeginPlay()

@@ -2,6 +2,13 @@ F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyPro
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\ActorSpawnerComponent.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\ActorSpawnerComponent.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\ActorSpawnerComponent.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\AInteractingPawn.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\AInteractingPawn.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DefaultPawn.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DefaultPawn.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\AInteractingPawn.generated.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\Interactable.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Interactable.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\AntiGravityVolume.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\AntiGravityVolume.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\AntiGravityVolume.generated.h
@@ -322,8 +329,6 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Note.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/FloatingPawnMovement.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FloatingPawnMovement.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DefaultPawn.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DefaultPawn.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/SpectatorPawn.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpectatorPawn.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ReflectionCapture.h
@@ -718,10 +723,19 @@ F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\
 f:\ue projects\myprojectcpp\source\myprojectcpp\MyInterface.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyInterface.generated.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyGameMode.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Door.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\Door.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\Openable.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Openable.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Door.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\DoorBell.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\DoorBell.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\DoorBell.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\GravityObject.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\HierarchyActor.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\HierarchyActor.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\HierarchyActor.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Interactable.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\InventoryActor.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\InventoryActor.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\InventoryActor.generated.h
@@ -789,6 +803,7 @@ F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\ObittingMovementComponent.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\ObittingMovementComponent.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\ObittingMovementComponent.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Openable.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\ParamDelegateListener.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\ParamDelegateListener.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\ParamDelegateListener.generated.h

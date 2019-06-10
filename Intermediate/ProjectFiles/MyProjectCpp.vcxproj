@@ -365,6 +365,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MyProjectCpp\ActorSpawnerComponent.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\AInteractingPawn.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\AntiGravityVolume.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\AttackAvoider.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Barracks.cpp" />
@@ -372,8 +373,11 @@
     <ClCompile Include="..\..\Source\MyProjectCpp\Boots.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Clock.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\DelegateListener.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\Door.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\DoorBell.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\GravityObject.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\HierarchyActor.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\Interactable.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\InventoryActor.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\InventoryCharacter.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\InventoryComponent.cpp" />
@@ -387,6 +391,7 @@
     <ClCompile Include="..\..\Source\MyProjectCpp\MyUserProfile.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\NonSelectableCube.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\ObittingMovementComponent.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\Openable.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\ParamDelegateListener.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\PhysicsCube.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Pickup.cpp" />
@@ -408,6 +413,7 @@
     <ClCompile Include="..\..\Source\MyProjectCpp\Wearable.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Zombie.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\ActorSpawnerComponent.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\AInteractingPawn.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\AntiGravityVolume.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\AttackAvoider.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Barracks.h" />
@@ -415,8 +421,11 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\Boots.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Clock.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\DelegateListener.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\Door.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\DoorBell.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\GravityObject.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\HierarchyActor.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\Interactable.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\InventoryActor.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\InventoryCharacter.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\InventoryComponent.h" />
@@ -430,6 +439,7 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\MyUserProfile.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\NonSelectableCube.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\ObittingMovementComponent.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\Openable.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\ParamDelegateListener.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\PhysicsCube.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Pickup.h" />

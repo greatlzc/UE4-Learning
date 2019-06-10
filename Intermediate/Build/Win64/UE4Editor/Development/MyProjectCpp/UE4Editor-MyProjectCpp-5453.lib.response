@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MyProjectCpp-5453.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\MyProjectCppEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\Module.MyProjectCpp.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\Module.MyProjectCpp.gen.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\Default.rc2.res"
+/OUT:"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\UE4Editor-MyProjectCpp-5453.lib"
+/INCLUDE:IMPLEMENT_MODULE_MyProjectCpp
