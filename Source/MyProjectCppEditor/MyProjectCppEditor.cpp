@@ -1,0 +1,2 @@
+#include "MyProjectCppEditor.h"
+IMPLEMENT_GAME_MODULE(FMyProjectCppEditorModule, MyProjectCppEditor)

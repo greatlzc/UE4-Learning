@@ -34,9 +34,8 @@ void AMyGameMode::BeginPlay()
 	FString string2 = FString::Format(TEXT("Name = {0} Health = {1}"), args);
 	UE_LOG(LogTemp, Warning, TEXT("Your String2: %s"), *string2);
 
-	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Actor Spawning..."));
-
-	SpawnedActor = (AMyFirstActor*)GetWorld()->SpawnActor(AMyFirstActor::StaticClass());
+	//GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Actor Spawning..."));
+	//SpawnedActor = (AMyFirstActor*)GetWorld()->SpawnActor(AMyFirstActor::StaticClass());
 
 	FTimerHandle Timer;
 	GetWorldTimerManager().SetTimer(Timer, this, &AMyGameMode::DestroyActorFunction, 10);
