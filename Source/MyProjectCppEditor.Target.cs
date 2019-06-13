@@ -9,5 +9,13 @@ public class MyProjectCppEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		ExtraModuleNames.Add("MyProjectCpp");
+		//if (Target.Type == TargetType.Editor)//4.16+
+        //{
+            ExtraModuleNames.AddRange( 
+                new string[]
+                {
+                    "MyProjectCppEditor"
+                });
+        //}
 	}
 }

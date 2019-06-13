@@ -13,5 +13,14 @@
 				"Engine"
 			]
 		},
+		{
+			"Name": "MyProjectCppEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [
+				"CoreUObject",
+				"Engine"
+			]
+		}
 	]
 }

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MyProjectCppEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCppEditor\PCH.MyProjectCppEditor.h.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCppEditor\CookbookCommands.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCppEditor\MyProjectCppEditor.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCppEditor\Default.rc2.res"
+/OUT:"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCppEditor\UE4Editor-MyProjectCppEditor.lib"
+/INCLUDE:IMPLEMENT_MODULE_MyProjectCppEditor
