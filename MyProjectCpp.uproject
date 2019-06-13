@@ -19,7 +19,8 @@
 			"LoadingPhase": "PostEngineInit",
 			"AdditionalDependencies": [
 				"CoreUObject",
-				"Engine"
+				"Engine",
+				"UnrealEd"
 			]
 		}
 	]

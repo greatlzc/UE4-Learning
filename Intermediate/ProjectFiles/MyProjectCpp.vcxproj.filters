@@ -434,4 +434,20 @@
       <Filter>Source\MyProjectCpp</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MyProjectCppEditor\MyCustomAsset.h">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCppEditor\CustomAssetFactory.h">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MyProjectCppEditor\MyCustomAsset.cpp">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCppEditor\CustomAssetFactory.cpp">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

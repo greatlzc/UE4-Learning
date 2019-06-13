@@ -442,8 +442,8 @@
 /FI"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCppEditor\PCH.MyProjectCppEditor.h"
 /Yu"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCppEditor\PCH.MyProjectCppEditor.h"
 /Fp"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCppEditor\PCH.MyProjectCppEditor.h.pch"
-"F:\UE Projects\MyProjectCpp\Source\MyProjectCppEditor\MyProjectCppEditor.cpp"
-/Fo"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCppEditor\MyProjectCppEditor.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Source\MyProjectCppEditor\MyCustomAsset.cpp"
+/Fo"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCppEditor\MyCustomAsset.cpp.obj"
 /TP
 /GR-
 /W4
