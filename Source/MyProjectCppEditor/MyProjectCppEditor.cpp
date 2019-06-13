@@ -4,6 +4,7 @@
 #include "MultiBoxExtender.h"
 #include "Editor/MainFrame/Public/Interfaces/IMainFrameModule.h"
 #include "CookbookCommands.h"
+#include "MyCustomAssetActions.h"
 
 IMPLEMENT_GAME_MODULE(FMyProjectCppEditorModule, MyProjectCppEditor)
 
@@ -31,6 +32,11 @@ void FMyProjectCppEditorModule::StartupModule()
 	Extension = ToolbarExtender->AddMenuExtension("LevelEditor", EExtensionHook::Before, CommandList, 
 		FMenuExtensionDelegate::CreateRaw(this, &FMyProjectCppEditorModule::AddMenuExtension));
 	LevelEditorModule.GetMenuExtensibilityManager()->AddExtender(ToolbarExtender);
+
+	IAssetTools& AssetTools = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools").Get();
+	auto Actions = MakeShareable(new FMyCustomAssetActions);
+	AssetTools.RegisterAssetTypeActions(Actions);
+	CreatedAssetTypeActions.Add(Actions);
 }
 
 void FMyProjectCppEditorModule::ShutdownModule()
@@ -40,6 +46,12 @@ void FMyProjectCppEditorModule::ShutdownModule()
 	ToolbarExtender->RemoveExtension(Extension.ToSharedRef());
 	Extension.Reset();
 	ToolbarExtender.Reset();
+
+	IAssetTools& AssetTools = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools").Get();
+	for (auto Action : CreatedAssetTypeActions)
+	{
+		AssetTools.UnregisterAssetTypeActions(Action.ToSharedRef());
+	}
 }
 
 void FMyProjectCppEditorModule::MyButton_Clicked()

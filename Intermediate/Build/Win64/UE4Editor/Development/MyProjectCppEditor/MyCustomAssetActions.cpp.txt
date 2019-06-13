@@ -1,0 +1,24 @@
+f:\ue projects\myprojectcpp\source\myprojectcppeditor\MyCustomAssetActions.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Developer\AssetTools\Public\AssetTypeActions_Base.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkitHost.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkit.h
+d:\program files\epic games\ue_4.22\engine\source\developer\assettools\public\IAssetTools.h
+d:\program files\epic games\ue_4.22\engine\source\developer\assettools\public\AssetTypeCategories.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\AutomatedAssetImportData.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\AutomatedAssetImportData.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\AssetRegistry\Public\ARFilter.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\ARFilter.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools\IAssetTools.generated.h
+d:\program files\epic games\ue_4.22\engine\source\developer\assettools\public\AssetToolsModule.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorManager.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/SimpleAssetEditor.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/BaseToolkit.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor/PropertyEditor/Public/PropertyEditorDelegates.h
+f:\ue projects\myprojectcpp\source\myprojectcppeditor\MyCustomAsset.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCppEditor\MyCustomAsset.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor/MainFrame/Public/Interfaces/IMainFrameModule.h

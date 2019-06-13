@@ -2408,3 +2408,5 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEdMessages\Classe
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages\FileServerMessages.generated.h
 d:\program files\epic games\ue_4.22\engine\source\editor\unrealed\public\EditorAnalytics.h
 f:\ue projects\myprojectcpp\source\myprojectcppeditor\CookbookCommands.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Developer\AssetTools/Public/IAssetTypeActions.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Developer/Merge/Public/Merge.h

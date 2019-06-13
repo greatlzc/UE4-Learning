@@ -379,9 +379,11 @@
     <None Include="..\..\Source\MyProjectCppEditor\MyProjectCppEditor.Build.cs" />
     <ClCompile Include="..\..\Source\MyProjectCppEditor\CustomAssetFactory.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCppEditor\MyCustomAsset.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCppEditor\MyCustomAssetActions.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCppEditor\MyProjectCppEditor.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCppEditor\CustomAssetFactory.h" />
     <ClInclude Include="..\..\Source\MyProjectCppEditor\MyCustomAsset.h" />
+    <ClInclude Include="..\..\Source\MyProjectCppEditor\MyCustomAssetActions.h" />
     <ClInclude Include="..\..\Source\MyProjectCppEditor\MyProjectCppEditor.h" />
     <ClCompile Include="..\..\Source\MyProjectCpp\ActorSpawnerComponent.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\ActorSpawnerComponent.h" />

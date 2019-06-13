@@ -4,6 +4,7 @@
 #include "ModuleManager.h"
 #include "UnrealEd.h"
 #include "CookbookCommands.h"
+#include "AssetTools/Public/IAssetTypeActions.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(MyProjectCppEditor, All, All)
 
@@ -17,4 +18,5 @@ public:
 	void MyButton_Clicked();
 	void AddToolbarExtension(FToolBarBuilder &builder);
 	void AddMenuExtension(FMenuBuilder &builder);
+	TArray< TSharedPtr<IAssetTypeActions> > CreatedAssetTypeActions;
 };
