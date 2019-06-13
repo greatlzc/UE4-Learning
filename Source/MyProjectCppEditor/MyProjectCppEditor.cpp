@@ -14,20 +14,29 @@ DEFINE_LOG_CATEGORY(MyProjectCppEditor)
 void FMyProjectCppEditorModule::StartupModule()
 {
 	UE_LOG(MyProjectCppEditor, Warning, TEXT("StartupModule"));
+
 	FCookbookCommands::Register();
+
 	TSharedPtr<FUICommandList> CommandList = MakeShareable(new FUICommandList());
 	CommandList->MapAction(FCookbookCommands::Get().MyButton, 
 		FExecuteAction::CreateRaw(this, &FMyProjectCppEditorModule::MyButton_Clicked), FCanExecuteAction());
 	ToolbarExtender = MakeShareable(new FExtender());
-	Extension = ToolbarExtender->AddToolBarExtension("Compile", EExtensionHook::Before, CommandList, 
-		FToolBarExtensionDelegate::CreateRaw(this, &FMyProjectCppEditorModule::AddToolbarExtension));
+
 	FLevelEditorModule& LevelEditorModule = FModuleManager::LoadModuleChecked<FLevelEditorModule>("LevelEditor");
-	LevelEditorModule.GetToolBarExtensibilityManager()->AddExtender(ToolbarExtender);
+
+	//Extension = ToolbarExtender->AddToolBarExtension("Compile", EExtensionHook::Before, CommandList, 
+	//	FToolBarExtensionDelegate::CreateRaw(this, &FMyProjectCppEditorModule::AddToolbarExtension));
+	//LevelEditorModule.GetToolBarExtensibilityManager()->AddExtender(ToolbarExtender);
+
+	Extension = ToolbarExtender->AddMenuExtension("LevelEditor", EExtensionHook::Before, CommandList, 
+		FMenuExtensionDelegate::CreateRaw(this, &FMyProjectCppEditorModule::AddMenuExtension));
+	LevelEditorModule.GetMenuExtensibilityManager()->AddExtender(ToolbarExtender);
 }
 
 void FMyProjectCppEditorModule::ShutdownModule()
 {
 	UE_LOG(MyProjectCppEditor, Warning, TEXT("ShutdownModule"));
+
 	ToolbarExtender->RemoveExtension(Extension.ToSharedRef());
 	Extension.Reset();
 	ToolbarExtender.Reset();
@@ -51,6 +60,12 @@ void FMyProjectCppEditorModule::AddToolbarExtension(FToolBarBuilder &builder)
 {
 	FSlateIcon IconBrush = FSlateIcon(FEditorStyle::GetStyleSetName(), "LevelEditor.ViewOptions", "LevelEditor.ViewOptions.Small");
 	builder.AddToolBarButton(FCookbookCommands::Get().MyButton, NAME_None, FText::FromString("My Button"), FText::FromString("Click me to display a message"), IconBrush, NAME_None);
+}
+
+void FMyProjectCppEditorModule::AddMenuExtension(FMenuBuilder &builder)
+{
+	FSlateIcon IconBrush = FSlateIcon(FEditorStyle::GetStyleSetName(), "LevelEditor.ViewOptions", "LevelEditor.ViewOptions.Small");
+	builder.AddMenuEntry(FCookbookCommands::Get().MyButton);
 }
 
 #undef LOCTEXT_NAMESPACE

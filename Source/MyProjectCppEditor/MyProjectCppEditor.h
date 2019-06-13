@@ -16,4 +16,5 @@ public:
 	TSharedPtr<const FExtensionBase> Extension;
 	void MyButton_Clicked();
 	void AddToolbarExtension(FToolBarBuilder &builder);
+	void AddMenuExtension(FMenuBuilder &builder);
 };
