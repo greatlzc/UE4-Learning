@@ -7,29 +7,32 @@
 void AToggleHUDGameMode::BeginPlay()
 {
 	Super::BeginPlay();
-	widget = SNew(SVerticalBox)
+	Widget = SNew(SVerticalBox)
 		+ SVerticalBox::Slot()
 		.HAlign(HAlign_Center)
 		.VAlign(VAlign_Center)
 		[
 			SNew(SButton)
+			.OnClicked(FOnClicked::CreateUObject(this, &AToggleHUDGameMode::ButtonClicked))
 			.Content()
 			[
-				SNew(STextBlock)
-				.Text(FText::FromString(TEXT("Test button")))
+				SAssignNew(ButtonLabel, STextBlock)
+				.Text(FText::FromString(TEXT("Click me!")))
 			]
 		];
-	GEngine->GameViewport->AddViewportWidgetForPlayer(GetWorld()->GetFirstLocalPlayerFromController(), widget.ToSharedRef(), 1);
+	GEngine->GameViewport->AddViewportWidgetForPlayer(GetWorld()->GetFirstLocalPlayerFromController(), Widget.ToSharedRef(), 1);
+	GetWorld()->GetFirstPlayerController()->bShowMouseCursor = true;
+	GEngine->GetFirstLocalPlayerController(GetWorld())->SetInputMode(FInputModeUIOnly().SetWidgetToFocus(Widget));
 	GetWorld()->GetTimerManager().SetTimer(HUDToggleTimer,
 		FTimerDelegate::CreateLambda(
 			[this] {
-				if (this->widget->GetVisibility().IsVisible())
+				if (this->Widget->GetVisibility().IsVisible())
 				{
-					this->widget->SetVisibility(EVisibility::Hidden);
+					this->Widget->SetVisibility(EVisibility::Hidden);
 				}
 				else
 				{
-					this->widget->SetVisibility(EVisibility::Visible);
+					this->Widget->SetVisibility(EVisibility::Visible);
 				}
 			}
 		), 5, true);
@@ -39,4 +42,10 @@ void AToggleHUDGameMode::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
 	Super::EndPlay(EndPlayReason);
 	GetWorld()->GetTimerManager().ClearTimer(HUDToggleTimer);
+}
+
+FReply AToggleHUDGameMode::ButtonClicked()
+{
+	ButtonLabel->SetText(FString(TEXT("Clicked!")));
+	return FReply::Handled();
 }

@@ -19,5 +19,8 @@ public:
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 	UPROPERTY()
 		FTimerHandle HUDToggleTimer;
-	TSharedPtr<SVerticalBox> widget;
+	FReply ButtonClicked();
+private:
+	TSharedPtr<SVerticalBox> Widget;
+	TSharedPtr<STextBlock> ButtonLabel;
 };
