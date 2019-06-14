@@ -20,6 +20,7 @@ public:
 	UPROPERTY()
 		FTimerHandle HUDToggleTimer;
 	FReply ButtonClicked();
+	FText GetButtonLabel() const;
 private:
 	TSharedPtr<SVerticalBox> Widget;
 	TSharedPtr<STextBlock> ButtonLabel;
