@@ -878,6 +878,9 @@ F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\TileType.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\TileType.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\TileType.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\TimeOfDayHandler.cpp
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\ToggleHUDGameMode.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\ToggleHUDGameMode.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\ToggleHUDGameMode.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Tree.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\Tree.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Tree.generated.h

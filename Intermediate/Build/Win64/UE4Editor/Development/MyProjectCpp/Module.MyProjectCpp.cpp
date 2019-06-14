@@ -60,6 +60,7 @@
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\TalkingPawn.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\TileType.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\TimeOfDayHandler.cpp"
+#include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\ToggleHUDGameMode.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Tree.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\TriggerVolEventListener.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Undead.cpp"

@@ -508,7 +508,9 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\TileType.h" />
     <ClCompile Include="..\..\Source\MyProjectCpp\TimeOfDayHandler.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\TimeOfDayHandler.h" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\ToggleHUDGameMode.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Tree.cpp" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\ToggleHUDGameMode.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Tree.h" />
     <ClCompile Include="..\..\Source\MyProjectCpp\TriggerVolEventListener.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\TriggerVolEventListener.h" />
