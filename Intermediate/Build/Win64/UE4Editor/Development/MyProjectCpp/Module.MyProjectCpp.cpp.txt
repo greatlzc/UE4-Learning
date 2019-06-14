@@ -711,6 +711,12 @@ f:\ue projects\myprojectcpp\source\myprojectcpp\Clock.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Clock.generated.h
 f:\ue projects\myprojectcpp\source\myprojectcpp\TimeOfDayHandler.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\TimeOfDayHandler.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUD.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\CustomHUD.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\CustomHUD.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUDGameMode.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\CustomHUDGameMode.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\CustomHUDGameMode.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\DelegateListener.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\DelegateListener.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\DelegateListener.generated.h

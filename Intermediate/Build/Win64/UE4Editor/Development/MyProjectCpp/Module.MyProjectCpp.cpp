@@ -8,6 +8,8 @@
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\BaseEnemy.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Boots.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Clock.cpp"
+#include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUD.cpp"
+#include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUDGameMode.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\DelegateListener.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Door.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\DoorBell.cpp"

@@ -8,6 +8,8 @@
 #include "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\BaseEnemy.gen.cpp"
 #include "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Boots.gen.cpp"
 #include "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Clock.gen.cpp"
+#include "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\CustomHUD.gen.cpp"
+#include "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\CustomHUDGameMode.gen.cpp"
 #include "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\DelegateListener.gen.cpp"
 #include "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Door.gen.cpp"
 #include "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\DoorBell.gen.cpp"

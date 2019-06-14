@@ -403,7 +403,11 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\Boots.h" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Clock.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Clock.h" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUD.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUDGameMode.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\DelegateListener.cpp" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUD.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUDGameMode.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\DelegateListener.h" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Door.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Door.h" />
