@@ -717,6 +717,9 @@ F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUDGameMode.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\CustomHUDGameMode.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\CustomHUDGameMode.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUDPlayerController.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\CustomHUDPlayerController.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\CustomHUDPlayerController.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\DelegateListener.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\DelegateListener.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\DelegateListener.generated.h
@@ -850,6 +853,9 @@ F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Selectable.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\SelectableCube.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\SingleInterfaceActor.cpp
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\SlateHUDGameMode.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\SlateHUDGameMode.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\SlateHUDGameMode.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\SlidingDoor.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\SlidingDoor.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\SlidingDoor.generated.h

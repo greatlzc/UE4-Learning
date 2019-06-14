@@ -59,6 +59,9 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
 f:\ue projects\myprojectcpp\intermediate\build\win64\ue4editor\inc\myprojectcpp\CustomHUDGameMode.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\CustomHUDPlayerController.gen.cpp
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp/CustomHUDPlayerController.h
+f:\ue projects\myprojectcpp\intermediate\build\win64\ue4editor\inc\myprojectcpp\CustomHUDPlayerController.generated.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\DelegateListener.gen.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp/DelegateListener.h
 f:\ue projects\myprojectcpp\intermediate\build\win64\ue4editor\inc\myprojectcpp\DelegateListener.generated.h
@@ -187,6 +190,9 @@ F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\SingleInterfaceActor.gen.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp/SingleInterfaceActor.h
 f:\ue projects\myprojectcpp\intermediate\build\win64\ue4editor\inc\myprojectcpp\SingleInterfaceActor.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\SlateHUDGameMode.gen.cpp
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp/SlateHUDGameMode.h
+f:\ue projects\myprojectcpp\intermediate\build\win64\ue4editor\inc\myprojectcpp\SlateHUDGameMode.generated.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\SlidingDoor.gen.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp/SlidingDoor.h
 f:\ue projects\myprojectcpp\intermediate\build\win64\ue4editor\inc\myprojectcpp\SlidingDoor.generated.h

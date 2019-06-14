@@ -405,9 +405,11 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\Clock.h" />
     <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUD.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUDGameMode.cpp" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUDPlayerController.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\DelegateListener.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUD.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUDGameMode.h" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUDPlayerController.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\DelegateListener.h" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Door.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Door.h" />
@@ -488,7 +490,9 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\SelectableCube.h" />
     <ClCompile Include="..\..\Source\MyProjectCpp\SingleInterfaceActor.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\SingleInterfaceActor.h" />
+    <ClCompile Include="..\..\Source\MyProjectCpp\SlateHUDGameMode.cpp" />
     <ClCompile Include="..\..\Source\MyProjectCpp\SlidingDoor.cpp" />
+    <ClInclude Include="..\..\Source\MyProjectCpp\SlateHUDGameMode.h" />
     <ClInclude Include="..\..\Source\MyProjectCpp\SlidingDoor.h" />
     <ClCompile Include="..\..\Source\MyProjectCpp\Snail.cpp" />
     <ClInclude Include="..\..\Source\MyProjectCpp\Snail.h" />

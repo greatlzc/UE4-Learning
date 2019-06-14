@@ -450,6 +450,12 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUDGameMode.h">
       <Filter>Source\MyProjectCpp</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUDPlayerController.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProjectCpp\SlateHUDGameMode.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MyProjectCppEditor\MyCustomAsset.cpp">
@@ -465,6 +471,12 @@
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUDGameMode.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUDPlayerController.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProjectCpp\SlateHUDGameMode.cpp">
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
   </ItemGroup>
