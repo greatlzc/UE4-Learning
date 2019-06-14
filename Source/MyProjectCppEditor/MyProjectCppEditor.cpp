@@ -71,11 +71,12 @@ void FMyProjectCppEditorModule::ShutdownModule()
 	Extension.Reset();
 	ToolbarExtender.Reset();
 
-	IAssetTools& AssetTools = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools").Get();
-	for (auto Action : CreatedAssetTypeActions)
-	{
-		AssetTools.UnregisterAssetTypeActions(Action.ToSharedRef());
-	}
+	// fix me: may crash
+	//IAssetTools& AssetTools = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools").Get();
+	//for (auto Action : CreatedAssetTypeActions)
+	//{
+	//	AssetTools.UnregisterAssetTypeActions(Action.ToSharedRef());
+	//}
 
 	if(DisplayTestCommand)
 	{
