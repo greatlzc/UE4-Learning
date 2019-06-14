@@ -3,10 +3,14 @@
 
 #include "ToggleHUDGameMode.h"
 #include "Engine.h"
+#include "CookbookStyle.h"
 
 void AToggleHUDGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+
+	FCookbookStyle::Initialize();
+
 	Widget = SNew(SVerticalBox)
 		+ SVerticalBox::Slot()
 		.HAlign(HAlign_Center)
@@ -30,6 +34,20 @@ void AToggleHUDGameMode::BeginPlay()
 				SNew(STextBlock)
 				.Text(TAttribute<FText>::Create(TAttribute<FText>::FGetter::CreateUObject(this, &AToggleHUDGameMode::GetButtonLabel)))
 			]
+		]
+		+ SVerticalBox::Slot()
+		.HAlign(HAlign_Center)
+		.VAlign(VAlign_Center)
+		[
+			SNew(SButton)
+			.ButtonStyle(FCookbookStyle::Get(), "NormalButtonBrush")
+			.ContentPadding(FMargin(16))
+			.Content()
+			[
+				SNew(STextBlock)
+				.TextStyle(FCookbookStyle::Get(), "NormalButtonText")
+				.Text(FText::FromString("Styled Button"))
+			]
 		];
 	GEngine->GameViewport->AddViewportWidgetForPlayer(GetWorld()->GetFirstLocalPlayerFromController(), Widget.ToSharedRef(), 1);
 	GetWorld()->GetFirstPlayerController()->bShowMouseCursor = true;
@@ -52,6 +70,9 @@ void AToggleHUDGameMode::BeginPlay()
 void AToggleHUDGameMode::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
 	Super::EndPlay(EndPlayReason);
+
+	FCookbookStyle::Shutdown();
+
 	GetWorld()->GetTimerManager().ClearTimer(HUDToggleTimer);
 }
 

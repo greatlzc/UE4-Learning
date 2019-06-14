@@ -11,6 +11,7 @@
 			"BaseEnemy.cpp.obj",
 			"Boots.cpp.obj",
 			"Clock.cpp.obj",
+			"CookbookStyle.cpp.obj",
 			"CustomHUD.cpp.obj",
 			"CustomHUDGameMode.cpp.obj",
 			"CustomHUDPlayerController.cpp.obj",

@@ -4670,6 +4670,14 @@
 			"Type": "DebugNonUFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Content/Slate/Button.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Content/Slate/Button.uasset",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
 			"Type": "NonUFS"
 		},

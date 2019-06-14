@@ -711,6 +711,48 @@ f:\ue projects\myprojectcpp\source\myprojectcpp\Clock.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\Clock.generated.h
 f:\ue projects\myprojectcpp\source\myprojectcpp\TimeOfDayHandler.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\TimeOfDayHandler.generated.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CookbookStyle.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\CookbookStyle.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Slate\Public\SlateExtras.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Layout/SMissingWidget.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Layout/SlateScrollHelper.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Commands/UICommandDragDropOp.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Commands/GenericCommands.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SSearchBox.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SVolumeControl.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Colors/SColorSpectrum.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Colors/SColorWheel.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/MultiBox/SToolBarButtonBlock.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/MultiBox/SToolBarComboButtonBlock.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SHyperlink.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SRichTextHyperlink.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Images/SThrobber.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/STextEntryPopup.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/STextComboPopup.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SExpandableButton.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Layout/SExpandableArea.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Notifications/SNotificationList.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Layout/SWidgetSwitcher.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SSuggestionTextBox.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Navigation/SBreadcrumbTrail.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/STextComboBox.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SNumericEntryBox.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SEditableComboBox.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Notifications/NotificationManager.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Layout/SDPIScaler.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Text/SInlineEditableTextBlock.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SVirtualKeyboardEntry.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Layout/ScrollyZoomy.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Layout/SSafeZone.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/MarqueeRect.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SRotatorInputBox.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SVectorInputBox.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SVirtualJoystick.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Docking/SDockTab.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Docking/SDockableTab.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Docking/SDockTabStack.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\Slate\SlateGameResources.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUD.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\CustomHUD.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\CustomHUD.generated.h
