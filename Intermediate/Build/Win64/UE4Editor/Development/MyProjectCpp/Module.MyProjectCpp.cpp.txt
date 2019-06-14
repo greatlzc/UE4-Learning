@@ -753,6 +753,21 @@ d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/D
 d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Docking/SDockableTab.h
 d:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Docking/SDockTabStack.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\Slate\SlateGameResources.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomButton.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\CustomButton.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomButtonWidget.cpp
+f:\ue projects\myprojectcpp\source\myprojectcpp\CustomButtonWidget.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/Widget.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetTransform.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Kismet2/CompilerResultsLog.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\EdGraphToken.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widget.generated.h
+F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\CustomButtonWidget.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUD.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\CustomHUD.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\CustomHUD.generated.h

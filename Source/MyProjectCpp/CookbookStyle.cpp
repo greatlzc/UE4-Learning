@@ -4,7 +4,7 @@
 #include "CookbookStyle.h"
 #include "SlateGameResources.h"
 
-TSharedPtr<FSlateStyleSet>FCookbookStyle::CookbookStyleInstance = NULL;
+TSharedPtr<FSlateStyleSet> FCookbookStyle::CookbookStyleInstance = NULL;
 
 void FCookbookStyle::Initialize()
 {

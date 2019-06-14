@@ -9,6 +9,8 @@
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Boots.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\Clock.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CookbookStyle.cpp"
+#include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomButton.cpp"
+#include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomButtonWidget.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUD.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUDGameMode.cpp"
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\CustomHUDPlayerController.cpp"
