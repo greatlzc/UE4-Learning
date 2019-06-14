@@ -45,6 +45,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCustomAsset() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyCustomAsset_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 		{ "IncludePath", "MyCustomAsset.h" },
 		{ "ModuleRelativePath", "MyCustomAsset.h" },
 	};
@@ -86,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCustomAsset() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyCustomAsset, 2921803510);
+	IMPLEMENT_CLASS(UMyCustomAsset, 1627834956);
 	template<> MYPROJECTCPPEDITOR_API UClass* StaticClass<UMyCustomAsset>()
 	{
 		return UMyCustomAsset::StaticClass();

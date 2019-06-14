@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType)
 class MYPROJECTCPPEDITOR_API UMyCustomAsset : public UObject
 {
 	GENERATED_BODY()

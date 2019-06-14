@@ -19,4 +19,7 @@ public:
 	void AddToolbarExtension(FToolBarBuilder &builder);
 	void AddMenuExtension(FMenuBuilder &builder);
 	TArray< TSharedPtr<IAssetTypeActions> > CreatedAssetTypeActions;
+	IConsoleCommand* DisplayTestCommand;
+	IConsoleCommand* DisplayUserSpecifiedWindow;
+	void DisplayWindow(FString WindowTitle);
 };

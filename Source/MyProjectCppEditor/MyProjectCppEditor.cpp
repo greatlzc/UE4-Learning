@@ -37,6 +37,30 @@ void FMyProjectCppEditorModule::StartupModule()
 	auto Actions = MakeShareable(new FMyCustomAssetActions);
 	AssetTools.RegisterAssetTypeActions(Actions);
 	CreatedAssetTypeActions.Add(Actions);
+
+	DisplayTestCommand = IConsoleManager::Get().RegisterConsoleCommand(
+		TEXT("DisplayTestCommandWindow"), 
+		TEXT("test"),
+		FConsoleCommandDelegate::CreateRaw(this, &FMyProjectCppEditorModule::DisplayWindow, FString(TEXT("Test Command Window"))), 
+		ECVF_Default
+	);
+	DisplayUserSpecifiedWindow = IConsoleManager::Get().RegisterConsoleCommand(
+		TEXT("DisplayUserSpecifiedWindow"), 
+		TEXT("test"),
+		FConsoleCommandWithArgsDelegate::CreateLambda(
+			[&](const TArray< FString >& Args)
+			{
+				FString WindowTitle;
+				for (FString Arg : Args)
+				{
+					WindowTitle += Arg;
+					WindowTitle.AppendChar(' ');
+				}
+				this->DisplayWindow(WindowTitle);
+			}
+		), 
+		ECVF_Default
+	);
 }
 
 void FMyProjectCppEditorModule::ShutdownModule()
@@ -51,6 +75,17 @@ void FMyProjectCppEditorModule::ShutdownModule()
 	for (auto Action : CreatedAssetTypeActions)
 	{
 		AssetTools.UnregisterAssetTypeActions(Action.ToSharedRef());
+	}
+
+	if(DisplayTestCommand)
+	{
+		IConsoleManager::Get().UnregisterConsoleObject(DisplayTestCommand);
+		DisplayTestCommand = nullptr;
+	}
+	if(DisplayUserSpecifiedWindow)
+	{
+		IConsoleManager::Get().UnregisterConsoleObject(DisplayUserSpecifiedWindow);
+		DisplayUserSpecifiedWindow = nullptr;
 	}
 }
 
@@ -92,6 +127,24 @@ void FMyProjectCppEditorModule::AddMenuExtension(FMenuBuilder &builder)
 {
 	FSlateIcon IconBrush = FSlateIcon(FEditorStyle::GetStyleSetName(), "LevelEditor.ViewOptions", "LevelEditor.ViewOptions.Small");
 	builder.AddMenuEntry(FCookbookCommands::Get().MyButton);
+}
+
+void FMyProjectCppEditorModule::DisplayWindow(FString WindowTitle)
+{
+	TSharedRef<SWindow> CookbookWindow = SNew(SWindow)
+		.Title(FText::FromString(WindowTitle))
+		.ClientSize(FVector2D(800, 400))
+		.SupportsMaximize(false)
+		.SupportsMinimize(false);
+	IMainFrameModule& MainFrameModule = FModuleManager::LoadModuleChecked<IMainFrameModule>(TEXT("MainFrame"));
+	if (MainFrameModule.GetParentWindow().IsValid())
+	{
+		FSlateApplication::Get().AddWindowAsNativeChild(CookbookWindow, MainFrameModule.GetParentWindow().ToSharedRef());
+	}
+	else
+	{
+		FSlateApplication::Get().AddWindow(CookbookWindow);
+	}
 }
 
 #undef LOCTEXT_NAMESPACE
