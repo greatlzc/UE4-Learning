@@ -14,11 +14,11 @@ AMyFirstActor::AMyFirstActor()
 
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>("BaseMeshComponent");
 	RootComponent = Mesh;
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset(TEXT("StaticMesh'/Game/StarterContent/Props/SM_Rock.SM_Rock'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset(TEXT("StaticMesh'/Game/StarterContent/Props/SM_Chair.SM_Chair'"));
 	if (MeshAsset.Succeeded())
 	{
 		Mesh->SetStaticMesh(MeshAsset.Object);
-		Mesh->SetWorldScale3D(FVector(0.5f));
+		Mesh->SetWorldScale3D(FVector(0.9f));
 	}
 }
 
@@ -43,6 +43,15 @@ void AMyFirstActor::BeginPlay()
 void AMyFirstActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	FRotator rotator(0, GetWorld()->TimeSeconds, 0);
+	//SetActorRotation(rotator);
 
+	FQuat quat(FVector(0, 0, 1), PI*(GetWorld()->TimeSeconds));
+	//SetActorRotation(quat);
+
+	FVector HostLocation = GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+	FVector toFollow = HostLocation - GetActorLocation();
+	FMatrix rotationMatrix = FRotationMatrix::MakeFromZX(GetActorUpVector(), toFollow);
+	SetActorRotation(rotationMatrix.Rotator());
 }
 
