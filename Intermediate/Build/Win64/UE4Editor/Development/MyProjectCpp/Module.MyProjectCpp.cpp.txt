@@ -831,12 +831,15 @@ f:\ue projects\myprojectcpp\source\myprojectcpp\SingleInterfaceActor.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\SingleInterfaceActor.generated.h
 f:\ue projects\myprojectcpp\source\myprojectcpp\TalkingPawn.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\TalkingPawn.generated.h
+f:\ue projects\myprojectcpp\source\myprojectcpp\MyProjectCpp.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging\MessageLog.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Developer\MessageLog/Public/MessageLogModule.h
+d:\program files\epic games\ue_4.22\engine\source\developer\messagelog\public\MessageLogInitializationOptions.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\MyGameState.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\MyGameState.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyGameState.generated.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\MyInterface.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\MyProjectCpp.cpp
-f:\ue projects\myprojectcpp\source\myprojectcpp\MyProjectCpp.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\MyProjectCppCharacter.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\MyProjectCppCharacter.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyProjectCppCharacter.generated.h

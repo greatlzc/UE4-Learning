@@ -9,6 +9,7 @@
 #include "InventoryCharacter.h"
 #include "TalkingPawn.h"
 #include "AInteractingPawn.h"
+#include "MyProjectCpp.h"
 
 AMyGameMode::AMyGameMode()
 {
@@ -21,6 +22,13 @@ void AMyGameMode::BeginPlay()
 	Super::BeginPlay();
 
 	UE_LOG(LogTemp, Warning, TEXT("Some WARNING Messages:"));
+
+	UE_LOG(LogMyProjectCpp, Display, TEXT("A display message, log is working" ) ); // shows in gray
+	UE_LOG(LogMyProjectCpp, Warning, TEXT("A warning message"));
+	UE_LOG(LogMyProjectCpp, Error, TEXT("An error message "));
+
+	CreateLogger(LoggerName); // Retrieve the Log by using the LoggerName.
+	FMessageLog(LoggerName).Warning(FTEXT("A warning message from gamemode ctor"));
 
 	FString name1 = "Tom";
 	int32 health1 = 100;
