@@ -65,6 +65,36 @@ void AMyGameMode::BeginPlay()
 		}
 	}
 	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, FString::Printf(TEXT("%d actors implement the interface"), MyInterfaceInstances.Num()));
+
+	TSharedRef<IHttpRequest> http = FHttpModule::Get().CreateRequest();
+	FHttpRequestCompleteDelegate& delegate = http->OnProcessRequestComplete();
+	delegate.BindLambda(
+		[](FHttpRequestPtr request, FHttpResponsePtr response, bool success) -> void
+		{
+		if (success)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Http Response: %d, %s"), 
+				request->GetResponse()->GetResponseCode(), 
+				*request->GetResponse()->GetContentAsString()
+			);
+		}
+		}
+	);
+	delegate.BindUObject(this, &AMyGameMode::HttpRequestComplete);
+
+	http->SetURL(TEXT("https://www.baidu.com/"));
+	http->ProcessRequest();
+}
+
+void AMyGameMode::HttpRequestComplete(FHttpRequestPtr request, FHttpResponsePtr response, bool success)
+{
+	if (success)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Http Response: %d, %s"), 
+			request->GetResponse()->GetResponseCode(), 
+			*request->GetResponse()->GetContentAsString()
+		);
+	}
 }
 
 void AMyGameMode::DestroyActorFunction()

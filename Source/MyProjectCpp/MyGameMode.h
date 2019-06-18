@@ -7,6 +7,11 @@
 #include "MyFirstActor.h"
 #include "MyUserProfile.h"
 #include "MyInterface.h"
+#include "Runtime/Online/HTTP/Public/HttpManager.h"
+#include "Runtime/Online/HTTP/Public/HttpModule.h"
+#include "Runtime/Online/HTTP/Public/HttpRetrySystem.h"
+#include "Runtime/Online/HTTP/Public/Interfaces/IHttpResponse.h"
+#include "Runtime/Online/HTTP/Public/Interfaces/IHttpRequest.h"
 #include "MyGameMode.generated.h"
 
 /**
@@ -36,6 +41,8 @@ public:
 	FStandardDelegateSignature MyStandardDelegate;
 	FParamDelegateSignature MyParameterDelegate;
 	FMulticastDelegateSignature MyMulticastDelegate;
+
+	void HttpRequestComplete(FHttpRequestPtr request, FHttpResponsePtr response, bool success);
 protected:
 	virtual void BeginPlay() override;
 	

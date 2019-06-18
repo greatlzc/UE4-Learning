@@ -318,6 +318,16 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Internatio
 f:\ue projects\myprojectcpp\intermediate\build\win64\ue4editor\inc\myprojectcpp\MyUserProfile.generated.h
 f:\ue projects\myprojectcpp\source\myprojectcpp\MyInterface.h
 f:\ue projects\myprojectcpp\intermediate\build\win64\ue4editor\inc\myprojectcpp\MyInterface.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Online/HTTP/Public/HttpManager.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\online\http\public\Interfaces/IHttpRequest.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\online\http\public\Interfaces/IHttpBase.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Online/HTTP/Private/IHttpThreadedRequest.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\online\http\public\GenericPlatform/HttpRequestImpl.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\online\http\public\HttpPackage.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Online/HTTP/Public/HttpModule.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Online/HTTP/Public/HttpRetrySystem.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\online\http\public\HttpRequestAdapter.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Online/HTTP/Public/Interfaces/IHttpResponse.h
 f:\ue projects\myprojectcpp\intermediate\build\win64\ue4editor\inc\myprojectcpp\MyGameMode.generated.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyGameState.gen.cpp
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp/MyGameState.h

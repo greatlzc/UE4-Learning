@@ -67,6 +67,7 @@
 "D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
 "D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\HeadMountedDisplay\UE4Editor-HeadMountedDisplay.lib"
+"D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\HTTP\UE4Editor-HTTP.lib"
 /OUT:"F:\UE Projects\MyProjectCpp\Binaries\Win64\UE4Editor-MyProjectCpp.dll"
 /IMPLIB:"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Development\MyProjectCpp\UE4Editor-MyProjectCpp.suppressed.lib"
 /PDB:"F:\UE Projects\MyProjectCpp\Binaries\Win64\UE4Editor-MyProjectCpp.pdb"
