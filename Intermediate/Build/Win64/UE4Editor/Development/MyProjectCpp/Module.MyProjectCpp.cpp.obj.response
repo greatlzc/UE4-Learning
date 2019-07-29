@@ -426,6 +426,8 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
 /I Runtime\PropertyPath
+/I Runtime\XmlParser\Public
+/I Runtime\XmlParser
 /I "F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp"
 /I "F:\UE Projects\MyProjectCpp\Source"
 /I "F:\UE Projects\MyProjectCpp\Source\MyProjectCpp"
@@ -435,6 +437,7 @@
 /I Developer\MessageLog\Public
 /I Developer\MessageLog
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"

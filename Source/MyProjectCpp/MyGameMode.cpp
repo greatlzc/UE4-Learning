@@ -10,6 +10,13 @@
 #include "TalkingPawn.h"
 #include "AInteractingPawn.h"
 #include "MyProjectCpp.h"
+#include "Regex.h"
+#include "Runtime/XmlParser/Public/XmlFile.h"
+#include "Runtime/XmlParser/Public/XmlNode.h"
+#include "Json.h"
+#include "Runtime/ImageWrapper/Public/IImageWrapper.h"
+#include "Runtime/ImageWrapper/Public/IImageWrapperModule.h"
+#include "Runtime/Core/Public/HAL/FileManagerGeneric.h"
 
 AMyGameMode::AMyGameMode()
 {
@@ -88,6 +95,45 @@ void AMyGameMode::BeginPlay()
 
 	http->SetURL(TEXT("https://www.baidu.com/"));
 	http->ProcessRequest();
+
+	FString TextStr("ABCDEFGHIJKLMN"); 
+	FRegexPattern TestPattern(TEXT("C.+H")); 
+	FRegexMatcher TestMatcher(TestPattern, TextStr);
+	if (TestMatcher.FindNext()) {
+		UE_LOG(LogTemp, Warning, TEXT("Found Matching: %d-%d"), TestMatcher.GetMatchBeginning(), TestMatcher.GetMatchEnding()); //2-8
+	}
+
+	UE_LOG(LogTemp, Warning, TEXT("Game Dir: %s, Full Path: %s"), *FPaths::ProjectDir(), *FPaths::ConvertRelativePathToFull("Source"));
+
+	FString xmlFilePath = FPaths::ProjectPluginsDir() / TEXT("test.xml");
+	FXmlFile xml; 
+	xml.LoadFile(xmlFilePath); 
+	FXmlNode* RootNode = xml.GetRootNode(); 
+	FString from_content = RootNode->FindChildNode("from")->GetContent(); 
+	UE_LOG(LogTemp, Warning, TEXT("from=%s"), *from_content);
+	FString note_name = RootNode->GetAttribute("name"); 
+	UE_LOG(LogTemp, Warning, TEXT("note @name= %s"), *note_name);
+	TArray<FXmlNode*> list_node = RootNode->FindChildNode("list")->GetChildrenNodes(); 
+	for (FXmlNode* node : list_node) { 
+		UE_LOG(LogTemp, Warning, TEXT("list :%s "), *(node->GetContent()));
+	}
+
+	FString JsonStr = "[{\"author\":\"Tim\"},{\"age\":\"100\"}]"; 
+	TArray<TSharedPtr<FJsonValue>> JsonParsed;
+	TSharedRef<TJsonReader<TCHAR>> JsonReader = TJsonReaderFactory<TCHAR>::Create(JsonStr); 
+	bool BFlag = FJsonSerializer::Deserialize(JsonReader, JsonParsed); 
+	if (BFlag)
+	{    
+		UE_LOG(LogTemp, Warning, TEXT("parse Json success"));    
+		FString FStringAuthor = JsonParsed[0]->AsObject()->GetStringField("author");    
+		UE_LOG(LogTemp, Warning, TEXT("author = %s"), *FStringAuthor); 
+	}
+
+	FString iniFilePath = FPaths::ProjectDir() / TEXT("MyConfig.ini");
+	GConfig->SetString(TEXT("MySection"), TEXT("Name"), TEXT("John"), iniFilePath);
+	GConfig->Flush(false, iniFilePath);
+	FString Result; 
+	GConfig->GetString(TEXT("MySection"), TEXT("Name"), Result, iniFilePath);
 }
 
 void AMyGameMode::HttpRequestComplete(FHttpRequestPtr request, FHttpResponsePtr response, bool success)
@@ -107,4 +153,41 @@ void AMyGameMode::DestroyActorFunction()
 	{
 		SpawnedActor->Destroy();
 	}
+}
+
+bool AMyGameMode::CovertPNG2JPG(const FString& SourceName, const FString& TargetName) {
+	check(SourceName.EndsWith(TEXT(".png")) && TargetName.EndsWith(TEXT(".jpg")));
+	IImageWrapperModule& ImageWrapperModule = FModuleManager::LoadModuleChecked<IImageWrapperModule>(FName("ImageWrapper"));    
+	TSharedPtr<IImageWrapper> SourceImageWrapper = ImageWrapperModule.CreateImageWrapper(EImageFormat::PNG);
+	TSharedPtr<IImageWrapper> TargetImageWrapper = ImageWrapperModule.CreateImageWrapper(EImageFormat::JPEG);
+	TArray<uint8> SourceImageData;    
+	TArray<uint8> TargetImageData;    
+	int32 Width, Height;    
+	const TArray <uint8>* UncompressedRGBA = nullptr;    
+	if (!FPlatformFileManager::Get().GetPlatformFile().FileExists(*SourceName)) 
+	{     
+		return false;    
+	}    
+	if (!FFileHelper::LoadFileToArray(SourceImageData , * SourceName))    
+	{      
+		return false;    
+	}    
+	if (SourceImageWrapper.IsValid() && SourceImageWrapper->SetCompressed(SourceImageData.GetData(), SourceImageData.Num())) 
+	{
+		if (SourceImageWrapper->GetRaw(ERGBFormat::RGBA, 8, UncompressedRGBA)) 
+		{ 
+			Height = SourceImageWrapper->GetHeight();            
+			Width = SourceImageWrapper->GetWidth();            
+			if (TargetImageWrapper->SetRaw(UncompressedRGBA->GetData(), UncompressedRGBA->Num(), Width, Height, ERGBFormat::RGBA, 8)) 
+			{ 
+				TargetImageData = TargetImageWrapper->GetCompressed();                
+				if (!FFileManagerGeneric::Get().DirectoryExists(*TargetName)) 
+				{ 
+					FFileManagerGeneric::Get().MakeDirectory(*FPaths::GetPath(TargetName), true); 
+				}                
+				return FFileHelper::SaveArrayToFile(TargetImageData, *TargetName); 
+			} 
+		}
+	}
+	return false;
 }

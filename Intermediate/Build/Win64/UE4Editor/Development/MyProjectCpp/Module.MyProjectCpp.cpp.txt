@@ -845,6 +845,11 @@ f:\ue projects\myprojectcpp\source\myprojectcpp\MyProjectCpp.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging\MessageLog.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Developer\MessageLog/Public/MessageLogModule.h
 d:\program files\epic games\ue_4.22\engine\source\developer\messagelog\public\MessageLogInitializationOptions.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/XmlParser/Public/XmlFile.h
+d:\program files\epic games\ue_4.22\engine\source\runtime\xmlparser\public\XmlNode.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/ImageWrapper/Public/IImageWrapper.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/ImageWrapper/Public/IImageWrapperModule.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Core/Public/HAL/FileManagerGeneric.h
 F:\UE Projects\MyProjectCpp\Source\MyProjectCpp\MyGameState.cpp
 f:\ue projects\myprojectcpp\source\myprojectcpp\MyGameState.h
 F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\UE4Editor\Inc\MyProjectCpp\MyGameState.generated.h

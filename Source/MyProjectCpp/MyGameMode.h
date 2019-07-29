@@ -43,6 +43,7 @@ public:
 	FMulticastDelegateSignature MyMulticastDelegate;
 
 	void HttpRequestComplete(FHttpRequestPtr request, FHttpResponsePtr response, bool success);
+	bool CovertPNG2JPG(const FString& SourceName, const FString& TargetName);
 protected:
 	virtual void BeginPlay() override;
 	
