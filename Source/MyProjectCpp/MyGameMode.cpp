@@ -49,7 +49,11 @@ void AMyGameMode::BeginPlay()
 	GetWorldTimerManager().SetTimer(Timer, this, &AMyGameMode::DestroyActorFunction, 10);
 
 	FTransform SpawnLocation;
-	ASingleInterfaceActor* SpawnedActor = GetWorld()->SpawnActor<ASingleInterfaceActor>(ASingleInterfaceActor::StaticClass(), SpawnLocation);
+	FActorSpawnParameters SpawnParam;
+	SpawnParam.Owner = nullptr;
+	SpawnParam.Instigator = nullptr;
+	SpawnParam.Name = "Hello";
+	ASingleInterfaceActor* SpawnedActor = GetWorld()->SpawnActor<ASingleInterfaceActor>(ASingleInterfaceActor::StaticClass(), SpawnLocation, SpawnParam);
 	if (SpawnedActor->GetClass()->ImplementsInterface(UMyInterface::StaticClass()))
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Spawned actor implements interface!"));
@@ -68,18 +72,18 @@ void AMyGameMode::BeginPlay()
 
 	TSharedRef<IHttpRequest> http = FHttpModule::Get().CreateRequest();
 	FHttpRequestCompleteDelegate& delegate = http->OnProcessRequestComplete();
-	delegate.BindLambda(
-		[](FHttpRequestPtr request, FHttpResponsePtr response, bool success) -> void
-		{
-		if (success)
-		{
-			UE_LOG(LogTemp, Warning, TEXT("Http Response: %d, %s"), 
-				request->GetResponse()->GetResponseCode(), 
-				*request->GetResponse()->GetContentAsString()
-			);
-		}
-		}
-	);
+	//delegate.BindLambda(
+	//	[](FHttpRequestPtr request, FHttpResponsePtr response, bool success) -> void
+	//	{
+	//	if (success)
+	//	{
+	//		UE_LOG(LogTemp, Warning, TEXT("Http Response: %d, %s"), 
+	//			request->GetResponse()->GetResponseCode(), 
+	//			*request->GetResponse()->GetContentAsString()
+	//		);
+	//	}
+	//	}
+	//);
 	delegate.BindUObject(this, &AMyGameMode::HttpRequestComplete);
 
 	http->SetURL(TEXT("https://www.baidu.com/"));

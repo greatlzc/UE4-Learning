@@ -20,6 +20,7 @@ AMyFirstActor::AMyFirstActor()
 		Mesh->SetStaticMesh(MeshAsset.Object);
 		Mesh->SetWorldScale3D(FVector(0.9f));
 	}
+	ABlockingVolume v;
 }
 
 // Called when the game starts or when spawned

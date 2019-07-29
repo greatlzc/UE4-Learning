@@ -27,7 +27,7 @@ Windows.Engine:AssetRegistry:bSerializeSearchableNameDependencies:0=false
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyProjectCppGameMode
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyGameMode
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
@@ -51,6 +51,110 @@ Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:MulticastTimeToLive:0=1
 Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:EnableTunnel:0=False
 Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:TunnelUnicastEndpoint:0=
 Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:TunnelMulticastEndpoint:0=
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:TemplateMapInfos:0=(ThumbnailTexture=Texture2D'"/Engine/Maps/Templates/Thumbnails/Default.Default"',Map="/Engine/Maps/Templates/Template_Default")
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:TemplateMapInfos:1=(ThumbnailTexture=Texture2D'"/Engine/Maps/Templates/Thumbnails/VR-Basic.VR-Basic"',Map="/Engine/Maps/Templates/VR-Basic")
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:AutoSaveIndex:0=0
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:0=/Engine/EditorMaterials/Cross
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:1=/Engine/EditorMaterials/Cross_Mat
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:2=/Engine/EditorMaterials/PhAT_BoneSelectedMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:3=/Engine/EditorMaterials/PhAT_ElemSelectedMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:4=/Engine/EngineMaterials/PhAT_JointLimitMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:5=/Engine/EditorMaterials/PhAT_NoCollisionMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:6=/Engine/EditorMaterials/PhAT_UnselectedMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:7=/Engine/EditorMaterials/TargetIcon
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:8=/Engine/EditorMaterials/Tick
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:9=/Engine/EditorMaterials/Tick_Mat
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:10=/Engine/EditorMaterials/WidgetGridVertexColorMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:11=/Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:12=/Engine/EditorMaterials/WidgetMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:13=/Engine/EditorMaterials/WidgetMaterial_Current
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:14=/Engine/EditorMaterials/WidgetMaterial_X
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:15=/Engine/EditorMaterials/WidgetMaterial_Y
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:16=/Engine/EditorMaterials/WidgetMaterial_Z
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:17=/Engine/EditorMaterials/WidgetVertexColorMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:18=/Engine/EditorMaterials/LevelGridMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:19=/Engine/EditorMaterials/TilingAAGrid
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:20=/Engine/EditorMaterials/TilingAALineBoxFiltered
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:21=/Engine/EditorMaterials/TilingAALineIntegral
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:22=/Engine/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:23=/Engine/EditorMaterials/ParticleSystems/PSysThumbnail_OOD
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:24=/Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:25=/Engine/EditorMaterials/Thumbnails/SkySphereMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:26=/Engine/EditorMeshes/EditorCube
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:27=/Engine/EditorMeshes/EditorCylinder
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:28=/Engine/EditorMeshes/EditorPlane
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:29=/Engine/EditorMeshes/EditorSkySphere
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:30=/Engine/EditorMeshes/EditorSphere
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:31=/Engine/EditorResources/Bad
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:32=/Engine/EditorResources/Bkgnd
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:33=/Engine/EditorResources/BkgndHi
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:34=/Engine/EditorResources/BSPVertex
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:35=/Engine/EditorResources/MatInstActSprite
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:36=/Engine/EditorResources/SceneManager
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:37=/Engine/EditorResources/SmallFont
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:38=/Engine/EditorResources/S_Actor
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:39=/Engine/EditorResources/S_DecalActorIcon
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:40=/Engine/EditorResources/S_TextRenderActorIcon
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:41=/Engine/EditorResources/S_Emitter
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:42=/Engine/EditorResources/S_ExpoHeightFog
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:43=/Engine/EditorResources/S_KBSJoint
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:44=/Engine/EditorResources/S_KHinge
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:45=/Engine/EditorResources/S_KPrismatic
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:46=/Engine/EditorResources/S_LevelSequence
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:47=/Engine/EditorResources/S_NavP
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:48=/Engine/EditorResources/S_Note
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:49=/Engine/EditorResources/S_Player
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:50=/Engine/EditorResources/S_RadForce
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:51=/Engine/EditorResources/S_ReflActorIcon
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:52=/Engine/EditorResources/S_Terrain
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:53=/Engine/EditorResources/S_Thruster
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:54=/Engine/EditorResources/S_Trigger
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:55=/Engine/EditorResources/S_VectorFieldVol
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:56=/Engine/EditorResources/AI/S_NavLink
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:57=/Engine/EditorResources/LightIcons/S_LightDirectional
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:58=/Engine/EditorResources/LightIcons/S_LightDirectionalMove
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:59=/Engine/EditorResources/LightIcons/S_LightError
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:60=/Engine/EditorResources/LightIcons/S_LightPoint
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:61=/Engine/EditorResources/LightIcons/S_LightPointMove
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:62=/Engine/EditorResources/LightIcons/S_LightSpot
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:63=/Engine/EditorResources/LightIcons/S_LightSpotMove
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:64=/Engine/EditorResources/Spline/T_Loft_Spline
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:65=/Engine/EngineMaterials/BlinkingCaret
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:66=/Engine/EngineMaterials/DefaultBokeh
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:67=/Engine/EngineMaterials/DefaultBloomKernel
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:68=/Engine/EngineMaterials/DefaultDeferredDecalMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:69=/Engine/EngineMaterials/DefaultDiffuse
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:70=/Engine/EngineMaterials/DefaultLightFunctionMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:71=/Engine/EngineMaterials/DefaultMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:72=/Engine/EngineMaterials/WorldGridMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:73=/Engine/EngineMaterials/DefaultNormal
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:74=/Engine/EngineMaterials/DefaultPhysicalMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:75=/Engine/EngineMaterials/DefaultWhiteGrid
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:76=/Engine/EngineMaterials/EditorBrushMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:77=/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:78=/Engine/EngineMaterials/Grid
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:79=/Engine/EngineMaterials/Grid_N
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:80=/Engine/EngineMaterials/HighResScreenshot
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:81=/Engine/EngineMaterials/HighResScreenshotMask
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:82=/Engine/EngineMaterials/HighResScreenshotCaptureRegion
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:83=/Engine/EngineMaterials/LandscapeHolePhysicalMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:84=/Engine/EngineMaterials/MiniFont
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:85=/Engine/EngineMaterials/PaperDiffuse
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:86=/Engine/EngineMaterials/PaperNormal
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:87=/Engine/EngineMaterials/PhysMat_Rubber
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:88=/Engine/EngineMaterials/PreintegratedSkinBRDF
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:89=/Engine/EngineMaterials/RemoveSurfaceMaterial
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:90=/Engine/EngineMaterials/WeightMapPlaceholderTexture
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:91=/Engine/EngineFonts/SmallFont
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:92=/Engine/EngineFonts/TinyFont
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:93=/Engine/EngineFonts/Roboto
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:94=/Engine/EngineFonts/RobotoTiny
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:95=/Engine/EngineResources/Black
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:96=/Engine/EngineResources/DefaultTexture
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:97=/Engine/EngineResources/DefaultTextureCube
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:98=/Engine/EngineResources/M_StreamingPause
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:99=/Engine/EngineResources/WhiteSquareTexture
+Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:100=/Engine/EngineResources/GradientTexture0
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:SDKPath:0=(Path="")
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:NDKPath:0=(Path="")
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:ANTPath:0=(Path="")
@@ -58,6 +162,23 @@ Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:JavaPath:0=(Path
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:SDKAPILevel:0=latest
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:NDKAPILevel:0=android-19
 Windows.Engine:/Script/LuminPlatformEditor.MagicLeapSDKSettings:MLSDKPath:0=(Path="")
+Windows.Engine:FProjectLauncher:AdvancedMode:0=False
+Windows.Engine:/Script/UnrealEd.EditorEngine:FlipNormalMapGreenChannel:0=False
+Windows.Engine:/Script/UnrealEd.EditorEngine:LocalPlayerClassName:0=/Script/Engine.LocalPlayer
+Windows.Engine:/Script/UnrealEd.EditorEngine:GameCommandLine:0=-log
+Windows.Engine:/Script/UnrealEd.EditorEngine:FOVAngle:0=90.000000
+Windows.Engine:/Script/UnrealEd.EditorEngine:GodMode:0=True
+Windows.Engine:/Script/UnrealEd.EditorEngine:UseAxisIndicator:0=True
+Windows.Engine:/Script/UnrealEd.EditorEngine:MatineeCurveDetail:0=0.1
+Windows.Engine:/Script/UnrealEd.EditorEngine:HeightMapExportClassName:0=TerrainHeightMapExporterTextT3D
+Windows.Engine:/Script/UnrealEd.EditorEngine:bGroupingActive:0=true
+Windows.Engine:/Script/UnrealEd.EditorEngine:bCustomCameraAlignEmitter:0=true
+Windows.Engine:/Script/UnrealEd.EditorEngine:CustomCameraAlignEmitterDistance:0=100.0
+Windows.Engine:/Script/UnrealEd.EditorEngine:bDrawSocketsInGMode:0=false
+Windows.Engine:/Script/UnrealEd.EditorEngine:bSmoothFrameRate:0=false
+Windows.Engine:/Script/UnrealEd.EditorEngine:SmoothedFrameRateRange:0=(LowerBound=(Type="ERangeBoundTypesInclusive",Value=5),UpperBound=(Type="ERangeBoundTypesInclusive",Value=120))
+Windows.Engine:/Script/UnrealEd.EditorEngine:UseOldStyleMICEditorGroups:0=true
+Windows.Engine:/Script/UnrealEd.EditorEngine:InEditorGameURLOptions:0=
 Windows.Engine:URL:Protocol:0=unreal
 Windows.Engine:URL:Name:0=Player
 Windows.Engine:URL:SaveExt:0=usa
@@ -293,7 +414,7 @@ Windows.Engine:PlatformInterface:InGameAdManagerClassName:0=
 Windows.Engine:Engine.StreamingMovies:RenderPriorityPS3:0=1001
 Windows.Engine:Engine.StreamingMovies:SuspendGameIO:0=True
 Windows.Engine:/Script/Engine.UserInterfaceSettings:UIScaleRule:0=ShortestSide
-Windows.Engine:/Script/Engine.UserInterfaceSettings:UIScaleCurve:0=(EditorCurveData=(Keys=((Time=480,Value=0.444),(Time=720,Value=0.666),(Time=1080,Value=1.0),(Time=8640,Value=8.0))),ExternalCurve=None)
+Windows.Engine:/Script/Engine.UserInterfaceSettings:UIScaleCurve:0=(EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=2.000000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000)),PreInfinityExtrap=RCCE_Constant,PostInfinityExtrap=RCCE_Constant,DefaultValue=340282346638528859811704183484516925440.000000),ExternalCurve=None)
 Windows.Engine:/Script/Engine.UserInterfaceSettings:bLoadWidgetsOnDedicatedServer:0=True
 Windows.Engine:/Script/Engine.UserInterfaceSettings:bAllowHighDPIInGameMode:0=False
 Windows.Engine:/Script/Engine.GameEngine:MaxDeltaTime:0=0
@@ -473,125 +594,6 @@ Windows.Engine:TextureStreaming:AllowStreamingLightmaps:0=True
 Windows.Engine:TextureStreaming:UseDynamicStreaming:0=True
 Windows.Engine:TextureStreaming:BoostPlayerTextures:0=3.0
 Windows.Engine:TextureStreaming:PoolSizeVRAMPercentage:0=70
-Windows.Engine:/Script/UnrealEd.EditorEngine:LocalPlayerClassName:0=/Script/Engine.LocalPlayer
-Windows.Engine:/Script/UnrealEd.EditorEngine:GameCommandLine:0=-log
-Windows.Engine:/Script/UnrealEd.EditorEngine:FOVAngle:0=90.000000
-Windows.Engine:/Script/UnrealEd.EditorEngine:GodMode:0=True
-Windows.Engine:/Script/UnrealEd.EditorEngine:UseAxisIndicator:0=True
-Windows.Engine:/Script/UnrealEd.EditorEngine:MatineeCurveDetail:0=0.1
-Windows.Engine:/Script/UnrealEd.EditorEngine:HeightMapExportClassName:0=TerrainHeightMapExporterTextT3D
-Windows.Engine:/Script/UnrealEd.EditorEngine:bGroupingActive:0=true
-Windows.Engine:/Script/UnrealEd.EditorEngine:bCustomCameraAlignEmitter:0=true
-Windows.Engine:/Script/UnrealEd.EditorEngine:CustomCameraAlignEmitterDistance:0=100.0
-Windows.Engine:/Script/UnrealEd.EditorEngine:bDrawSocketsInGMode:0=false
-Windows.Engine:/Script/UnrealEd.EditorEngine:bSmoothFrameRate:0=false
-Windows.Engine:/Script/UnrealEd.EditorEngine:SmoothedFrameRateRange:0=(LowerBound=(Type="ERangeBoundTypesInclusive",Value=5),UpperBound=(Type="ERangeBoundTypesInclusive",Value=120))
-Windows.Engine:/Script/UnrealEd.EditorEngine:UseOldStyleMICEditorGroups:0=true
-Windows.Engine:/Script/UnrealEd.EditorEngine:InEditorGameURLOptions:0=
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:AutoSaveIndex:0=0
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:TemplateMapInfos:0=(ThumbnailTexture=Texture2D'/Engine/Maps/Templates/Thumbnails/Default.Default',Map="/Engine/Maps/Templates/Template_Default")
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:TemplateMapInfos:1=(ThumbnailTexture=Texture2D'/Engine/Maps/Templates/Thumbnails/VR-Basic.VR-Basic',Map="/Engine/Maps/Templates/VR-Basic")
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:0=/Engine/EditorMaterials/Cross
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:1=/Engine/EditorMaterials/Cross_Mat
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:2=/Engine/EditorMaterials/PhAT_BoneSelectedMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:3=/Engine/EditorMaterials/PhAT_ElemSelectedMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:4=/Engine/EngineMaterials/PhAT_JointLimitMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:5=/Engine/EditorMaterials/PhAT_NoCollisionMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:6=/Engine/EditorMaterials/PhAT_UnselectedMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:7=/Engine/EditorMaterials/TargetIcon
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:8=/Engine/EditorMaterials/Tick
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:9=/Engine/EditorMaterials/Tick_Mat
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:10=/Engine/EditorMaterials/WidgetGridVertexColorMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:11=/Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:12=/Engine/EditorMaterials/WidgetMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:13=/Engine/EditorMaterials/WidgetMaterial_Current
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:14=/Engine/EditorMaterials/WidgetMaterial_X
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:15=/Engine/EditorMaterials/WidgetMaterial_Y
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:16=/Engine/EditorMaterials/WidgetMaterial_Z
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:17=/Engine/EditorMaterials/WidgetVertexColorMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:18=/Engine/EditorMaterials/LevelGridMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:19=/Engine/EditorMaterials/TilingAAGrid
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:20=/Engine/EditorMaterials/TilingAALineBoxFiltered
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:21=/Engine/EditorMaterials/TilingAALineIntegral
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:22=/Engine/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:23=/Engine/EditorMaterials/ParticleSystems/PSysThumbnail_OOD
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:24=/Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:25=/Engine/EditorMaterials/Thumbnails/SkySphereMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:26=/Engine/EditorMeshes/EditorCube
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:27=/Engine/EditorMeshes/EditorCylinder
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:28=/Engine/EditorMeshes/EditorPlane
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:29=/Engine/EditorMeshes/EditorSkySphere
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:30=/Engine/EditorMeshes/EditorSphere
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:31=/Engine/EditorResources/Bad
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:32=/Engine/EditorResources/Bkgnd
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:33=/Engine/EditorResources/BkgndHi
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:34=/Engine/EditorResources/BSPVertex
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:35=/Engine/EditorResources/MatInstActSprite
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:36=/Engine/EditorResources/SceneManager
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:37=/Engine/EditorResources/SmallFont
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:38=/Engine/EditorResources/S_Actor
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:39=/Engine/EditorResources/S_DecalActorIcon
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:40=/Engine/EditorResources/S_TextRenderActorIcon
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:41=/Engine/EditorResources/S_Emitter
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:42=/Engine/EditorResources/S_ExpoHeightFog
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:43=/Engine/EditorResources/S_KBSJoint
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:44=/Engine/EditorResources/S_KHinge
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:45=/Engine/EditorResources/S_KPrismatic
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:46=/Engine/EditorResources/S_LevelSequence
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:47=/Engine/EditorResources/S_NavP
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:48=/Engine/EditorResources/S_Note
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:49=/Engine/EditorResources/S_Player
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:50=/Engine/EditorResources/S_RadForce
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:51=/Engine/EditorResources/S_ReflActorIcon
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:52=/Engine/EditorResources/S_Terrain
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:53=/Engine/EditorResources/S_Thruster
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:54=/Engine/EditorResources/S_Trigger
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:55=/Engine/EditorResources/S_VectorFieldVol
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:56=/Engine/EditorResources/AI/S_NavLink
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:57=/Engine/EditorResources/LightIcons/S_LightDirectional
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:58=/Engine/EditorResources/LightIcons/S_LightDirectionalMove
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:59=/Engine/EditorResources/LightIcons/S_LightError
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:60=/Engine/EditorResources/LightIcons/S_LightPoint
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:61=/Engine/EditorResources/LightIcons/S_LightPointMove
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:62=/Engine/EditorResources/LightIcons/S_LightSpot
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:63=/Engine/EditorResources/LightIcons/S_LightSpotMove
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:64=/Engine/EditorResources/Spline/T_Loft_Spline
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:65=/Engine/EngineMaterials/BlinkingCaret
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:66=/Engine/EngineMaterials/DefaultBokeh
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:67=/Engine/EngineMaterials/DefaultBloomKernel
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:68=/Engine/EngineMaterials/DefaultDeferredDecalMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:69=/Engine/EngineMaterials/DefaultDiffuse
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:70=/Engine/EngineMaterials/DefaultLightFunctionMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:71=/Engine/EngineMaterials/DefaultMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:72=/Engine/EngineMaterials/WorldGridMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:73=/Engine/EngineMaterials/DefaultNormal
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:74=/Engine/EngineMaterials/DefaultPhysicalMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:75=/Engine/EngineMaterials/DefaultWhiteGrid
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:76=/Engine/EngineMaterials/EditorBrushMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:77=/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:78=/Engine/EngineMaterials/Grid
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:79=/Engine/EngineMaterials/Grid_N
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:80=/Engine/EngineMaterials/HighResScreenshot
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:81=/Engine/EngineMaterials/HighResScreenshotMask
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:82=/Engine/EngineMaterials/HighResScreenshotCaptureRegion
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:83=/Engine/EngineMaterials/LandscapeHolePhysicalMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:84=/Engine/EngineMaterials/MiniFont
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:85=/Engine/EngineMaterials/PaperDiffuse
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:86=/Engine/EngineMaterials/PaperNormal
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:87=/Engine/EngineMaterials/PhysMat_Rubber
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:88=/Engine/EngineMaterials/PreintegratedSkinBRDF
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:89=/Engine/EngineMaterials/RemoveSurfaceMaterial
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:90=/Engine/EngineMaterials/WeightMapPlaceholderTexture
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:91=/Engine/EngineFonts/SmallFont
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:92=/Engine/EngineFonts/TinyFont
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:93=/Engine/EngineFonts/Roboto
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:94=/Engine/EngineFonts/RobotoTiny
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:95=/Engine/EngineResources/Black
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:96=/Engine/EngineResources/DefaultTexture
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:97=/Engine/EngineResources/DefaultTextureCube
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:98=/Engine/EngineResources/M_StreamingPause
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:99=/Engine/EngineResources/WhiteSquareTexture
-Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:100=/Engine/EngineResources/GradientTexture0
 Windows.Engine:DevOptions.Shaders:bAllowCompilingThroughWorkers:0=True
 Windows.Engine:DevOptions.Shaders:bAllowAsynchronousShaderCompiling:0=True
 Windows.Engine:DevOptions.Shaders:NumUnusedShaderCompilingThreads:0=3
@@ -997,6 +999,11 @@ Windows.Engine:RemoteConfiguration:IniToLoad:1=EditorKeyBindings
 Windows.Engine:Engine.ErrorHandling:bPromptForRemoteDebugging:0=false
 Windows.Engine:Engine.ErrorHandling:bPromptForRemoteDebugOnEnsure:0=false
 Windows.Engine:Niagara:EnableNiagara:0=false
+Windows.Engine:/Script/Engine.CollisionProfile:OldProfiles:0=(Name="BlockingVolume",CollisionEnabled=QueryAndPhysics,ObjectTypeName=WorldStatic,CustomResponses=((Channel=Visibility, Response=ECR_Ignore)))
+Windows.Engine:/Script/Engine.CollisionProfile:OldProfiles:1=(Name="InterpActor",CollisionEnabled=QueryOnly,ObjectTypeName=WorldStatic,CustomResponses=((Channel=Pawn, Response=ECR_Ignore)))
+Windows.Engine:/Script/Engine.CollisionProfile:OldProfiles:2=(Name="StaticMeshComponent",CollisionEnabled=QueryAndPhysics,ObjectTypeName=WorldStatic)
+Windows.Engine:/Script/Engine.CollisionProfile:OldProfiles:3=(Name="SkeletalMeshActor",CollisionEnabled=QueryAndPhysics,ObjectTypeName=PhysicsBody,CustomResponses=((Channel=Visibility, Response=ECR_Block)))
+Windows.Engine:/Script/Engine.CollisionProfile:OldProfiles:4=(Name="InvisibleActor", CollisionEnabled=QueryAndPhysics, ObjectTypeName=WorldDynamic, CustomResponses=((Channel=Visibility, Response=ECR_Ignore)))
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:0=(Name="NoCollision",CollisionEnabled=NoCollision,ObjectTypeName="WorldStatic",CustomResponses=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore)),HelpMessage="No collision",bCanModify=False)
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:1=(Name="BlockAll",CollisionEnabled=QueryAndPhysics,ObjectTypeName="WorldStatic",CustomResponses=,HelpMessage="WorldStatic object that blocks all actors by default. All new custom channels will use its own default response. ",bCanModify=False)
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:2=(Name="OverlapAll",CollisionEnabled=QueryOnly,ObjectTypeName="WorldStatic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Overlap),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldStatic object that overlaps all actors by default. All new custom channels will use its own default response. ",bCanModify=False)
@@ -1005,7 +1012,7 @@ Windows.Engine:/Script/Engine.CollisionProfile:Profiles:4=(Name="OverlapAllDynam
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:5=(Name="IgnoreOnlyPawn",CollisionEnabled=QueryOnly,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="Pawn",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore)),HelpMessage="WorldDynamic object that ignores Pawn and Vehicle. All other channels will be set to default.",bCanModify=False)
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:6=(Name="OverlapOnlyPawn",CollisionEnabled=QueryOnly,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="Pawn",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Ignore)),HelpMessage="WorldDynamic object that overlaps Pawn, Camera, and Vehicle. All other channels will be set to default. ",bCanModify=False)
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:7=(Name="Pawn",CollisionEnabled=QueryAndPhysics,ObjectTypeName="Pawn",CustomResponses=((Channel="Visibility",Response=ECR_Ignore)),HelpMessage="Pawn object. Can be used for capsule of any playerable character or AI. ",bCanModify=False)
-Windows.Engine:/Script/Engine.CollisionProfile:Profiles:8=(Name="Spectator",CollisionEnabled=QueryOnly,ObjectTypeName="Pawn",CustomResponses=((Channel="WorldStatic",Response=ECR_Block),(Channel="Pawn",Response=ECR_Ignore),(Channel="Visibility",Response=ECR_Ignore),(Channel="WorldDynamic",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore),(Channel="PhysicsBody",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore),(Channel="Destructible",Response=ECR_Ignore)),HelpMessage="Pawn object that ignores all other actors except WorldStatic.",bCanModify=False)
+Windows.Engine:/Script/Engine.CollisionProfile:Profiles:8=(Name="Spectator",CollisionEnabled=QueryOnly,ObjectTypeName="Pawn",CustomResponses=((Channel="WorldStatic"),(Channel="Pawn",Response=ECR_Ignore),(Channel="Visibility",Response=ECR_Ignore),(Channel="WorldDynamic",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore),(Channel="PhysicsBody",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore),(Channel="Destructible",Response=ECR_Ignore)),HelpMessage="Pawn object that ignores all other actors except WorldStatic.",bCanModify=False)
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:9=(Name="CharacterMesh",CollisionEnabled=QueryOnly,ObjectTypeName="Pawn",CustomResponses=((Channel="Pawn",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore),(Channel="Visibility",Response=ECR_Ignore)),HelpMessage="Pawn object that is used for Character Mesh. All other channels will be set to default.",bCanModify=False)
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:10=(Name="PhysicsActor",CollisionEnabled=QueryAndPhysics,ObjectTypeName="PhysicsBody",CustomResponses=,HelpMessage="Simulating actors",bCanModify=False)
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:11=(Name="Destructible",CollisionEnabled=QueryAndPhysics,ObjectTypeName="Destructible",CustomResponses=,HelpMessage="Destructible actors",bCanModify=False)
@@ -1014,13 +1021,11 @@ Windows.Engine:/Script/Engine.CollisionProfile:Profiles:13=(Name="InvisibleWallD
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:14=(Name="Trigger",CollisionEnabled=QueryOnly,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Ignore),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldDynamic object that is used for trigger. All other channels will be set to default.",bCanModify=False)
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:15=(Name="Ragdoll",CollisionEnabled=QueryAndPhysics,ObjectTypeName="PhysicsBody",CustomResponses=((Channel="Pawn",Response=ECR_Ignore),(Channel="Visibility",Response=ECR_Ignore)),HelpMessage="Simulating Skeletal Mesh Component. All other channels will be set to default.",bCanModify=False)
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:16=(Name="Vehicle",CollisionEnabled=QueryAndPhysics,ObjectTypeName="Vehicle",CustomResponses=,HelpMessage="Vehicle object that blocks Vehicle, WorldStatic, and WorldDynamic. All other channels will be set to default.",bCanModify=False)
-Windows.Engine:/Script/Engine.CollisionProfile:Profiles:17=(Name="UI",CollisionEnabled=QueryOnly,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Block),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldStatic object that overlaps all actors by default. All new custom channels will use its own default response. ",bCanModify=False)
+Windows.Engine:/Script/Engine.CollisionProfile:Profiles:17=(Name="UI",CollisionEnabled=QueryOnly,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility"),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldStatic object that overlaps all actors by default. All new custom channels will use its own default response. ",bCanModify=False)
 Windows.Engine:/Script/Engine.CollisionProfile:Profiles:18=(Name="Projectile",CollisionEnabled=QueryOnly,ObjectTypeName="Projectile",CustomResponses=,HelpMessage="Preset for projectiles",bCanModify=True)
-Windows.Engine:/Script/Engine.CollisionProfile:OldProfiles:0=(Name="BlockingVolume",CollisionEnabled=QueryAndPhysics,ObjectTypeName=WorldStatic,CustomResponses=((Channel=Visibility, Response=ECR_Ignore)))
-Windows.Engine:/Script/Engine.CollisionProfile:OldProfiles:1=(Name="InterpActor",CollisionEnabled=QueryOnly,ObjectTypeName=WorldStatic,CustomResponses=((Channel=Pawn, Response=ECR_Ignore)))
-Windows.Engine:/Script/Engine.CollisionProfile:OldProfiles:2=(Name="StaticMeshComponent",CollisionEnabled=QueryAndPhysics,ObjectTypeName=WorldStatic)
-Windows.Engine:/Script/Engine.CollisionProfile:OldProfiles:3=(Name="SkeletalMeshActor",CollisionEnabled=QueryAndPhysics,ObjectTypeName=PhysicsBody,CustomResponses=((Channel=Visibility, Response=ECR_Block)))
-Windows.Engine:/Script/Engine.CollisionProfile:OldProfiles:4=(Name="InvisibleActor", CollisionEnabled=QueryAndPhysics, ObjectTypeName=WorldDynamic, CustomResponses=((Channel=Visibility, Response=ECR_Ignore)))
+Windows.Engine:/Script/Engine.CollisionProfile:DefaultChannelResponses:0=(Channel=ECC_GameTraceChannel1,Name="Projectile",DefaultResponse=ECR_Block,bTraceType=False,bStaticObject=False)
+Windows.Engine:/Script/Engine.CollisionProfile:DefaultChannelResponses:1=(Channel=ECC_GameTraceChannel2,Name="Item",DefaultResponse=ECR_Block,bTraceType=False,bStaticObject=False)
+Windows.Engine:/Script/Engine.CollisionProfile:EditProfiles:0=(Name="Trigger",CustomResponses=((Channel="Projectile",Response=ECR_Ignore)))
 Windows.Engine:/Script/Engine.CollisionProfile:ProfileRedirects:0=(OldName="BlockingVolume",NewName="InvisibleWall")
 Windows.Engine:/Script/Engine.CollisionProfile:ProfileRedirects:1=(OldName="InterpActor",NewName="IgnoreOnlyPawn")
 Windows.Engine:/Script/Engine.CollisionProfile:ProfileRedirects:2=(OldName="StaticMeshComponent",NewName="BlockAllDynamic")
@@ -1030,8 +1035,6 @@ Windows.Engine:/Script/Engine.CollisionProfile:CollisionChannelRedirects:0=(OldN
 Windows.Engine:/Script/Engine.CollisionProfile:CollisionChannelRedirects:1=(OldName="Dynamic",NewName="WorldDynamic")
 Windows.Engine:/Script/Engine.CollisionProfile:CollisionChannelRedirects:2=(OldName="VehicleMovement",NewName="Vehicle")
 Windows.Engine:/Script/Engine.CollisionProfile:CollisionChannelRedirects:3=(OldName="PawnMovement",NewName="Pawn")
-Windows.Engine:/Script/Engine.CollisionProfile:DefaultChannelResponses:0=(Channel=ECC_GameTraceChannel1,Name="Projectile",DefaultResponse=ECR_Block,bTraceType=False,bStaticObject=False)
-Windows.Engine:/Script/Engine.CollisionProfile:EditProfiles:0=(Name="Trigger",CustomResponses=((Channel=Projectile, Response=ECR_Ignore)))
 Windows.Engine:Engine.BufferVisualizationMaterials:BaseColor:0=(Material="/Engine/BufferVisualization/BaseColor.BaseColor", Name=LOCTEXT("BaseColorMat", "Base Color"))
 Windows.Engine:Engine.BufferVisualizationMaterials:CustomDepth:0=(Material="/Engine/BufferVisualization/CustomDepth.CustomDepth", Name=LOCTEXT("BaseCustomDepthMat", "Custom Depth"))
 Windows.Engine:Engine.BufferVisualizationMaterials:CustomStencil:0=(Material="/Engine/BufferVisualization/CustomStencil.CustomStencil", Name=LOCTEXT("BaseCustomStencilMat", "Custom Stencil"))
@@ -1246,8 +1249,47 @@ Windows.Engine:/Script/UnrealEd.CookerSettings:VersionedIntRValues:6=r.Shaders.O
 Windows.Engine:/Script/UnrealEd.CookerSettings:VersionedIntRValues:7=r.CompileShadersForDevelopment
 Windows.Engine:/Script/UnrealEd.CookerSettings:VersionedIntRValues:8=r.MobileHDR
 Windows.Engine:/Script/UnrealEd.CookerSettings:VersionedIntRValues:9=r.UsePreExposure
-Windows.Engine:/Script/Engine.PhysicsSettings:DefaultGravityZ:0=-980.0
-Windows.Engine:/Script/Engine.PhysicsSettings:bEnable2DPhysics:0=false
+Windows.Engine:/Script/Engine.PhysicsSettings:DefaultGravityZ:0=-980.000000
+Windows.Engine:/Script/Engine.PhysicsSettings:bEnable2DPhysics:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:DefaultTerminalVelocity:0=4000.000000
+Windows.Engine:/Script/Engine.PhysicsSettings:DefaultFluidFriction:0=0.300000
+Windows.Engine:/Script/Engine.PhysicsSettings:SimulateScratchMemorySize:0=262144
+Windows.Engine:/Script/Engine.PhysicsSettings:RagdollAggregateThreshold:0=4
+Windows.Engine:/Script/Engine.PhysicsSettings:TriangleMeshTriangleMinAreaThreshold:0=5.000000
+Windows.Engine:/Script/Engine.PhysicsSettings:bEnableShapeSharing:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:bEnablePCM:0=True
+Windows.Engine:/Script/Engine.PhysicsSettings:bEnableStabilization:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:bWarnMissingLocks:0=True
+Windows.Engine:/Script/Engine.PhysicsSettings:PhysicErrorCorrection:0=(PingExtrapolation=0.100000,PingLimit=100.000000,ErrorPerLinearDifference=1.000000,ErrorPerAngularDifference=1.000000,MaxRestoredStateError=1.000000,MaxLinearHardSnapDistance=400.000000,PositionLerp=0.000000,AngleLerp=0.400000,LinearVelocityCoefficient=100.000000,AngularVelocityCoefficient=10.000000,ErrorAccumulationSeconds=0.500000,ErrorAccumulationDistanceSq=15.000000,ErrorAccumulationSimilarity=100.000000)
+Windows.Engine:/Script/Engine.PhysicsSettings:LockedAxis:0=Invalid
+Windows.Engine:/Script/Engine.PhysicsSettings:DefaultDegreesOfFreedom:0=Full3D
+Windows.Engine:/Script/Engine.PhysicsSettings:BounceThresholdVelocity:0=200.000000
+Windows.Engine:/Script/Engine.PhysicsSettings:FrictionCombineMode:0=Average
+Windows.Engine:/Script/Engine.PhysicsSettings:RestitutionCombineMode:0=Average
+Windows.Engine:/Script/Engine.PhysicsSettings:MaxAngularVelocity:0=3600.000000
+Windows.Engine:/Script/Engine.PhysicsSettings:MaxDepenetrationVelocity:0=0.000000
+Windows.Engine:/Script/Engine.PhysicsSettings:ContactOffsetMultiplier:0=0.020000
+Windows.Engine:/Script/Engine.PhysicsSettings:MinContactOffset:0=2.000000
+Windows.Engine:/Script/Engine.PhysicsSettings:MaxContactOffset:0=8.000000
+Windows.Engine:/Script/Engine.PhysicsSettings:bSimulateSkeletalMeshOnDedicatedServer:0=True
+Windows.Engine:/Script/Engine.PhysicsSettings:DefaultShapeComplexity:0=CTF_UseSimpleAndComplex
+Windows.Engine:/Script/Engine.PhysicsSettings:bDefaultHasComplexCollision:0=True
+Windows.Engine:/Script/Engine.PhysicsSettings:bSuppressFaceRemapTable:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:bSupportUVFromHitResults:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:bDisableActiveActors:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:bDisableKinematicStaticPairs:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:bDisableKinematicKinematicPairs:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:bDisableCCD:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:bEnableEnhancedDeterminism:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:MaxPhysicsDeltaTime:0=0.033333
+Windows.Engine:/Script/Engine.PhysicsSettings:bSubstepping:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:bSubsteppingAsync:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:MaxSubstepDeltaTime:0=0.016667
+Windows.Engine:/Script/Engine.PhysicsSettings:MaxSubsteps:0=6
+Windows.Engine:/Script/Engine.PhysicsSettings:SyncSceneSmoothingFactor:0=0.000000
+Windows.Engine:/Script/Engine.PhysicsSettings:InitialAverageFrameRate:0=0.016667
+Windows.Engine:/Script/Engine.PhysicsSettings:PhysXTreeRebuildRate:0=10
+Windows.Engine:/Script/Engine.PhysicsSettings:DefaultBroadphaseSettings:0=(bUseMBPOnClient=False,bUseMBPOnServer=False,MBPBounds=(Min=(X=0.000000,Y=0.000000,Z=0.000000),Max=(X=0.000000,Y=0.000000,Z=0.000000),IsValid=0),MBPNumSubdivs=2)
 Windows.Engine:/Script/WindowsTargetPlatform.WindowsTargetSettings:TargetedRHIs:0=PCD3D_SM5
 Windows.Engine:/Script/WindowsTargetPlatform.WindowsTargetSettings:TargetedRHIs:1=PCD3D_SM4
 Windows.Engine:/Script/WindowsTargetPlatform.WindowsTargetSettings:MinimumOSVersion:0=MSOS_Vista
@@ -1437,32 +1479,32 @@ Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaul
 Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
 Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyProjectCppGameMode
+Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyGameMode
 Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyProjectCppGameMode
+Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyGameMode
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
 Android.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyProjectCppGameMode
+Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyGameMode
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyProjectCppGameMode
+HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyGameMode
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyProjectCppGameMode
+IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyGameMode
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyProjectCppGameMode
+Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/MyProjectCpp.MyGameMode
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Windows.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=/Engine/MobileResources/HUD/DefaultVirtualJoysticks.DefaultVirtualJoysticks
 Windows.Input:/Script/Engine.InputSettings:bEnableMouseSmoothing:0=True
@@ -1539,6 +1581,8 @@ Windows.Input:/Script/Engine.InputSettings:ActionMappings:5=(ActionName="Fire",b
 Windows.Input:/Script/Engine.InputSettings:ActionMappings:6=(ActionName="ResetVR",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=R)
 Windows.Input:/Script/Engine.InputSettings:ActionMappings:7=(ActionName="ResetVR",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Left_Grip1)
 Windows.Input:/Script/Engine.InputSettings:ActionMappings:8=(ActionName="Fire",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=OculusTouchpad_Touchpad)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:9=(ActionName="DropItem",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=E)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:10=(ActionName="Interact",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=F)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:0=(AxisName="MoveForward",Scale=1.000000,Key=W)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:1=(AxisName="MoveForward",Scale=-1.000000,Key=S)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:2=(AxisName="MoveForward",Scale=1.000000,Key=Up)
@@ -1555,6 +1599,17 @@ Windows.Input:/Script/Engine.InputSettings:AxisMappings:12=(AxisName="TurnRate",
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:13=(AxisName="Turn",Scale=1.000000,Key=MouseX)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:14=(AxisName="LookUpRate",Scale=1.000000,Key=Gamepad_RightY)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:15=(AxisName="LookUp",Scale=-1.000000,Key=MouseY)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:16=(AxisName="Foward",Scale=1.000000,Key=W)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:17=(AxisName="Foward",Scale=1.000000,Key=Gamepad_LeftStick_Up)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:18=(AxisName="MoveForward",Scale=1.000000,Key=None)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:19=(AxisName="Back",Scale=1.000000,Key=S)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:20=(AxisName="Left",Scale=1.000000,Key=A)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:21=(AxisName="Right",Scale=1.000000,Key=D)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:22=(AxisName="Back",Scale=1.000000,Key=Gamepad_LeftStick_Down)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:23=(AxisName="Left",Scale=1.000000,Key=Gamepad_LeftStick_Left)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:24=(AxisName="Right",Scale=1.000000,Key=Gamepad_LeftStick_Right)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:25=(AxisName="CameraPitch",Scale=1.000000,Key=MouseY)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:26=(AxisName="CameraYaw",Scale=1.000000,Key=MouseX)
 Windows.Input:/Script/Engine.InputSettings:ConsoleKey:0=None
 Windows.Input:/Script/Engine.InputSettings:ConsoleKeys:0=Tilde
 Windows.Input:/Script/Engine.PlayerInput:DebugExecBindings:0=(Key=F11,Command="LevelEditor.ToggleImmersive", bIgnoreCtrl=True, bIgnoreAlt=True)
@@ -1845,7 +1900,8 @@ Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(Prim
 Windows.Game:ProjectSettings:ProjectID:0=(A=1823396784,B=1298598689,C=1743498150,D=-2048051708)
 Windows.Game:ProjectSettings:ProjectName:0=First Person Template
 Windows.Game:Staging:RemapDirectories:0=(From="Engine/Plugins/Lumin", To="Engine/Plugins/MagicLeap")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=False
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=True
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:0=(Parent="Matinee", CommandName="Matinee_PlayForward", Description="Matinee_PlayForward_Desc", ExecCommand="Matinee Play")
@@ -1903,6 +1959,9 @@ Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:3=(ClassN
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:4=(ClassName="/Script/Engine.GameModeBase", AssetClass="/Script/Engine.Blueprint")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:5=(ClassName="/Script/Engine.ActorComponent", AssetClass="/Script/Engine.Blueprint")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:6=(ClassName="/Script/Engine.SceneComponent", AssetClass="/Script/Engine.Blueprint")
+Windows.Editor:EditorLayouts:NullLayout:0="(\\\r\n\t\"Type\" \"Layout\",\\\r\n\t\"Name\" \"NullLayout\",\\\r\n\t\"PrimaryAreaIndex\" 0,\\\r\n\t\"Areas\" [\\\r\n\t\t(\\\r\n\t\t\t\"SizeCoefficient\" 1,\\\r\n\t\t\t\"Type\" \"Area\",\\\r\n\t\t\t\"Orientation\" \"Orient_Horizontal\",\\\r\n\t\t\t\"WindowPlacement\" \"Placement_NoWindow\",\\\r\n\t\t\t\"Nodes\" []\\\r\n\t\t)\\\r\n\t]\\\r\n)"
+Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0="(\\\r\n\t\"Type\" \"Layout\",\\\r\n\t\"Name\" \"WidgetBlueprintEditor_Designer_Layout_v4_1\",\\\r\n\t\"PrimaryAreaIndex\" 0,\\\r\n\t\"Areas\" [\\\r\n\t\t(\\\r\n\t\t\t\"SizeCoefficient\" 1,\\\r\n\t\t\t\"Type\" \"Area\",\\\r\n\t\t\t\"Orientation\" \"Orient_Vertical\",\\\r\n\t\t\t\"WindowPlacement\" \"Placement_NoWindow\",\\\r\n\t\t\t\"Nodes\" [\\\r\n\t\t\t\t(\\\r\n\t\t\t\t\t\"SizeCoefficient\" 0.20000000298023224,\\\r\n\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\"HideTabWell\" true,\\\r\n\t\t\t\t\t\"ForegroundTab\" \"AssetEditorToolkit_Toolbar\",\\\r\n\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\"TabId\" \"AssetEditorToolkit_Toolbar\",\\\r\n\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t)\\\r\n\t\t\t\t\t]\\\r\n\t\t\t\t),\\\r\n\t\t\t\t(\\\r\n\t\t\t\t\t\"SizeCoefficient\" 0.69999998807907104,\\\r\n\t\t\t\t\t\"Type\" \"Splitter\",\\\r\n\t\t\t\t\t\"Orientation\" \"Orient_Horizontal\",\\\r\n\t\t\t\t\t\"Nodes\" [\\\r\n\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\"SizeCoefficient\" 0.15000000596046448,\\\r\n\t\t\t\t\t\t\t\"Type\" \"Splitter\",\\\r\n\t\t\t\t\t\t\t\"Orientation\" \"Orient_Vertical\",\\\r\n\t\t\t\t\t\t\t\"Nodes\" [\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"SizeCoefficient\" 0.5,\\\r\n\t\t\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\t\t\"HideTabWell\" false,\\\r\n\t\t\t\t\t\t\t\t\t\"ForegroundTab\" \"WidgetTemplates\",\\\r\n\t\t\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabId\" \"WidgetTemplates\",\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"SizeCoefficient\" 0.5,\\\r\n\t\t\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\t\t\"HideTabWell\" false,\\\r\n\t\t\t\t\t\t\t\t\t\"ForegroundTab\" \"SlateHierarchy\",\\\r\n\t\t\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabId\" \"SlateHierarchy\",\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\"SizeCoefficient\" 0.62962961196899414,\\\r\n\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\"HideTabWell\" true,\\\r\n\t\t\t\t\t\t\t\"ForegroundTab\" \"SlatePreview\",\\\r\n\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"TabId\" \"SlatePreview\",\\\r\n\t\t\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\"SizeCoefficient\" 0.22037036716938019,\\\r\n\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\"HideTabWell\" false,\\\r\n\t\t\t\t\t\t\t\"ForegroundTab\" \"WidgetDetails\",\\\r\n\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"TabId\" \"WidgetDetails\",\\\r\n\t\t\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t)\\\r\n\t\t\t\t\t]\\\r\n\t\t\t\t),\\\r\n\t\t\t\t(\\\r\n\t\t\t\t\t\"SizeCoefficient\" 0.30000001192092896,\\\r\n\t\t\t\t\t\"Type\" \"Splitter\",\\\r\n\t\t\t\t\t\"Orientation\" \"Orient_Horizontal\",\\\r\n\t\t\t\t\t\"Nodes\" [\\\r\n\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\"SizeCoefficient\" 0.15000000596046448,\\\r\n\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\"HideTabWell\" false,\\\r\n\t\t\t\t\t\t\t\"ForegroundTab\" \"Animations\",\\\r\n\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"TabId\" \"Animations\",\\\r\n\t\t\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\"SizeCoefficient\" 0.85000002384185791,\\\r\n\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\"HideTabWell\" false,\\\r\n\t\t\t\t\t\t\t\"ForegroundTab\" \"Sequencer\",\\\r\n\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"TabId\" \"Sequencer\",\\\r\n\t\t\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"TabId\" \"EmbeddedSequenceID\",\\\r\n\t\t\t\t\t\t\t\t\t\"TabState\" \"ClosedTab\"\\\r\n\t\t\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"TabId\" \"CompilerResults\",\\\r\n\t\t\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t)\\\r\n\t\t\t\t\t]\\\r\n\t\t\t\t)\\\r\n\t\t\t]\\\r\n\t\t)\\\r\n\t]\\\r\n)"
+Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Graph_Layout_v1:0="(\\\r\n\t\"Type\" \"Layout\",\\\r\n\t\"Name\" \"WidgetBlueprintEditor_Graph_Layout_v1\",\\\r\n\t\"PrimaryAreaIndex\" 0,\\\r\n\t\"Areas\" [\\\r\n\t\t(\\\r\n\t\t\t\"SizeCoefficient\" 1,\\\r\n\t\t\t\"Type\" \"Area\",\\\r\n\t\t\t\"Orientation\" \"Orient_Vertical\",\\\r\n\t\t\t\"WindowPlacement\" \"Placement_NoWindow\",\\\r\n\t\t\t\"Nodes\" [\\\r\n\t\t\t\t(\\\r\n\t\t\t\t\t\"SizeCoefficient\" 0.18672099709510803,\\\r\n\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\"HideTabWell\" true,\\\r\n\t\t\t\t\t\"ForegroundTab\" \"AssetEditorToolkit_Toolbar\",\\\r\n\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\"TabId\" \"AssetEditorToolkit_Toolbar\",\\\r\n\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t)\\\r\n\t\t\t\t\t]\\\r\n\t\t\t\t),\\\r\n\t\t\t\t(\\\r\n\t\t\t\t\t\"SizeCoefficient\" 1,\\\r\n\t\t\t\t\t\"Type\" \"Splitter\",\\\r\n\t\t\t\t\t\"Orientation\" \"Orient_Horizontal\",\\\r\n\t\t\t\t\t\"Nodes\" [\\\r\n\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\"SizeCoefficient\" 0.15000000596046448,\\\r\n\t\t\t\t\t\t\t\"Type\" \"Splitter\",\\\r\n\t\t\t\t\t\t\t\"Orientation\" \"Orient_Vertical\",\\\r\n\t\t\t\t\t\t\t\"Nodes\" [\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"SizeCoefficient\" 0.5,\\\r\n\t\t\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\t\t\"HideTabWell\" false,\\\r\n\t\t\t\t\t\t\t\t\t\"ForegroundTab\" \"MyBlueprint\",\\\r\n\t\t\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabId\" \"MyBlueprint\",\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"SizeCoefficient\" 0.5,\\\r\n\t\t\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\t\t\"HideTabWell\" false,\\\r\n\t\t\t\t\t\t\t\t\t\"ForegroundTab\" \"Inspector\",\\\r\n\t\t\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabId\" \"Inspector\",\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\"SizeCoefficient\" 0.69999998807907104,\\\r\n\t\t\t\t\t\t\t\"Type\" \"Splitter\",\\\r\n\t\t\t\t\t\t\t\"Orientation\" \"Orient_Vertical\",\\\r\n\t\t\t\t\t\t\t\"Nodes\" [\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"SizeCoefficient\" 0.80000001192092896,\\\r\n\t\t\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\t\t\"HideTabWell\" false,\\\r\n\t\t\t\t\t\t\t\t\t\"ForegroundTab\" \"Document  2\",\\\r\n\t\t\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabId\" \"Document\",\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabState\" \"ClosedTab\"\\\r\n\t\t\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"SizeCoefficient\" 0.20000000298023224,\\\r\n\t\t\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\t\t\"HideTabWell\" false,\\\r\n\t\t\t\t\t\t\t\t\t\"ForegroundTab\" \"CompilerResults\",\\\r\n\t\t\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabId\" \"EmbeddedSequenceID\",\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabState\" \"ClosedTab\"\\\r\n\t\t\t\t\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabId\" \"CompilerResults\",\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabState\" \"OpenedTab\"\\\r\n\t\t\t\t\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabId\" \"FindResults\",\\\r\n\t\t\t\t\t\t\t\t\t\t\t\"TabState\" \"ClosedTab\"\\\r\n\t\t\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t),\\\r\n\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\"SizeCoefficient\" 0.15000000596046448,\\\r\n\t\t\t\t\t\t\t\"Type\" \"Stack\",\\\r\n\t\t\t\t\t\t\t\"HideTabWell\" false,\\\r\n\t\t\t\t\t\t\t\"ForegroundTab\" \"None\",\\\r\n\t\t\t\t\t\t\t\"Tabs\" [\\\r\n\t\t\t\t\t\t\t\t(\\\r\n\t\t\t\t\t\t\t\t\t\"TabId\" \"PaletteList\",\\\r\n\t\t\t\t\t\t\t\t\t\"TabState\" \"ClosedTab\"\\\r\n\t\t\t\t\t\t\t\t)\\\r\n\t\t\t\t\t\t\t]\\\r\n\t\t\t\t\t\t)\\\r\n\t\t\t\t\t]\\\r\n\t\t\t\t)\\\r\n\t\t\t]\\\r\n\t\t)\\\r\n\t]\\\r\n)"
 Windows.Editor:Internationalization:LocalizationPaths:0=../../../Engine/Content/Localization/Editor
 Windows.Editor:Internationalization:LocalizationPaths:1=../../../Engine/Content/Localization/EditorTutorials
 Windows.Editor:Internationalization:LocalizationPaths:2=../../../Engine/Content/Localization/Keywords

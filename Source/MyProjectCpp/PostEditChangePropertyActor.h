@@ -17,5 +17,7 @@ public:
 	APostEditChangePropertyActor();
 	UPROPERTY(EditAnywhere)
 		bool ShowStaticMesh;
+#if WITH_EDITOR
 	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
+#endif
 };

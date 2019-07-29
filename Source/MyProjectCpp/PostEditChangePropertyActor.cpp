@@ -16,6 +16,7 @@ APostEditChangePropertyActor::APostEditChangePropertyActor()
 	ShowStaticMesh = true;
 }
 
+#if WITH_EDITOR
 void APostEditChangePropertyActor::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
 {
 	if (PropertyChangedEvent.Property != nullptr)
@@ -31,3 +32,4 @@ void APostEditChangePropertyActor::PostEditChangeProperty(FPropertyChangedEvent&
 	}
 	Super::PostEditChangeProperty(PropertyChangedEvent);
 }
+#endif

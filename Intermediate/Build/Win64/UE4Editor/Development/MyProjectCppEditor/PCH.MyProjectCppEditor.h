@@ -204,4 +204,5 @@
 #define MYPROJECTCPPEDITOR_API DLLEXPORT
 #define MYPROJECTCPP_API DLLIMPORT
 #define AUGMENTEDREALITY_API DLLIMPORT
+#define MESSAGELOG_API DLLIMPORT
 #include "F:\UE Projects\MyProjectCpp\Source\MyProjectCppEditor\MyProjectCppEditor.h"
