@@ -44,6 +44,8 @@ public:
 
 	void HttpRequestComplete(FHttpRequestPtr request, FHttpResponsePtr response, bool success);
 	bool CovertPNG2JPG(const FString& SourceName, const FString& TargetName);
+	UTexture2D* LoadTexture2DFromFilePath(FString & ImagePath, int32 & OutWidth, int32 & OutHeight);
+	UTexture2D* LoadTexture2DFromBytesAndExtension(const FString& ImagePath, uint8* InCompressedData, int32 InCompressedSize, int32 & OutWidth, int32 & OutHeight);
 protected:
 	virtual void BeginPlay() override;
 	
