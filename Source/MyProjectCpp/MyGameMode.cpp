@@ -80,7 +80,7 @@ void AMyGameMode::BeginPlay()
 	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, FString::Printf(TEXT("%d actors implement the interface"), MyInterfaceInstances.Num()));
 
 	// HTTP
-	TSharedRef<IHttpRequest> http = FHttpModule::Get().CreateRequest();
+	TSharedRef<IHttpRequest, ESPMode::ThreadSafe> http = FHttpModule::Get().CreateRequest();
 	FHttpRequestCompleteDelegate& delegate = http->OnProcessRequestComplete();
 	//delegate.BindLambda(
 	//	[](FHttpRequestPtr request, FHttpResponsePtr response, bool success) -> void
