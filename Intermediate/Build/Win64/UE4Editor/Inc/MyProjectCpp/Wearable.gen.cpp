@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,11 +17,31 @@ void EmptyLinkFunctionForGeneratedCodeWearable() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UWearable();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UInterface();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UWearable_CanEquip();
 	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UWearable_GetStrengthRequirement();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UWearable_OnEquip();
 // End Cross Module References
+	DEFINE_FUNCTION(IWearable::execOnEquip)
+	{
+		P_GET_OBJECT(APawn,Z_Param_Wearer);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnEquip_Implementation(Z_Param_Wearer);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(IWearable::execCanEquip)
+	{
+		P_GET_OBJECT(APawn,Z_Param_Wearer);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->CanEquip_Implementation(Z_Param_Wearer);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(IWearable::execGetStrengthRequirement)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->GetStrengthRequirement_Implementation();
+		P_NATIVE_END;
+	}
 	bool IWearable::CanEquip(APawn* Wearer)
 	{
 		check(0 && "Do not directly call Event functions in Interfaces. Call Execute_CanEquip instead.");
@@ -46,7 +66,7 @@ void EmptyLinkFunctionForGeneratedCodeWearable() {}
 			{ "GetStrengthRequirement", &IWearable::execGetStrengthRequirement },
 			{ "OnEquip", &IWearable::execOnEquip },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_UWearable_CanEquip_Statics
 	{
@@ -75,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodeWearable() {}
 		{ "ModuleRelativePath", "Wearable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UWearable_CanEquip_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWearable, nullptr, "CanEquip", sizeof(Wearable_eventCanEquip_Parms), Z_Construct_UFunction_UWearable_CanEquip_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UWearable_CanEquip_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UWearable_CanEquip_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UWearable_CanEquip_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UWearable_CanEquip_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWearable, nullptr, "CanEquip", nullptr, nullptr, sizeof(Wearable_eventCanEquip_Parms), Z_Construct_UFunction_UWearable_CanEquip_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UWearable_CanEquip_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UWearable_CanEquip_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UWearable_CanEquip_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UWearable_CanEquip()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -104,7 +124,7 @@ void EmptyLinkFunctionForGeneratedCodeWearable() {}
 		{ "ModuleRelativePath", "Wearable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UWearable_GetStrengthRequirement_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWearable, nullptr, "GetStrengthRequirement", sizeof(Wearable_eventGetStrengthRequirement_Parms), Z_Construct_UFunction_UWearable_GetStrengthRequirement_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UWearable_GetStrengthRequirement_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UWearable_GetStrengthRequirement_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UWearable_GetStrengthRequirement_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UWearable_GetStrengthRequirement_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWearable, nullptr, "GetStrengthRequirement", nullptr, nullptr, sizeof(Wearable_eventGetStrengthRequirement_Parms), Z_Construct_UFunction_UWearable_GetStrengthRequirement_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UWearable_GetStrengthRequirement_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UWearable_GetStrengthRequirement_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UWearable_GetStrengthRequirement_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UWearable_GetStrengthRequirement()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -133,7 +153,7 @@ void EmptyLinkFunctionForGeneratedCodeWearable() {}
 		{ "ModuleRelativePath", "Wearable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UWearable_OnEquip_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWearable, nullptr, "OnEquip", sizeof(Wearable_eventOnEquip_Parms), Z_Construct_UFunction_UWearable_OnEquip_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UWearable_OnEquip_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UWearable_OnEquip_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UWearable_OnEquip_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UWearable_OnEquip_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWearable, nullptr, "OnEquip", nullptr, nullptr, sizeof(Wearable_eventOnEquip_Parms), Z_Construct_UFunction_UWearable_OnEquip_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UWearable_OnEquip_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UWearable_OnEquip_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UWearable_OnEquip_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UWearable_OnEquip()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -162,9 +182,9 @@ void EmptyLinkFunctionForGeneratedCodeWearable() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UWearable_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UWearable_CanEquip, "CanEquip" }, // 1886979286
-		{ &Z_Construct_UFunction_UWearable_GetStrengthRequirement, "GetStrengthRequirement" }, // 1557439953
-		{ &Z_Construct_UFunction_UWearable_OnEquip, "OnEquip" }, // 2919883011
+		{ &Z_Construct_UFunction_UWearable_CanEquip, "CanEquip" }, // 4129524660
+		{ &Z_Construct_UFunction_UWearable_GetStrengthRequirement, "GetStrengthRequirement" }, // 341692671
+		{ &Z_Construct_UFunction_UWearable_OnEquip, "OnEquip" }, // 2391454866
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UWearable_Statics::Class_MetaDataParams[] = {
@@ -184,12 +204,12 @@ void EmptyLinkFunctionForGeneratedCodeWearable() {}
 		FuncInfo,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x000040A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UWearable_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UWearable_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UWearable_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UWearable_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UWearable()
 	{
@@ -200,7 +220,7 @@ void EmptyLinkFunctionForGeneratedCodeWearable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UWearable, 830184609);
+	IMPLEMENT_CLASS(UWearable, 3671102285);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UWearable>()
 	{
 		return UWearable::StaticClass();

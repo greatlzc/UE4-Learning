@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,27 +13,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_Openable_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_Openable_h_13_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_Openable_h_13_RPC_WRAPPERS \
 	virtual void Open_Implementation() {}; \
  \
-	DECLARE_FUNCTION(execOpen) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Open_Implementation(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execOpen);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Openable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOpen) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Open_Implementation(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execOpen);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Openable_h_13_EVENT_PARMS
@@ -115,6 +104,7 @@ public: \
 #define MyProjectCpp_Source_MyProjectCpp_Openable_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	MyProjectCpp_Source_MyProjectCpp_Openable_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Openable_h_13_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Openable_h_13_CALLBACK_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Openable_h_13_INCLASS_IINTERFACE \
@@ -125,6 +115,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define MyProjectCpp_Source_MyProjectCpp_Openable_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	MyProjectCpp_Source_MyProjectCpp_Openable_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Openable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Openable_h_13_CALLBACK_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Openable_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \

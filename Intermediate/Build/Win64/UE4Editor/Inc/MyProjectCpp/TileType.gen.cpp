@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -55,6 +55,7 @@ void EmptyLinkFunctionForGeneratedCodeTileType() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTileType_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "TileType.h" },
 		{ "ModuleRelativePath", "TileType.h" },
 	};
@@ -64,7 +65,7 @@ void EmptyLinkFunctionForGeneratedCodeTileType() {}
 		{ "ModuleRelativePath", "TileType.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UTileType_Statics::NewProp_TileName = { "TileName", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTileType, TileName), METADATA_PARAMS(Z_Construct_UClass_UTileType_Statics::NewProp_TileName_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTileType_Statics::NewProp_TileName_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UTileType_Statics::NewProp_TileName = { "TileName", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTileType, TileName), METADATA_PARAMS(Z_Construct_UClass_UTileType_Statics::NewProp_TileName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTileType_Statics::NewProp_TileName_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTileType_Statics::NewProp_CanBeBuiltOn_MetaData[] = {
 		{ "ModuleRelativePath", "TileType.h" },
@@ -74,13 +75,13 @@ void EmptyLinkFunctionForGeneratedCodeTileType() {}
 	{
 		((UTileType*)Obj)->CanBeBuiltOn = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTileType_Statics::NewProp_CanBeBuiltOn = { "CanBeBuiltOn", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UTileType), &Z_Construct_UClass_UTileType_Statics::NewProp_CanBeBuiltOn_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTileType_Statics::NewProp_CanBeBuiltOn_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTileType_Statics::NewProp_CanBeBuiltOn_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTileType_Statics::NewProp_CanBeBuiltOn = { "CanBeBuiltOn", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UTileType), &Z_Construct_UClass_UTileType_Statics::NewProp_CanBeBuiltOn_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTileType_Statics::NewProp_CanBeBuiltOn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTileType_Statics::NewProp_CanBeBuiltOn_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTileType_Statics::NewProp_MovementCost_MetaData[] = {
 		{ "ModuleRelativePath", "TileType.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UTileType_Statics::NewProp_MovementCost = { "MovementCost", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTileType, MovementCost), METADATA_PARAMS(Z_Construct_UClass_UTileType_Statics::NewProp_MovementCost_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTileType_Statics::NewProp_MovementCost_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UTileType_Statics::NewProp_MovementCost = { "MovementCost", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTileType, MovementCost), METADATA_PARAMS(Z_Construct_UClass_UTileType_Statics::NewProp_MovementCost_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTileType_Statics::NewProp_MovementCost_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTileType_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTileType_Statics::NewProp_TileName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTileType_Statics::NewProp_CanBeBuiltOn,
@@ -97,12 +98,12 @@ void EmptyLinkFunctionForGeneratedCodeTileType() {}
 		nullptr,
 		Z_Construct_UClass_UTileType_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_UTileType_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_UTileType_Statics::PropPointers),
 		0,
 		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UTileType_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UTileType_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UTileType_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UTileType_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UTileType()
 	{
@@ -113,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeTileType() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTileType, 1510087322);
+	IMPLEMENT_CLASS(UTileType, 3934498703);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UTileType>()
 	{
 		return UTileType::StaticClass();

@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,13 +17,28 @@ void EmptyLinkFunctionForGeneratedCodeParamDelegateListener() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_AParamDelegateListener();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AParamDelegateListener_EndPlay();
 	ENGINE_API UEnum* Z_Construct_UEnum_Engine_EEndPlayReason();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AParamDelegateListener_SetLightColor();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UPointLightComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AParamDelegateListener::execSetLightColor)
+	{
+		P_GET_STRUCT(FLinearColor,Z_Param_LightColor);
+		P_GET_UBOOL(Z_Param_EnableLight);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetLightColor(Z_Param_LightColor,Z_Param_EnableLight);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AParamDelegateListener::execEndPlay)
+	{
+		P_GET_PROPERTY(FByteProperty,Z_Param_EndPlayReason);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->EndPlay(EEndPlayReason::Type(Z_Param_EndPlayReason));
+		P_NATIVE_END;
+	}
 	void AParamDelegateListener::StaticRegisterNativesAParamDelegateListener()
 	{
 		UClass* Class = AParamDelegateListener::StaticClass();
@@ -31,7 +46,7 @@ void EmptyLinkFunctionForGeneratedCodeParamDelegateListener() {}
 			{ "EndPlay", &AParamDelegateListener::execEndPlay },
 			{ "SetLightColor", &AParamDelegateListener::execSetLightColor },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics
 	{
@@ -54,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeParamDelegateListener() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::NewProp_EndPlayReason = { "EndPlayReason", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParamDelegateListener_eventEndPlay_Parms, EndPlayReason), Z_Construct_UEnum_Engine_EEndPlayReason, METADATA_PARAMS(Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::NewProp_EndPlayReason_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::NewProp_EndPlayReason_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::NewProp_EndPlayReason = { "EndPlayReason", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParamDelegateListener_eventEndPlay_Parms, EndPlayReason), Z_Construct_UEnum_Engine_EEndPlayReason, METADATA_PARAMS(Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::NewProp_EndPlayReason_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::NewProp_EndPlayReason_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::NewProp_EndPlayReason,
 	};
@@ -63,7 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeParamDelegateListener() {}
 		{ "ModuleRelativePath", "ParamDelegateListener.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParamDelegateListener, nullptr, "EndPlay", sizeof(ParamDelegateListener_eventEndPlay_Parms), Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParamDelegateListener, nullptr, "EndPlay", nullptr, nullptr, sizeof(ParamDelegateListener_eventEndPlay_Parms), Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AParamDelegateListener_EndPlay_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AParamDelegateListener_EndPlay()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -101,11 +116,12 @@ void EmptyLinkFunctionForGeneratedCodeParamDelegateListener() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//void SetLightColor(FLinearColor LightColor);\n" },
 		{ "ModuleRelativePath", "ParamDelegateListener.h" },
 		{ "ToolTip", "void SetLightColor(FLinearColor LightColor);" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParamDelegateListener, nullptr, "SetLightColor", sizeof(ParamDelegateListener_eventSetLightColor_Parms), Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParamDelegateListener, nullptr, "SetLightColor", nullptr, nullptr, sizeof(ParamDelegateListener_eventSetLightColor_Parms), Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AParamDelegateListener_SetLightColor_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AParamDelegateListener_SetLightColor()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -143,8 +159,8 @@ void EmptyLinkFunctionForGeneratedCodeParamDelegateListener() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AParamDelegateListener_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AParamDelegateListener_EndPlay, "EndPlay" }, // 3384055542
-		{ &Z_Construct_UFunction_AParamDelegateListener_SetLightColor, "SetLightColor" }, // 4225606575
+		{ &Z_Construct_UFunction_AParamDelegateListener_EndPlay, "EndPlay" }, // 733866617
+		{ &Z_Construct_UFunction_AParamDelegateListener_SetLightColor, "SetLightColor" }, // 1810472177
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParamDelegateListener_Statics::Class_MetaDataParams[] = {
@@ -158,14 +174,14 @@ void EmptyLinkFunctionForGeneratedCodeParamDelegateListener() {}
 		{ "ModuleRelativePath", "ParamDelegateListener.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_SceneRoot = { "SceneRoot", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParamDelegateListener, SceneRoot), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_SceneRoot_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_SceneRoot_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_SceneRoot = { "SceneRoot", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParamDelegateListener, SceneRoot), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_SceneRoot_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_SceneRoot_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_PointLight_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "ParamDelegateListener.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_PointLight = { "PointLight", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParamDelegateListener, PointLight), Z_Construct_UClass_UPointLightComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_PointLight_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_PointLight_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_PointLight = { "PointLight", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParamDelegateListener, PointLight), Z_Construct_UClass_UPointLightComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_PointLight_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_PointLight_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AParamDelegateListener_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_SceneRoot,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParamDelegateListener_Statics::NewProp_PointLight,
@@ -175,18 +191,18 @@ void EmptyLinkFunctionForGeneratedCodeParamDelegateListener() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AParamDelegateListener_Statics::ClassParams = {
 		&AParamDelegateListener::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
 		Z_Construct_UClass_AParamDelegateListener_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_AParamDelegateListener_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AParamDelegateListener_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AParamDelegateListener_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AParamDelegateListener_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AParamDelegateListener_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AParamDelegateListener_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AParamDelegateListener()
 	{
@@ -197,7 +213,7 @@ void EmptyLinkFunctionForGeneratedCodeParamDelegateListener() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParamDelegateListener, 17435248);
+	IMPLEMENT_CLASS(AParamDelegateListener, 2002927730);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AParamDelegateListener>()
 	{
 		return AParamDelegateListener::StaticClass();

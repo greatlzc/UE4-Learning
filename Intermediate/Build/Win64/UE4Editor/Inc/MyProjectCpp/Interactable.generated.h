@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,44 +13,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_Interactable_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_RPC_WRAPPERS \
 	virtual void PerformInteract_Implementation() {}; \
 	virtual bool CanInteract_Implementation() { return false; }; \
  \
-	DECLARE_FUNCTION(execPerformInteract) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->PerformInteract_Implementation(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execCanInteract) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->CanInteract_Implementation(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execPerformInteract); \
+	DECLARE_FUNCTION(execCanInteract);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execPerformInteract) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->PerformInteract_Implementation(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execCanInteract) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->CanInteract_Implementation(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execPerformInteract); \
+	DECLARE_FUNCTION(execCanInteract);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_EVENT_PARMS \
@@ -146,6 +121,7 @@ public: \
 #define MyProjectCpp_Source_MyProjectCpp_Interactable_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_CALLBACK_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_INCLASS_IINTERFACE \
@@ -156,6 +132,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define MyProjectCpp_Source_MyProjectCpp_Interactable_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_CALLBACK_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Interactable_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \

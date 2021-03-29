@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -14,48 +14,17 @@ struct FLinearColor;
 #endif
 #define MYPROJECTCPP_ParamDelegateListener_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execSetLightColor) \
-	{ \
-		P_GET_STRUCT(FLinearColor,Z_Param_LightColor); \
-		P_GET_UBOOL(Z_Param_EnableLight); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetLightColor(Z_Param_LightColor,Z_Param_EnableLight); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execEndPlay) \
-	{ \
-		P_GET_PROPERTY(UByteProperty,Z_Param_EndPlayReason); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->EndPlay(EEndPlayReason::Type(Z_Param_EndPlayReason)); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execSetLightColor); \
+	DECLARE_FUNCTION(execEndPlay);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execSetLightColor) \
-	{ \
-		P_GET_STRUCT(FLinearColor,Z_Param_LightColor); \
-		P_GET_UBOOL(Z_Param_EnableLight); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetLightColor(Z_Param_LightColor,Z_Param_EnableLight); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execEndPlay) \
-	{ \
-		P_GET_PROPERTY(UByteProperty,Z_Param_EndPlayReason); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->EndPlay(EEndPlayReason::Type(Z_Param_EndPlayReason)); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execSetLightColor); \
+	DECLARE_FUNCTION(execEndPlay);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_INCLASS_NO_PURE_DECLS \
@@ -63,7 +32,7 @@ private: \
 	static void StaticRegisterNativesAParamDelegateListener(); \
 	friend struct Z_Construct_UClass_AParamDelegateListener_Statics; \
 public: \
-	DECLARE_CLASS(AParamDelegateListener, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AParamDelegateListener, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AParamDelegateListener)
 
 
@@ -72,7 +41,7 @@ private: \
 	static void StaticRegisterNativesAParamDelegateListener(); \
 	friend struct Z_Construct_UClass_AParamDelegateListener_Statics; \
 public: \
-	DECLARE_CLASS(AParamDelegateListener, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AParamDelegateListener, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AParamDelegateListener)
 
 
@@ -106,6 +75,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParamDelegateListener); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_STANDARD_CONSTRUCTORS \
@@ -117,6 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_ParamDelegateListener_h_12_ENHANCED_CONSTRUCTORS \

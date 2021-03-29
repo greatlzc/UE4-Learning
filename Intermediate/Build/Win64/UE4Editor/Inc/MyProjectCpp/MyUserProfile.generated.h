@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -20,26 +20,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> MYPROJECTCPP_API UScriptStruct* StaticStruct<struct FColoredTexture>();
 
+#define MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execToString) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(FString*)Z_Param__Result=P_THIS->ToString(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execToString);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execToString) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(FString*)Z_Param__Result=P_THIS->ToString(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execToString);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_INCLASS_NO_PURE_DECLS \
@@ -92,6 +81,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyUserProfile); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_STANDARD_CONSTRUCTORS \
@@ -103,6 +93,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_MyUserProfile_h_34_ENHANCED_CONSTRUCTORS \

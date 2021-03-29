@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MyPlugin.cpp.obj": [
+			"MyPlugin.cpp.obj",
+			"MyPluginCommands.cpp.obj",
+			"MyPluginStyle.cpp.obj"
+		]
+	}
+}

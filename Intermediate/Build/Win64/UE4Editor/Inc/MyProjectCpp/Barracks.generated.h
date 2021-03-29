@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,44 +13,17 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_Barracks_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execEndPlay) \
-	{ \
-		P_GET_PROPERTY(UByteProperty,Z_Param_EndPlayReason); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->EndPlay(EEndPlayReason::Type(Z_Param_EndPlayReason)); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSpawnUnit) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SpawnUnit(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execEndPlay); \
+	DECLARE_FUNCTION(execSpawnUnit);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execEndPlay) \
-	{ \
-		P_GET_PROPERTY(UByteProperty,Z_Param_EndPlayReason); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->EndPlay(EEndPlayReason::Type(Z_Param_EndPlayReason)); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSpawnUnit) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SpawnUnit(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execEndPlay); \
+	DECLARE_FUNCTION(execSpawnUnit);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_INCLASS_NO_PURE_DECLS \
@@ -58,7 +31,7 @@ private: \
 	static void StaticRegisterNativesABarracks(); \
 	friend struct Z_Construct_UClass_ABarracks_Statics; \
 public: \
-	DECLARE_CLASS(ABarracks, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(ABarracks, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(ABarracks)
 
 
@@ -67,7 +40,7 @@ private: \
 	static void StaticRegisterNativesABarracks(); \
 	friend struct Z_Construct_UClass_ABarracks_Statics; \
 public: \
-	DECLARE_CLASS(ABarracks, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(ABarracks, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(ABarracks)
 
 
@@ -101,6 +74,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABarracks); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_STANDARD_CONSTRUCTORS \
@@ -112,6 +86,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Barracks_h_13_ENHANCED_CONSTRUCTORS \

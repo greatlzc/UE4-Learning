@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -59,7 +59,7 @@ void EmptyLinkFunctionForGeneratedCodePhysicsCube() {}
 		{ "ModuleRelativePath", "PhysicsCube.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APhysicsCube_Statics::NewProp_MyMesh = { "MyMesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APhysicsCube, MyMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APhysicsCube_Statics::NewProp_MyMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_APhysicsCube_Statics::NewProp_MyMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APhysicsCube_Statics::NewProp_MyMesh = { "MyMesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APhysicsCube, MyMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APhysicsCube_Statics::NewProp_MyMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APhysicsCube_Statics::NewProp_MyMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APhysicsCube_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APhysicsCube_Statics::NewProp_MyMesh,
 	};
@@ -71,18 +71,18 @@ void EmptyLinkFunctionForGeneratedCodePhysicsCube() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_APhysicsCube_Statics::ClassParams = {
 		&APhysicsCube::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_APhysicsCube_Statics::PropPointers,
 		InterfaceParams,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_APhysicsCube_Statics::PropPointers),
-		ARRAY_COUNT(InterfaceParams),
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_APhysicsCube_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_APhysicsCube_Statics::Class_MetaDataParams))
+		UE_ARRAY_COUNT(Z_Construct_UClass_APhysicsCube_Statics::PropPointers),
+		UE_ARRAY_COUNT(InterfaceParams),
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_APhysicsCube_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APhysicsCube_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_APhysicsCube()
 	{
@@ -93,7 +93,7 @@ void EmptyLinkFunctionForGeneratedCodePhysicsCube() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APhysicsCube, 1687720738);
+	IMPLEMENT_CLASS(APhysicsCube, 1995789424);
 	template<> MYPROJECTCPP_API UClass* StaticClass<APhysicsCube>()
 	{
 		return APhysicsCube::StaticClass();

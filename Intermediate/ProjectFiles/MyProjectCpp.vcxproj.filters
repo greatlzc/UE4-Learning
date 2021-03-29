@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProjectCpp.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FA996AFF-66EE-4084-AAA8-E832D05CA072}</UniqueIdentifier>
+      <UniqueIdentifier>{E3BD4710-9CF8-4755-8B76-691F3989BA77}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProjectCpp.Target.cs">
       <Filter>Source</Filter>
@@ -13,8 +13,9 @@
     </None>
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
+    <None Include="..\..\MyConfig.ini" />
     <Filter Include="Config">
-      <UniqueIdentifier>{4FE3614B-0560-40F4-AAB4-9E7DE7ABCBA3}</UniqueIdentifier>
+      <UniqueIdentifier>{BF6AE8E0-B10E-4729-B225-1898B31392E0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,26 +32,59 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
-    <Filter Include="Source\MyProjectCppEditor">
-      <UniqueIdentifier>{724F9FE6-7DB5-4D70-B522-283F297DDC27}</UniqueIdentifier>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BCD10021-F3AB-4B34-95BB-618CEB492D17}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\MyProjectCppEditor\CookbookCommands.cpp">
-      <Filter>Source\MyProjectCppEditor</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MyProjectCppEditor\CookbookCommands.h">
-      <Filter>Source\MyProjectCppEditor</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\MyProjectCppEditor\MyProjectCppEditor.Build.cs">
-      <Filter>Source\MyProjectCppEditor</Filter>
+    <Filter Include="Plugins\MyPlugin">
+      <UniqueIdentifier>{7A74D5E2-5654-45D2-82D9-214CB758A98F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MyPlugin\Source">
+      <UniqueIdentifier>{BE4C68AF-8A3B-4C70-8F47-60A095004DBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MyPlugin\Source\MyPlugin">
+      <UniqueIdentifier>{6ED57433-F58B-4D9E-AA2D-FC0AF2A5609A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MyPlugin\Source\MyPlugin\MyPlugin.Build.cs">
+      <Filter>Plugins\MyPlugin\Source\MyPlugin</Filter>
     </None>
-    <ClCompile Include="..\..\Source\MyProjectCppEditor\MyProjectCppEditor.cpp">
-      <Filter>Source\MyProjectCppEditor</Filter>
+    <Filter Include="Plugins\MyPlugin\Source\MyPlugin\Private">
+      <UniqueIdentifier>{1869804B-E5DC-4AA8-9686-D9F6E9ABF843}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Private\MyPlugin.cpp">
+      <Filter>Plugins\MyPlugin\Source\MyPlugin\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\MyProjectCppEditor\MyProjectCppEditor.h">
-      <Filter>Source\MyProjectCppEditor</Filter>
+    <ClCompile Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Private\MyPluginCommands.cpp">
+      <Filter>Plugins\MyPlugin\Source\MyPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Private\MyPluginStyle.cpp">
+      <Filter>Plugins\MyPlugin\Source\MyPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\MyPlugin\Source\MyPlugin\Public">
+      <UniqueIdentifier>{34920297-3BE0-4083-8AF7-61BFBC4BFE96}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Public\MyPlugin.h">
+      <Filter>Plugins\MyPlugin\Source\MyPlugin\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Public\MyPluginCommands.h">
+      <Filter>Plugins\MyPlugin\Source\MyPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Public\MyPluginStyle.h">
+      <Filter>Plugins\MyPlugin\Source\MyPlugin\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\MyPlugin\MyPlugin.uplugin">
+      <Filter>Plugins\MyPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\MyPlugin\Resources">
+      <UniqueIdentifier>{1DED9D2C-3D9C-49E6-B772-93694005C1B7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MyPlugin\Resources\ButtonIcon_40x.png">
+      <Filter>Plugins\MyPlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MyPlugin\Resources\Icon128.png">
+      <Filter>Plugins\MyPlugin\Resources</Filter>
+    </None>
     <Filter Include="Source\MyProjectCpp">
-      <UniqueIdentifier>{00CC95E7-DC1A-44B7-AF97-3C157C6D10B8}</UniqueIdentifier>
+      <UniqueIdentifier>{EA5959CA-E026-44B4-9A23-918541B96808}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyProjectCpp\ActorSpawnerComponent.cpp">
       <Filter>Source\MyProjectCpp</Filter>
@@ -104,6 +138,42 @@
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MyProjectCpp\Clock.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProjectCpp\CookbookStyle.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCpp\CookbookStyle.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProjectCpp\CustomButton.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCpp\CustomButton.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProjectCpp\CustomButtonWidget.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCpp\CustomButtonWidget.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUD.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUD.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUDGameMode.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUDGameMode.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUDPlayerController.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUDPlayerController.h">
       <Filter>Source\MyProjectCpp</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\MyProjectCpp\DelegateListener.cpp">
@@ -349,6 +419,12 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\SingleInterfaceActor.h">
       <Filter>Source\MyProjectCpp</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\MyProjectCpp\SlateHUDGameMode.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCpp\SlateHUDGameMode.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MyProjectCpp\SlidingDoor.cpp">
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
@@ -397,6 +473,12 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\TimeOfDayHandler.h">
       <Filter>Source\MyProjectCpp</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\MyProjectCpp\ToggleHUDGameMode.cpp">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCpp\ToggleHUDGameMode.h">
+      <Filter>Source\MyProjectCpp</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MyProjectCpp\Tree.cpp">
       <Filter>Source\MyProjectCpp</Filter>
     </ClCompile>
@@ -433,75 +515,41 @@
     <ClInclude Include="..\..\Source\MyProjectCpp\Zombie.h">
       <Filter>Source\MyProjectCpp</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\MyProjectCppEditor\MyCustomAsset.h">
-      <Filter>Source\MyProjectCppEditor</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProjectCppEditor\CustomAssetFactory.h">
-      <Filter>Source\MyProjectCppEditor</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProjectCppEditor\MyCustomAssetActions.h">
-      <Filter>Source\MyProjectCppEditor</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUD.h">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUDGameMode.h">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProjectCpp\CustomHUDPlayerController.h">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProjectCpp\SlateHUDGameMode.h">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProjectCpp\ToggleHUDGameMode.h">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProjectCpp\CookbookStyle.h">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProjectCpp\CustomButton.h">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProjectCpp\CustomButtonWidget.h">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\MyProjectCppEditor\MyCustomAsset.cpp">
+    <Filter Include="Source\MyProjectCppEditor">
+      <UniqueIdentifier>{A00E0260-17B0-4B7F-9272-1D44575AFDEE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProjectCppEditor\CookbookCommands.cpp">
       <Filter>Source\MyProjectCppEditor</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCppEditor\CookbookCommands.h">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MyProjectCppEditor\CustomAssetFactory.cpp">
       <Filter>Source\MyProjectCppEditor</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCppEditor\CustomAssetFactory.h">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProjectCppEditor\MyCustomAsset.cpp">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCppEditor\MyCustomAsset.h">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MyProjectCppEditor\MyCustomAssetActions.cpp">
       <Filter>Source\MyProjectCppEditor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUD.cpp">
-      <Filter>Source\MyProjectCpp</Filter>
+    <ClInclude Include="..\..\Source\MyProjectCppEditor\MyCustomAssetActions.h">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\MyProjectCppEditor\MyProjectCppEditor.Build.cs">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyProjectCppEditor\MyProjectCppEditor.cpp">
+      <Filter>Source\MyProjectCppEditor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUDGameMode.cpp">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\MyProjectCpp\CustomHUDPlayerController.cpp">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\MyProjectCpp\SlateHUDGameMode.cpp">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\MyProjectCpp\ToggleHUDGameMode.cpp">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\MyProjectCpp\CookbookStyle.cpp">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\MyProjectCpp\CustomButton.cpp">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\MyProjectCpp\CustomButtonWidget.cpp">
-      <Filter>Source\MyProjectCpp</Filter>
-    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProjectCppEditor\MyProjectCppEditor.h">
+      <Filter>Source\MyProjectCppEditor</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

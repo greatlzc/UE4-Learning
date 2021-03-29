@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,36 +17,15 @@ struct FHitResult;
 #endif
 #define MYPROJECTCPP_MyProjectCppProjectile_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnHit) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execOnHit);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnHit) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execOnHit);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_INCLASS_NO_PURE_DECLS \
@@ -54,7 +33,7 @@ private: \
 	static void StaticRegisterNativesAMyProjectCppProjectile(); \
 	friend struct Z_Construct_UClass_AMyProjectCppProjectile_Statics; \
 public: \
-	DECLARE_CLASS(AMyProjectCppProjectile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AMyProjectCppProjectile, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AMyProjectCppProjectile) \
 	static const TCHAR* StaticConfigName() {return TEXT("Game");} \
 
@@ -65,7 +44,7 @@ private: \
 	static void StaticRegisterNativesAMyProjectCppProjectile(); \
 	friend struct Z_Construct_UClass_AMyProjectCppProjectile_Statics; \
 public: \
-	DECLARE_CLASS(AMyProjectCppProjectile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AMyProjectCppProjectile, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AMyProjectCppProjectile) \
 	static const TCHAR* StaticConfigName() {return TEXT("Game");} \
 
@@ -105,6 +84,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyProjectCppProjectile); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_STANDARD_CONSTRUCTORS \
@@ -116,6 +96,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppProjectile_h_12_ENHANCED_CONSTRUCTORS \

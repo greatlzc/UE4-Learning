@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,9 +17,21 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UInteractable();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UInterface();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UInteractable_CanInteract();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UInteractable_PerformInteract();
 // End Cross Module References
+	DEFINE_FUNCTION(IInteractable::execPerformInteract)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->PerformInteract_Implementation();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(IInteractable::execCanInteract)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->CanInteract_Implementation();
+		P_NATIVE_END;
+	}
 	bool IInteractable::CanInteract()
 	{
 		check(0 && "Do not directly call Event functions in Interfaces. Call Execute_CanInteract instead.");
@@ -37,7 +49,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 			{ "CanInteract", &IInteractable::execCanInteract },
 			{ "PerformInteract", &IInteractable::execPerformInteract },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_UInteractable_CanInteract_Statics
 	{
@@ -63,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 		{ "ModuleRelativePath", "Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UInteractable_CanInteract_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInteractable, nullptr, "CanInteract", sizeof(Interactable_eventCanInteract_Parms), Z_Construct_UFunction_UInteractable_CanInteract_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UInteractable_CanInteract_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UInteractable_CanInteract_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UInteractable_CanInteract_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UInteractable_CanInteract_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInteractable, nullptr, "CanInteract", nullptr, nullptr, sizeof(Interactable_eventCanInteract_Parms), Z_Construct_UFunction_UInteractable_CanInteract_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInteractable_CanInteract_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UInteractable_CanInteract_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UInteractable_CanInteract_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UInteractable_CanInteract()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -86,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 		{ "ModuleRelativePath", "Interactable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UInteractable_PerformInteract_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInteractable, nullptr, "PerformInteract", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UInteractable_PerformInteract_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UInteractable_PerformInteract_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UInteractable_PerformInteract_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInteractable, nullptr, "PerformInteract", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UInteractable_PerformInteract_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UInteractable_PerformInteract_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UInteractable_PerformInteract()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -115,8 +127,8 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UInteractable_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UInteractable_CanInteract, "CanInteract" }, // 2772389244
-		{ &Z_Construct_UFunction_UInteractable_PerformInteract, "PerformInteract" }, // 1074475597
+		{ &Z_Construct_UFunction_UInteractable_CanInteract, "CanInteract" }, // 833713614
+		{ &Z_Construct_UFunction_UInteractable_PerformInteract, "PerformInteract" }, // 414083699
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInteractable_Statics::Class_MetaDataParams[] = {
@@ -134,12 +146,12 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 		FuncInfo,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x000840A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UInteractable_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UInteractable_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UInteractable_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UInteractable_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UInteractable()
 	{
@@ -150,7 +162,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInteractable, 2304500797);
+	IMPLEMENT_CLASS(UInteractable, 4208782005);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UInteractable>()
 	{
 		return UInteractable::StaticClass();

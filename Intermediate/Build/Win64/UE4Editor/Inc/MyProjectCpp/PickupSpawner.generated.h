@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,42 +13,17 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_PickupSpawner_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execSpawnPickup) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SpawnPickup(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execPickupCollected) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->PickupCollected(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execSpawnPickup); \
+	DECLARE_FUNCTION(execPickupCollected);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execSpawnPickup) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SpawnPickup(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execPickupCollected) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->PickupCollected(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execSpawnPickup); \
+	DECLARE_FUNCTION(execPickupCollected);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_INCLASS_NO_PURE_DECLS \
@@ -56,7 +31,7 @@ private: \
 	static void StaticRegisterNativesAPickupSpawner(); \
 	friend struct Z_Construct_UClass_APickupSpawner_Statics; \
 public: \
-	DECLARE_CLASS(APickupSpawner, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(APickupSpawner, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(APickupSpawner)
 
 
@@ -65,7 +40,7 @@ private: \
 	static void StaticRegisterNativesAPickupSpawner(); \
 	friend struct Z_Construct_UClass_APickupSpawner_Statics; \
 public: \
-	DECLARE_CLASS(APickupSpawner, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(APickupSpawner, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(APickupSpawner)
 
 
@@ -99,6 +74,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APickupSpawner); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_STANDARD_CONSTRUCTORS \
@@ -110,6 +86,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_PickupSpawner_h_12_ENHANCED_CONSTRUCTORS \

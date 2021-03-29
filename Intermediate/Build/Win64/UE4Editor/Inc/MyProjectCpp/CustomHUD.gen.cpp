@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomHUD() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACustomHUD_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Rendering Actor Input Replication" },
 		{ "IncludePath", "CustomHUD.h" },
 		{ "ModuleRelativePath", "CustomHUD.h" },
@@ -57,12 +58,12 @@ void EmptyLinkFunctionForGeneratedCodeCustomHUD() {}
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
 		0x009002ACu,
-		METADATA_PARAMS(Z_Construct_UClass_ACustomHUD_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ACustomHUD_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_ACustomHUD_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ACustomHUD_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ACustomHUD()
 	{
@@ -73,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACustomHUD, 1975472630);
+	IMPLEMENT_CLASS(ACustomHUD, 1223254744);
 	template<> MYPROJECTCPP_API UClass* StaticClass<ACustomHUD>()
 	{
 		return ACustomHUD::StaticClass();

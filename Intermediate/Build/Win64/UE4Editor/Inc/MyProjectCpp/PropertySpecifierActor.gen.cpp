@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodePropertySpecifierActor() {}
 	{
 		((APropertySpecifierActor*)Obj)->ReadOnlyProperty = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadOnlyProperty = { "ReadOnlyProperty", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadOnlyProperty_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadOnlyProperty_MetaData, ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadOnlyProperty_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadOnlyProperty = { "ReadOnlyProperty", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadOnlyProperty_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadOnlyProperty_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadOnlyProperty_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadWriteProperty_MetaData[] = {
 		{ "Category", "Cookbook" },
@@ -106,7 +106,7 @@ void EmptyLinkFunctionForGeneratedCodePropertySpecifierActor() {}
 	{
 		((APropertySpecifierActor*)Obj)->ReadWriteProperty = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadWriteProperty = { "ReadWriteProperty", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadWriteProperty_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadWriteProperty_MetaData, ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadWriteProperty_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadWriteProperty = { "ReadWriteProperty", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadWriteProperty_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadWriteProperty_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadWriteProperty_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleAnywhere_MetaData[] = {
 		{ "Category", "PropertySpecifierActor" },
@@ -117,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodePropertySpecifierActor() {}
 	{
 		((APropertySpecifierActor*)Obj)->VisibleAnywhere = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleAnywhere = { "VisibleAnywhere", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleAnywhere_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleAnywhere_MetaData, ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleAnywhere_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleAnywhere = { "VisibleAnywhere", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleAnywhere_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleAnywhere_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleAnywhere_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleInstanceOnly_MetaData[] = {
 		{ "Category", "PropertySpecifierActor" },
@@ -128,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodePropertySpecifierActor() {}
 	{
 		((APropertySpecifierActor*)Obj)->VisibleInstanceOnly = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleInstanceOnly = { "VisibleInstanceOnly", nullptr, (EPropertyFlags)0x0010000000020801, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleInstanceOnly_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleInstanceOnly_MetaData, ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleInstanceOnly_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleInstanceOnly = { "VisibleInstanceOnly", nullptr, (EPropertyFlags)0x0010000000020801, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleInstanceOnly_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleInstanceOnly_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleInstanceOnly_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleDefaultsOnly_MetaData[] = {
 		{ "Category", "PropertySpecifierActor" },
@@ -139,7 +139,7 @@ void EmptyLinkFunctionForGeneratedCodePropertySpecifierActor() {}
 	{
 		((APropertySpecifierActor*)Obj)->VisibleDefaultsOnly = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleDefaultsOnly = { "VisibleDefaultsOnly", nullptr, (EPropertyFlags)0x0010000000030001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleDefaultsOnly_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleDefaultsOnly_MetaData, ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleDefaultsOnly_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleDefaultsOnly = { "VisibleDefaultsOnly", nullptr, (EPropertyFlags)0x0010000000030001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleDefaultsOnly_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleDefaultsOnly_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_VisibleDefaultsOnly_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditAnywhere_MetaData[] = {
 		{ "Category", "PropertySpecifierActor" },
@@ -150,7 +150,7 @@ void EmptyLinkFunctionForGeneratedCodePropertySpecifierActor() {}
 	{
 		((APropertySpecifierActor*)Obj)->EditAnywhere = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditAnywhere = { "EditAnywhere", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditAnywhere_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditAnywhere_MetaData, ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditAnywhere_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditAnywhere = { "EditAnywhere", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditAnywhere_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditAnywhere_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditAnywhere_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditInstanceOnly_MetaData[] = {
 		{ "Category", "PropertySpecifierActor" },
@@ -161,7 +161,7 @@ void EmptyLinkFunctionForGeneratedCodePropertySpecifierActor() {}
 	{
 		((APropertySpecifierActor*)Obj)->EditInstanceOnly = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditInstanceOnly = { "EditInstanceOnly", nullptr, (EPropertyFlags)0x0010000000000801, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditInstanceOnly_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditInstanceOnly_MetaData, ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditInstanceOnly_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditInstanceOnly = { "EditInstanceOnly", nullptr, (EPropertyFlags)0x0010000000000801, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditInstanceOnly_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditInstanceOnly_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditInstanceOnly_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditDefaultsOnly_MetaData[] = {
 		{ "Category", "PropertySpecifierActor" },
@@ -172,7 +172,7 @@ void EmptyLinkFunctionForGeneratedCodePropertySpecifierActor() {}
 	{
 		((APropertySpecifierActor*)Obj)->EditDefaultsOnly = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditDefaultsOnly = { "EditDefaultsOnly", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditDefaultsOnly_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditDefaultsOnly_MetaData, ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditDefaultsOnly_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditDefaultsOnly = { "EditDefaultsOnly", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APropertySpecifierActor), &Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditDefaultsOnly_SetBit, METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditDefaultsOnly_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_EditDefaultsOnly_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APropertySpecifierActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadOnlyProperty,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APropertySpecifierActor_Statics::NewProp_ReadWriteProperty,
@@ -188,18 +188,18 @@ void EmptyLinkFunctionForGeneratedCodePropertySpecifierActor() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_APropertySpecifierActor_Statics::ClassParams = {
 		&APropertySpecifierActor::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_APropertySpecifierActor_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_APropertySpecifierActor_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APropertySpecifierActor_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_APropertySpecifierActor()
 	{
@@ -210,7 +210,7 @@ void EmptyLinkFunctionForGeneratedCodePropertySpecifierActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APropertySpecifierActor, 1929034824);
+	IMPLEMENT_CLASS(APropertySpecifierActor, 2934258741);
 	template<> MYPROJECTCPP_API UClass* StaticClass<APropertySpecifierActor>()
 	{
 		return APropertySpecifierActor::StaticClass();

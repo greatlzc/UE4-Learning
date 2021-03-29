@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -27,26 +27,15 @@ static inline void FOnKingDeathSignature_DelegateWrapper(const FMulticastScriptD
 }
 
 
+#define MyProjectCpp_Source_MyProjectCpp_King_h_16_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_King_h_16_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execDie) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Die(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execDie);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_King_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execDie) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Die(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execDie);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_King_h_16_INCLASS_NO_PURE_DECLS \
@@ -54,7 +43,7 @@ private: \
 	static void StaticRegisterNativesAKing(); \
 	friend struct Z_Construct_UClass_AKing_Statics; \
 public: \
-	DECLARE_CLASS(AKing, AStaticMeshActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AKing, AStaticMeshActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AKing)
 
 
@@ -63,7 +52,7 @@ private: \
 	static void StaticRegisterNativesAKing(); \
 	friend struct Z_Construct_UClass_AKing_Statics; \
 public: \
-	DECLARE_CLASS(AKing, AStaticMeshActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AKing, AStaticMeshActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AKing)
 
 
@@ -97,6 +86,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AKing); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_King_h_16_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_King_h_16_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_King_h_16_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_King_h_16_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_King_h_16_STANDARD_CONSTRUCTORS \
@@ -108,6 +98,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_King_h_16_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_King_h_16_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_King_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_King_h_16_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_King_h_16_ENHANCED_CONSTRUCTORS \

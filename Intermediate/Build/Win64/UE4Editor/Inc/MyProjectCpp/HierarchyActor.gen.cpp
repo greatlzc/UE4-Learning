@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -70,7 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeHierarchyActor() {}
 		{ "ModuleRelativePath", "HierarchyActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxTwo = { "BoxTwo", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHierarchyActor, BoxTwo), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxTwo_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxTwo_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxTwo = { "BoxTwo", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHierarchyActor, BoxTwo), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxTwo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxTwo_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxOne_MetaData[] = {
 		{ "Category", "HierarchyActor" },
@@ -78,7 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeHierarchyActor() {}
 		{ "ModuleRelativePath", "HierarchyActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxOne = { "BoxOne", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHierarchyActor, BoxOne), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxOne_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxOne_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxOne = { "BoxOne", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHierarchyActor, BoxOne), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxOne_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxOne_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHierarchyActor_Statics::NewProp_ChildSceneComponent_MetaData[] = {
 		{ "Category", "HierarchyActor" },
@@ -86,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeHierarchyActor() {}
 		{ "ModuleRelativePath", "HierarchyActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHierarchyActor_Statics::NewProp_ChildSceneComponent = { "ChildSceneComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHierarchyActor, ChildSceneComponent), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_ChildSceneComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_ChildSceneComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHierarchyActor_Statics::NewProp_ChildSceneComponent = { "ChildSceneComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHierarchyActor, ChildSceneComponent), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_ChildSceneComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_ChildSceneComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHierarchyActor_Statics::NewProp_Root_MetaData[] = {
 		{ "Category", "HierarchyActor" },
@@ -94,7 +94,7 @@ void EmptyLinkFunctionForGeneratedCodeHierarchyActor() {}
 		{ "ModuleRelativePath", "HierarchyActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHierarchyActor_Statics::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHierarchyActor, Root), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_Root_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_Root_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHierarchyActor_Statics::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHierarchyActor, Root), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_Root_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::NewProp_Root_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHierarchyActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxTwo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHierarchyActor_Statics::NewProp_BoxOne,
@@ -106,18 +106,18 @@ void EmptyLinkFunctionForGeneratedCodeHierarchyActor() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AHierarchyActor_Statics::ClassParams = {
 		&AHierarchyActor::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_AHierarchyActor_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AHierarchyActor_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AHierarchyActor_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AHierarchyActor_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AHierarchyActor()
 	{
@@ -128,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeHierarchyActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHierarchyActor, 838873406);
+	IMPLEMENT_CLASS(AHierarchyActor, 1511351707);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AHierarchyActor>()
 	{
 		return AHierarchyActor::StaticClass();

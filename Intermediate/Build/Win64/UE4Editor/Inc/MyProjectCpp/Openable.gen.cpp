@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,8 +17,14 @@ void EmptyLinkFunctionForGeneratedCodeOpenable() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UOpenable();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UInterface();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UOpenable_Open();
 // End Cross Module References
+	DEFINE_FUNCTION(IOpenable::execOpen)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Open_Implementation();
+		P_NATIVE_END;
+	}
 	void IOpenable::Open()
 	{
 		check(0 && "Do not directly call Event functions in Interfaces. Call Execute_Open instead.");
@@ -29,7 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenable() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Open", &IOpenable::execOpen },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_UOpenable_Open_Statics
 	{
@@ -44,7 +50,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenable() {}
 		{ "ModuleRelativePath", "Openable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UOpenable_Open_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOpenable, nullptr, "Open", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UOpenable_Open_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UOpenable_Open_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UOpenable_Open_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOpenable, nullptr, "Open", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UOpenable_Open_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UOpenable_Open_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UOpenable_Open()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -73,7 +79,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenable() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UOpenable_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOpenable_Open, "Open" }, // 3209399525
+		{ &Z_Construct_UFunction_UOpenable_Open, "Open" }, // 2700242748
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOpenable_Statics::Class_MetaDataParams[] = {
@@ -91,12 +97,12 @@ void EmptyLinkFunctionForGeneratedCodeOpenable() {}
 		FuncInfo,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x000840A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UOpenable_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UOpenable_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UOpenable_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UOpenable_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UOpenable()
 	{
@@ -107,7 +113,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UOpenable, 743903335);
+	IMPLEMENT_CLASS(UOpenable, 2863449782);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UOpenable>()
 	{
 		return UOpenable::StaticClass();

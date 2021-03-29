@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -14,65 +14,22 @@ class APawn;
 #endif
 #define MYPROJECTCPP_Wearable_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_RPC_WRAPPERS \
 	virtual void OnEquip_Implementation(APawn* Wearer) {}; \
 	virtual bool CanEquip_Implementation(APawn* Wearer) { return false; }; \
 	virtual int32 GetStrengthRequirement_Implementation() { return 0; }; \
  \
-	DECLARE_FUNCTION(execOnEquip) \
-	{ \
-		P_GET_OBJECT(APawn,Z_Param_Wearer); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnEquip_Implementation(Z_Param_Wearer); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execCanEquip) \
-	{ \
-		P_GET_OBJECT(APawn,Z_Param_Wearer); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->CanEquip_Implementation(Z_Param_Wearer); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetStrengthRequirement) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(int32*)Z_Param__Result=P_THIS->GetStrengthRequirement_Implementation(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execOnEquip); \
+	DECLARE_FUNCTION(execCanEquip); \
+	DECLARE_FUNCTION(execGetStrengthRequirement);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnEquip) \
-	{ \
-		P_GET_OBJECT(APawn,Z_Param_Wearer); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnEquip_Implementation(Z_Param_Wearer); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execCanEquip) \
-	{ \
-		P_GET_OBJECT(APawn,Z_Param_Wearer); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->CanEquip_Implementation(Z_Param_Wearer); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetStrengthRequirement) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(int32*)Z_Param__Result=P_THIS->GetStrengthRequirement_Implementation(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execOnEquip); \
+	DECLARE_FUNCTION(execCanEquip); \
+	DECLARE_FUNCTION(execGetStrengthRequirement);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_EVENT_PARMS \
@@ -185,6 +142,7 @@ public: \
 #define MyProjectCpp_Source_MyProjectCpp_Wearable_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_CALLBACK_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_INCLASS_IINTERFACE \
@@ -195,6 +153,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define MyProjectCpp_Source_MyProjectCpp_Wearable_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_CALLBACK_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Wearable_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \

@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -21,7 +21,6 @@ void EmptyLinkFunctionForGeneratedCodeMyUserProfile() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UMyUserProfile_NoRegister();
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UMyUserProfile();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UMyUserProfile_ToString();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FSoftClassPath();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
@@ -40,7 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeMyUserProfile() {}
 		return Status_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_Status(Status_StaticEnum, TEXT("/Script/MyProjectCpp"), TEXT("Status"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_MyProjectCpp_Status_Hash() { return 2639969886U; }
+	uint32 Get_Z_Construct_UEnum_MyProjectCpp_Status_Hash() { return 2448442877U; }
 	UEnum* Z_Construct_UEnum_MyProjectCpp_Status()
 	{
 #if WITH_HOT_RELOAD
@@ -59,9 +58,12 @@ void EmptyLinkFunctionForGeneratedCodeMyUserProfile() {}
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "Attacking.DisplayName", "Attacking" },
+				{ "Attacking.Name", "Attacking" },
 				{ "ModuleRelativePath", "MyUserProfile.h" },
 				{ "Moving.DisplayName", "Moving" },
+				{ "Moving.Name", "Moving" },
 				{ "Stopped.DisplayName", "Stopped" },
+				{ "Stopped.Name", "Stopped" },
 			};
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
@@ -70,11 +72,11 @@ void EmptyLinkFunctionForGeneratedCodeMyUserProfile() {}
 				"Status",
 				"Status",
 				Enumerators,
-				ARRAY_COUNT(Enumerators),
+				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::Regular,
-				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
 			};
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
 		}
@@ -135,14 +137,14 @@ static struct FScriptStruct_MyProjectCpp_StaticRegisterNativesFColoredTexture
 		{ "ModuleRelativePath", "MyUserProfile.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Color = { "Color", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FColoredTexture, Color), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Color_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Color_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Color = { "Color", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FColoredTexture, Color), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Color_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Color_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Texture_MetaData[] = {
 		{ "Category", "HUD" },
 		{ "ModuleRelativePath", "MyUserProfile.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Texture = { "Texture", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FColoredTexture, Texture), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Texture_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Texture_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Texture = { "Texture", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FColoredTexture, Texture), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Texture_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Texture_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FColoredTexture_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Color,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FColoredTexture_Statics::NewProp_Texture,
@@ -155,10 +157,10 @@ static struct FScriptStruct_MyProjectCpp_StaticRegisterNativesFColoredTexture
 		sizeof(FColoredTexture),
 		alignof(FColoredTexture),
 		Z_Construct_UScriptStruct_FColoredTexture_Statics::PropPointers,
-		ARRAY_COUNT(Z_Construct_UScriptStruct_FColoredTexture_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColoredTexture_Statics::PropPointers),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FColoredTexture_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FColoredTexture_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FColoredTexture_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColoredTexture_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FColoredTexture()
 	{
@@ -175,14 +177,21 @@ static struct FScriptStruct_MyProjectCpp_StaticRegisterNativesFColoredTexture
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FColoredTexture_Hash() { return 2138847294U; }
+	uint32 Get_Z_Construct_UScriptStruct_FColoredTexture_Hash() { return 2855799595U; }
+	DEFINE_FUNCTION(UMyUserProfile::execToString)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FString*)Z_Param__Result=P_THIS->ToString();
+		P_NATIVE_END;
+	}
 	void UMyUserProfile::StaticRegisterNativesUMyUserProfile()
 	{
 		UClass* Class = UMyUserProfile::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ToString", &UMyUserProfile::execToString },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_UMyUserProfile_ToString_Statics
 	{
@@ -207,7 +216,7 @@ static struct FScriptStruct_MyProjectCpp_StaticRegisterNativesFColoredTexture
 		{ "ModuleRelativePath", "MyUserProfile.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyUserProfile_ToString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyUserProfile, nullptr, "ToString", sizeof(MyUserProfile_eventToString_Parms), Z_Construct_UFunction_UMyUserProfile_ToString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UMyUserProfile_ToString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyUserProfile_ToString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyUserProfile_ToString_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyUserProfile_ToString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyUserProfile, nullptr, "ToString", nullptr, nullptr, sizeof(MyUserProfile_eventToString_Parms), Z_Construct_UFunction_UMyUserProfile_ToString_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyUserProfile_ToString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyUserProfile_ToString_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyUserProfile_ToString_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UMyUserProfile_ToString()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -257,11 +266,12 @@ static struct FScriptStruct_MyProjectCpp_StaticRegisterNativesFColoredTexture
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyUserProfile_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMyUserProfile_ToString, "ToString" }, // 1133818310
+		{ &Z_Construct_UFunction_UMyUserProfile_ToString, "ToString" }, // 2272621475
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyUserProfile_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+		{ "Comment", "/**\n * my user profile\n */" },
 		{ "IncludePath", "MyUserProfile.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "MyUserProfile.h" },
@@ -274,37 +284,38 @@ static struct FScriptStruct_MyProjectCpp_StaticRegisterNativesFColoredTexture
 		{ "ModuleRelativePath", "MyUserProfile.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UMyUserProfile_Statics::NewProp_status = { "status", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyUserProfile, status), Z_Construct_UEnum_MyProjectCpp_Status, METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_status_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_status_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UMyUserProfile_Statics::NewProp_status = { "status", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyUserProfile, status), Z_Construct_UEnum_MyProjectCpp_Status, METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_status_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_status_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Texture_MetaData[] = {
 		{ "Category", "HUD" },
 		{ "ModuleRelativePath", "MyUserProfile.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Texture = { "Texture", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyUserProfile, Texture), Z_Construct_UScriptStruct_FColoredTexture, METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Texture_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Texture_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Texture = { "Texture", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyUserProfile, Texture), Z_Construct_UScriptStruct_FColoredTexture, METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Texture_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Texture_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassGameMode_MetaData[] = {
 		{ "Category", "Unit" },
+		{ "Comment", "//Display any UClass\n" },
 		{ "MetaClass", "GameMode" },
 		{ "ModuleRelativePath", "MyUserProfile.h" },
 		{ "ToolTip", "Display any UClass" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassGameMode = { "UClassGameMode", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyUserProfile, UClassGameMode), Z_Construct_UScriptStruct_FSoftClassPath, METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassGameMode_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassGameMode_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassGameMode = { "UClassGameMode", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyUserProfile, UClassGameMode), Z_Construct_UScriptStruct_FSoftClassPath, METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassGameMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassGameMode_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassOfPlayer_MetaData[] = {
 		{ "Category", "Unit" },
 		{ "ModuleRelativePath", "MyUserProfile.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassOfPlayer = { "UClassOfPlayer", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyUserProfile, UClassOfPlayer), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassOfPlayer_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassOfPlayer_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassOfPlayer = { "UClassOfPlayer", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyUserProfile, UClassOfPlayer), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassOfPlayer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_UClassOfPlayer_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Name_MetaData[] = {
 		{ "Category", "Stat" },
 		{ "ModuleRelativePath", "MyUserProfile.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyUserProfile, Name), METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Name_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Name_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyUserProfile, Name), METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Name_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Name_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyUserProfile_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyUserProfile_Statics::NewProp_status,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyUserProfile_Statics::NewProp_Texture,
@@ -323,12 +334,12 @@ static struct FScriptStruct_MyProjectCpp_StaticRegisterNativesFColoredTexture
 		FuncInfo,
 		Z_Construct_UClass_UMyUserProfile_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::PropPointers),
 		0,
 		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UMyUserProfile_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UMyUserProfile_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UMyUserProfile()
 	{
@@ -339,7 +350,7 @@ static struct FScriptStruct_MyProjectCpp_StaticRegisterNativesFColoredTexture
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyUserProfile, 883789314);
+	IMPLEMENT_CLASS(UMyUserProfile, 3978059918);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UMyUserProfile>()
 	{
 		return UMyUserProfile::StaticClass();

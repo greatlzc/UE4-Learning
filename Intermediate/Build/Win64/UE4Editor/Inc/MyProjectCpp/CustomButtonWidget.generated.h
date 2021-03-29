@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -33,6 +33,7 @@ static inline FString FGetString_DelegateWrapper(const FScriptDelegate& GetStrin
 }
 
 
+#define MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_RPC_WRAPPERS
 #define MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_RPC_WRAPPERS_NO_PURE_DECLS
 #define MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_INCLASS_NO_PURE_DECLS \
@@ -83,6 +84,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCustomButtonWidget); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_STANDARD_CONSTRUCTORS \
@@ -94,6 +96,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_CustomButtonWidget_h_20_ENHANCED_CONSTRUCTORS \

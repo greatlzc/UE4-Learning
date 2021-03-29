@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -46,6 +46,7 @@ void EmptyLinkFunctionForGeneratedCodeOnConstructionActor() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOnConstructionActor_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Input" },
 		{ "IncludePath", "OnConstructionActor.h" },
 		{ "ModuleRelativePath", "OnConstructionActor.h" },
@@ -62,7 +63,7 @@ void EmptyLinkFunctionForGeneratedCodeOnConstructionActor() {}
 	{
 		((AOnConstructionActor*)Obj)->ShowStaticMesh = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AOnConstructionActor_Statics::NewProp_ShowStaticMesh = { "ShowStaticMesh", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AOnConstructionActor), &Z_Construct_UClass_AOnConstructionActor_Statics::NewProp_ShowStaticMesh_SetBit, METADATA_PARAMS(Z_Construct_UClass_AOnConstructionActor_Statics::NewProp_ShowStaticMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AOnConstructionActor_Statics::NewProp_ShowStaticMesh_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AOnConstructionActor_Statics::NewProp_ShowStaticMesh = { "ShowStaticMesh", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AOnConstructionActor), &Z_Construct_UClass_AOnConstructionActor_Statics::NewProp_ShowStaticMesh_SetBit, METADATA_PARAMS(Z_Construct_UClass_AOnConstructionActor_Statics::NewProp_ShowStaticMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOnConstructionActor_Statics::NewProp_ShowStaticMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AOnConstructionActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOnConstructionActor_Statics::NewProp_ShowStaticMesh,
 	};
@@ -71,18 +72,18 @@ void EmptyLinkFunctionForGeneratedCodeOnConstructionActor() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AOnConstructionActor_Statics::ClassParams = {
 		&AOnConstructionActor::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_AOnConstructionActor_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_AOnConstructionActor_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AOnConstructionActor_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AOnConstructionActor_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AOnConstructionActor_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AOnConstructionActor_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AOnConstructionActor_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AOnConstructionActor()
 	{
@@ -93,7 +94,7 @@ void EmptyLinkFunctionForGeneratedCodeOnConstructionActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AOnConstructionActor, 3487968387);
+	IMPLEMENT_CLASS(AOnConstructionActor, 3952929326);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AOnConstructionActor>()
 	{
 		return AOnConstructionActor::StaticClass();

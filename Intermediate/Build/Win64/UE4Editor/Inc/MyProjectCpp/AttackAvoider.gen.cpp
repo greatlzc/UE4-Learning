@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeAttackAvoider() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UAttackAvoider();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UInterface();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UAttackAvoider_AttackIncoming();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void IAttackAvoider::AttackIncoming(AActor* AttackActor)
@@ -46,7 +45,7 @@ void EmptyLinkFunctionForGeneratedCodeAttackAvoider() {}
 		{ "ModuleRelativePath", "AttackAvoider.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAttackAvoider_AttackIncoming_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAttackAvoider, nullptr, "AttackIncoming", sizeof(AttackAvoider_eventAttackIncoming_Parms), Z_Construct_UFunction_UAttackAvoider_AttackIncoming_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAttackAvoider_AttackIncoming_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAttackAvoider_AttackIncoming_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAttackAvoider_AttackIncoming_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAttackAvoider_AttackIncoming_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAttackAvoider, nullptr, "AttackIncoming", nullptr, nullptr, sizeof(AttackAvoider_eventAttackIncoming_Parms), Z_Construct_UFunction_UAttackAvoider_AttackIncoming_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UAttackAvoider_AttackIncoming_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAttackAvoider_AttackIncoming_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UAttackAvoider_AttackIncoming_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAttackAvoider_AttackIncoming()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -75,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeAttackAvoider() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAttackAvoider_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UAttackAvoider_AttackIncoming, "AttackIncoming" }, // 115303784
+		{ &Z_Construct_UFunction_UAttackAvoider_AttackIncoming, "AttackIncoming" }, // 294084348
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAttackAvoider_Statics::Class_MetaDataParams[] = {
@@ -93,12 +92,12 @@ void EmptyLinkFunctionForGeneratedCodeAttackAvoider() {}
 		FuncInfo,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x000840A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UAttackAvoider_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UAttackAvoider_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UAttackAvoider_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UAttackAvoider_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UAttackAvoider()
 	{
@@ -109,7 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeAttackAvoider() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAttackAvoider, 1939840699);
+	IMPLEMENT_CLASS(UAttackAvoider, 2539987612);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UAttackAvoider>()
 	{
 		return UAttackAvoider::StaticClass();

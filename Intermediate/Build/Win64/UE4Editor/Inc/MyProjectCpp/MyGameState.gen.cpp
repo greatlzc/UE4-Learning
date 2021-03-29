@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,9 +17,22 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_AMyGameState();
 	ENGINE_API UClass* Z_Construct_UClass_AGameState();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AMyGameState_GetScore();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AMyGameState_SetScore();
 // End Cross Module References
+	DEFINE_FUNCTION(AMyGameState::execGetScore)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->GetScore();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AMyGameState::execSetScore)
+	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_NewScore);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetScore(Z_Param_NewScore);
+		P_NATIVE_END;
+	}
 	void AMyGameState::StaticRegisterNativesAMyGameState()
 	{
 		UClass* Class = AMyGameState::StaticClass();
@@ -27,7 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 			{ "GetScore", &AMyGameState::execGetScore },
 			{ "SetScore", &AMyGameState::execSetScore },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_AMyGameState_GetScore_Statics
 	{
@@ -51,7 +64,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 		{ "ModuleRelativePath", "MyGameState.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyGameState_GetScore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyGameState, nullptr, "GetScore", sizeof(MyGameState_eventGetScore_Parms), Z_Construct_UFunction_AMyGameState_GetScore_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMyGameState_GetScore_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyGameState_GetScore_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMyGameState_GetScore_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyGameState_GetScore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyGameState, nullptr, "GetScore", nullptr, nullptr, sizeof(MyGameState_eventGetScore_Parms), Z_Construct_UFunction_AMyGameState_GetScore_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyGameState_GetScore_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyGameState_GetScore_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyGameState_GetScore_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMyGameState_GetScore()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -83,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 		{ "ModuleRelativePath", "MyGameState.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyGameState_SetScore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyGameState, nullptr, "SetScore", sizeof(MyGameState_eventSetScore_Parms), Z_Construct_UFunction_AMyGameState_SetScore_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMyGameState_SetScore_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyGameState_SetScore_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMyGameState_SetScore_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyGameState_SetScore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyGameState, nullptr, "SetScore", nullptr, nullptr, sizeof(MyGameState_eventSetScore_Parms), Z_Construct_UFunction_AMyGameState_SetScore_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyGameState_SetScore_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyGameState_SetScore_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyGameState_SetScore_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMyGameState_SetScore()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -117,11 +130,12 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMyGameState_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMyGameState_GetScore, "GetScore" }, // 1808008775
-		{ &Z_Construct_UFunction_AMyGameState_SetScore, "SetScore" }, // 1419544838
+		{ &Z_Construct_UFunction_AMyGameState_GetScore, "GetScore" }, // 2294507063
+		{ &Z_Construct_UFunction_AMyGameState_SetScore, "SetScore" }, // 2427531169
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyGameState_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "MyGameState.h" },
 		{ "ModuleRelativePath", "MyGameState.h" },
@@ -133,7 +147,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 		{ "ModuleRelativePath", "MyGameState.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMyGameState_Statics::NewProp_CurrentScore = { "CurrentScore", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameState, CurrentScore), METADATA_PARAMS(Z_Construct_UClass_AMyGameState_Statics::NewProp_CurrentScore_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyGameState_Statics::NewProp_CurrentScore_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMyGameState_Statics::NewProp_CurrentScore = { "CurrentScore", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameState, CurrentScore), METADATA_PARAMS(Z_Construct_UClass_AMyGameState_Statics::NewProp_CurrentScore_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameState_Statics::NewProp_CurrentScore_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyGameState_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameState_Statics::NewProp_CurrentScore,
 	};
@@ -142,18 +156,18 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AMyGameState_Statics::ClassParams = {
 		&AMyGameState::StaticClass,
-		nullptr,
+		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
 		Z_Construct_UClass_AMyGameState_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_AMyGameState_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameState_Statics::PropPointers),
 		0,
-		0x009002A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AMyGameState_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AMyGameState_Statics::Class_MetaDataParams))
+		0x009002A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AMyGameState_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameState_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AMyGameState()
 	{
@@ -164,7 +178,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyGameState, 3110736261);
+	IMPLEMENT_CLASS(AMyGameState, 2995887542);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AMyGameState>()
 	{
 		return AMyGameState::StaticClass();

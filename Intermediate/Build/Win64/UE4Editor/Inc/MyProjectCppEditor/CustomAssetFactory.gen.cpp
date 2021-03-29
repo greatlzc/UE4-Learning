@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomAssetFactory() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCustomAssetFactory_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "CustomAssetFactory.h" },
 		{ "ModuleRelativePath", "CustomAssetFactory.h" },
 	};
@@ -55,12 +56,12 @@ void EmptyLinkFunctionForGeneratedCodeCustomAssetFactory() {}
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
 		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UCustomAssetFactory_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UCustomAssetFactory_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UCustomAssetFactory_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UCustomAssetFactory_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UCustomAssetFactory()
 	{
@@ -71,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomAssetFactory() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCustomAssetFactory, 423406291);
+	IMPLEMENT_CLASS(UCustomAssetFactory, 4167972728);
 	template<> MYPROJECTCPPEDITOR_API UClass* StaticClass<UCustomAssetFactory>()
 	{
 		return UCustomAssetFactory::StaticClass();

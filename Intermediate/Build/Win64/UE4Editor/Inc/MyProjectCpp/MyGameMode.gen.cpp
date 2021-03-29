@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,12 +17,24 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_AMyGameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameMode();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AMyGameMode_ButtonClicked();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AMyGameMode_DestroyActorFunction();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UMyUserProfile_NoRegister();
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_AMyFirstActor_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AMyGameMode::execButtonClicked)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ButtonClicked();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AMyGameMode::execDestroyActorFunction)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->DestroyActorFunction();
+		P_NATIVE_END;
+	}
 	void AMyGameMode::StaticRegisterNativesAMyGameMode()
 	{
 		UClass* Class = AMyGameMode::StaticClass();
@@ -30,7 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 			{ "ButtonClicked", &AMyGameMode::execButtonClicked },
 			{ "DestroyActorFunction", &AMyGameMode::execDestroyActorFunction },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics
 	{
@@ -45,7 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 		{ "ModuleRelativePath", "MyGameMode.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyGameMode, nullptr, "ButtonClicked", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyGameMode, nullptr, "ButtonClicked", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyGameMode_ButtonClicked_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMyGameMode_ButtonClicked()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -67,7 +79,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 		{ "ModuleRelativePath", "MyGameMode.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyGameMode_DestroyActorFunction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyGameMode, nullptr, "DestroyActorFunction", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyGameMode_DestroyActorFunction_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMyGameMode_DestroyActorFunction_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyGameMode_DestroyActorFunction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyGameMode, nullptr, "DestroyActorFunction", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyGameMode_DestroyActorFunction_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyGameMode_DestroyActorFunction_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMyGameMode_DestroyActorFunction()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -105,8 +117,8 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMyGameMode_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMyGameMode_ButtonClicked, "ButtonClicked" }, // 1189765480
-		{ &Z_Construct_UFunction_AMyGameMode_DestroyActorFunction, "DestroyActorFunction" }, // 3359240378
+		{ &Z_Construct_UFunction_AMyGameMode_ButtonClicked, "ButtonClicked" }, // 520692923
+		{ &Z_Construct_UFunction_AMyGameMode_DestroyActorFunction, "DestroyActorFunction" }, // 2363642970
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyGameMode_Statics::Class_MetaDataParams[] = {
@@ -124,13 +136,13 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 		{ "ModuleRelativePath", "MyGameMode.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyGameMode_Statics::NewProp_UPClassName = { "UPClassName", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameMode, UPClassName), Z_Construct_UClass_UMyUserProfile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyGameMode_Statics::NewProp_UPClassName_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyGameMode_Statics::NewProp_UPClassName_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyGameMode_Statics::NewProp_UPClassName = { "UPClassName", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameMode, UPClassName), Z_Construct_UClass_UMyUserProfile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyGameMode_Statics::NewProp_UPClassName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameMode_Statics::NewProp_UPClassName_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyGameMode_Statics::NewProp_SpawnedActor_MetaData[] = {
 		{ "ModuleRelativePath", "MyGameMode.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyGameMode_Statics::NewProp_SpawnedActor = { "SpawnedActor", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameMode, SpawnedActor), Z_Construct_UClass_AMyFirstActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyGameMode_Statics::NewProp_SpawnedActor_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyGameMode_Statics::NewProp_SpawnedActor_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyGameMode_Statics::NewProp_SpawnedActor = { "SpawnedActor", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameMode, SpawnedActor), Z_Construct_UClass_AMyFirstActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyGameMode_Statics::NewProp_SpawnedActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameMode_Statics::NewProp_SpawnedActor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyGameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameMode_Statics::NewProp_UPClassName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameMode_Statics::NewProp_SpawnedActor,
@@ -146,12 +158,12 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 		FuncInfo,
 		Z_Construct_UClass_AMyGameMode_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_AMyGameMode_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameMode_Statics::PropPointers),
 		0,
 		0x009002ACu,
-		METADATA_PARAMS(Z_Construct_UClass_AMyGameMode_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AMyGameMode_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_AMyGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameMode_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AMyGameMode()
 	{
@@ -162,7 +174,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyGameMode, 1116736587);
+	IMPLEMENT_CLASS(AMyGameMode, 1941906668);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AMyGameMode>()
 	{
 		return AMyGameMode::StaticClass();

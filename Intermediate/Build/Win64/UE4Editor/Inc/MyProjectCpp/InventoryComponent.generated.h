@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -14,46 +14,17 @@ class AInventoryActor;
 #endif
 #define MYPROJECTCPP_InventoryComponent_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execRemoveFromInventory) \
-	{ \
-		P_GET_OBJECT(AInventoryActor,Z_Param_ActorToRemove); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->RemoveFromInventory(Z_Param_ActorToRemove); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execAddToInventory) \
-	{ \
-		P_GET_OBJECT(AInventoryActor,Z_Param_ActorToAdd); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(int32*)Z_Param__Result=P_THIS->AddToInventory(Z_Param_ActorToAdd); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execRemoveFromInventory); \
+	DECLARE_FUNCTION(execAddToInventory);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execRemoveFromInventory) \
-	{ \
-		P_GET_OBJECT(AInventoryActor,Z_Param_ActorToRemove); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->RemoveFromInventory(Z_Param_ActorToRemove); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execAddToInventory) \
-	{ \
-		P_GET_OBJECT(AInventoryActor,Z_Param_ActorToAdd); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(int32*)Z_Param__Result=P_THIS->AddToInventory(Z_Param_ActorToAdd); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execRemoveFromInventory); \
+	DECLARE_FUNCTION(execAddToInventory);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_INCLASS_NO_PURE_DECLS \
@@ -104,6 +75,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInventoryComponent); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_STANDARD_CONSTRUCTORS \
@@ -115,6 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_InventoryComponent_h_13_ENHANCED_CONSTRUCTORS \

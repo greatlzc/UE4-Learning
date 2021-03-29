@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeNonSelectableCube() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANonSelectableCube_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "NonSelectableCube.h" },
 		{ "ModuleRelativePath", "NonSelectableCube.h" },
 	};
@@ -49,18 +50,18 @@ void EmptyLinkFunctionForGeneratedCodeNonSelectableCube() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ANonSelectableCube_Statics::ClassParams = {
 		&ANonSelectableCube::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_ANonSelectableCube_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ANonSelectableCube_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_ANonSelectableCube_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ANonSelectableCube_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ANonSelectableCube()
 	{
@@ -71,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeNonSelectableCube() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANonSelectableCube, 297724940);
+	IMPLEMENT_CLASS(ANonSelectableCube, 3093809211);
 	template<> MYPROJECTCPP_API UClass* StaticClass<ANonSelectableCube>()
 	{
 		return ANonSelectableCube::StaticClass();

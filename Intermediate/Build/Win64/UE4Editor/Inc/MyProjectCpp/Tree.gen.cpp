@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -33,7 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeTree() {}
 		return TreeType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_TreeType(TreeType_StaticEnum, TEXT("/Script/MyProjectCpp"), TEXT("TreeType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_MyProjectCpp_TreeType_Hash() { return 2151533017U; }
+	uint32 Get_Z_Construct_UEnum_MyProjectCpp_TreeType_Hash() { return 2613622818U; }
 	UEnum* Z_Construct_UEnum_MyProjectCpp_TreeType()
 	{
 #if WITH_HOT_RELOAD
@@ -54,6 +54,10 @@ void EmptyLinkFunctionForGeneratedCodeTree() {}
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
 				{ "ModuleRelativePath", "Tree.h" },
+				{ "Tree_Eucalyptus.Name", "Tree_Eucalyptus" },
+				{ "Tree_Poplar.Name", "Tree_Poplar" },
+				{ "Tree_Redwood.Name", "Tree_Redwood" },
+				{ "Tree_Spruce.Name", "Tree_Spruce" },
 			};
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
@@ -62,11 +66,11 @@ void EmptyLinkFunctionForGeneratedCodeTree() {}
 				"TreeType",
 				"TreeType",
 				Enumerators,
-				ARRAY_COUNT(Enumerators),
+				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::Regular,
-				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
 			};
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
 		}
@@ -99,6 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeTree() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATree_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Input" },
 		{ "IncludePath", "Tree.h" },
 		{ "ModuleRelativePath", "Tree.h" },
@@ -111,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeTree() {}
 		{ "ModuleRelativePath", "Tree.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ATree_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATree, Type), Z_Construct_UEnum_MyProjectCpp_TreeType, METADATA_PARAMS(Z_Construct_UClass_ATree_Statics::NewProp_Type_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATree_Statics::NewProp_Type_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ATree_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATree, Type), Z_Construct_UEnum_MyProjectCpp_TreeType, METADATA_PARAMS(Z_Construct_UClass_ATree_Statics::NewProp_Type_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATree_Statics::NewProp_Type_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATree_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATree_Statics::NewProp_Type,
 	};
@@ -120,18 +125,18 @@ void EmptyLinkFunctionForGeneratedCodeTree() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ATree_Statics::ClassParams = {
 		&ATree::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_ATree_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_ATree_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_ATree_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_ATree_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ATree_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_ATree_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ATree_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ATree()
 	{
@@ -142,7 +147,7 @@ void EmptyLinkFunctionForGeneratedCodeTree() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATree, 4135963169);
+	IMPLEMENT_CLASS(ATree, 4239747523);
 	template<> MYPROJECTCPP_API UClass* StaticClass<ATree>()
 	{
 		return ATree::StaticClass();

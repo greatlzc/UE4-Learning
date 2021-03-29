@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -16,38 +16,15 @@ struct FHitResult;
 #endif
 #define MYPROJECTCPP_TalkingPawn_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnTalkOverlap) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_Comp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
-		P_GET_UBOOL(Z_Param_bFromSweep); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnTalkOverlap(Z_Param_Comp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execOnTalkOverlap);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnTalkOverlap) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_Comp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
-		P_GET_UBOOL(Z_Param_bFromSweep); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnTalkOverlap(Z_Param_Comp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execOnTalkOverlap);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_INCLASS_NO_PURE_DECLS \
@@ -55,7 +32,7 @@ private: \
 	static void StaticRegisterNativesATalkingPawn(); \
 	friend struct Z_Construct_UClass_ATalkingPawn_Statics; \
 public: \
-	DECLARE_CLASS(ATalkingPawn, ADefaultPawn, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(ATalkingPawn, ADefaultPawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(ATalkingPawn)
 
 
@@ -64,7 +41,7 @@ private: \
 	static void StaticRegisterNativesATalkingPawn(); \
 	friend struct Z_Construct_UClass_ATalkingPawn_Statics; \
 public: \
-	DECLARE_CLASS(ATalkingPawn, ADefaultPawn, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(ATalkingPawn, ADefaultPawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(ATalkingPawn)
 
 
@@ -98,6 +75,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATalkingPawn); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_STANDARD_CONSTRUCTORS \
@@ -109,6 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_TalkingPawn_h_16_ENHANCED_CONSTRUCTORS \

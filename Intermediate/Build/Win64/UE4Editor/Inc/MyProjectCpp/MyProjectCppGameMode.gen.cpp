@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,18 +51,18 @@ void EmptyLinkFunctionForGeneratedCodeMyProjectCppGameMode() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AMyProjectCppGameMode_Statics::ClassParams = {
 		&AMyProjectCppGameMode::StaticClass,
-		nullptr,
+		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
-		0x008802A8u,
-		METADATA_PARAMS(Z_Construct_UClass_AMyProjectCppGameMode_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AMyProjectCppGameMode_Statics::Class_MetaDataParams))
+		0x008802ACu,
+		METADATA_PARAMS(Z_Construct_UClass_AMyProjectCppGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProjectCppGameMode_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AMyProjectCppGameMode()
 	{
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeMyProjectCppGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyProjectCppGameMode, 4022259132);
+	IMPLEMENT_CLASS(AMyProjectCppGameMode, 188463787);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AMyProjectCppGameMode>()
 	{
 		return AMyProjectCppGameMode::StaticClass();

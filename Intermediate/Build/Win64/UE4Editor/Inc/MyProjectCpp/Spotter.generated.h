@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -14,6 +14,7 @@ class APawn;
 #endif
 #define MYPROJECTCPP_Spotter_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_RPC_WRAPPERS
 #define MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_EVENT_PARMS \
@@ -29,7 +30,7 @@ private: \
 	static void StaticRegisterNativesASpotter(); \
 	friend struct Z_Construct_UClass_ASpotter_Statics; \
 public: \
-	DECLARE_CLASS(ASpotter, AStaticMeshActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(ASpotter, AStaticMeshActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(ASpotter)
 
 
@@ -38,7 +39,7 @@ private: \
 	static void StaticRegisterNativesASpotter(); \
 	friend struct Z_Construct_UClass_ASpotter_Statics; \
 public: \
-	DECLARE_CLASS(ASpotter, AStaticMeshActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(ASpotter, AStaticMeshActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(ASpotter)
 
 
@@ -75,6 +76,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASpotter); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_CALLBACK_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_INCLASS \
@@ -87,6 +89,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_CALLBACK_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Spotter_h_15_INCLASS_NO_PURE_DECLS \

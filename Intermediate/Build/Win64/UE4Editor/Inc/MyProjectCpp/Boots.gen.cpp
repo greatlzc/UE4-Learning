@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -54,18 +54,18 @@ void EmptyLinkFunctionForGeneratedCodeBoots() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ABoots_Statics::ClassParams = {
 		&ABoots::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		nullptr,
 		InterfaceParams,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
-		ARRAY_COUNT(InterfaceParams),
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_ABoots_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ABoots_Statics::Class_MetaDataParams))
+		UE_ARRAY_COUNT(InterfaceParams),
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_ABoots_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABoots_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ABoots()
 	{
@@ -76,7 +76,7 @@ void EmptyLinkFunctionForGeneratedCodeBoots() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABoots, 3373674911);
+	IMPLEMENT_CLASS(ABoots, 1570579133);
 	template<> MYPROJECTCPP_API UClass* StaticClass<ABoots>()
 	{
 		return ABoots::StaticClass();

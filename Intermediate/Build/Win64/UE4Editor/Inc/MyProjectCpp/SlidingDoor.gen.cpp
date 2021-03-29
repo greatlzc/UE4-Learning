@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,16 +17,22 @@ void EmptyLinkFunctionForGeneratedCodeSlidingDoor() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_ASlidingDoor();
 	ENGINE_API UClass* Z_Construct_UClass_AStaticMeshActor();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_ASlidingDoor_Open();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
+	DEFINE_FUNCTION(ASlidingDoor::execOpen)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Open();
+		P_NATIVE_END;
+	}
 	void ASlidingDoor::StaticRegisterNativesASlidingDoor()
 	{
 		UClass* Class = ASlidingDoor::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Open", &ASlidingDoor::execOpen },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_ASlidingDoor_Open_Statics
 	{
@@ -41,7 +47,7 @@ void EmptyLinkFunctionForGeneratedCodeSlidingDoor() {}
 		{ "ModuleRelativePath", "SlidingDoor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASlidingDoor_Open_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASlidingDoor, nullptr, "Open", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASlidingDoor_Open_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASlidingDoor_Open_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASlidingDoor_Open_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASlidingDoor, nullptr, "Open", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASlidingDoor_Open_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ASlidingDoor_Open_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ASlidingDoor_Open()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -80,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeSlidingDoor() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASlidingDoor_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ASlidingDoor_Open, "Open" }, // 2005995375
+		{ &Z_Construct_UFunction_ASlidingDoor_Open, "Open" }, // 2004898757
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASlidingDoor_Statics::Class_MetaDataParams[] = {
@@ -95,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeSlidingDoor() {}
 		{ "ModuleRelativePath", "SlidingDoor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASlidingDoor_Statics::NewProp_TargetLocation = { "TargetLocation", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASlidingDoor, TargetLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ASlidingDoor_Statics::NewProp_TargetLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASlidingDoor_Statics::NewProp_TargetLocation_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASlidingDoor_Statics::NewProp_TargetLocation = { "TargetLocation", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASlidingDoor, TargetLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ASlidingDoor_Statics::NewProp_TargetLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASlidingDoor_Statics::NewProp_TargetLocation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASlidingDoor_Statics::NewProp_IsOpen_MetaData[] = {
 		{ "ModuleRelativePath", "SlidingDoor.h" },
@@ -105,7 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeSlidingDoor() {}
 	{
 		((ASlidingDoor*)Obj)->IsOpen = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ASlidingDoor_Statics::NewProp_IsOpen = { "IsOpen", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ASlidingDoor), &Z_Construct_UClass_ASlidingDoor_Statics::NewProp_IsOpen_SetBit, METADATA_PARAMS(Z_Construct_UClass_ASlidingDoor_Statics::NewProp_IsOpen_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASlidingDoor_Statics::NewProp_IsOpen_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ASlidingDoor_Statics::NewProp_IsOpen = { "IsOpen", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ASlidingDoor), &Z_Construct_UClass_ASlidingDoor_Statics::NewProp_IsOpen_SetBit, METADATA_PARAMS(Z_Construct_UClass_ASlidingDoor_Statics::NewProp_IsOpen_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASlidingDoor_Statics::NewProp_IsOpen_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASlidingDoor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASlidingDoor_Statics::NewProp_TargetLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASlidingDoor_Statics::NewProp_IsOpen,
@@ -115,18 +121,18 @@ void EmptyLinkFunctionForGeneratedCodeSlidingDoor() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ASlidingDoor_Statics::ClassParams = {
 		&ASlidingDoor::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
 		Z_Construct_UClass_ASlidingDoor_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_ASlidingDoor_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_ASlidingDoor_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_ASlidingDoor_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ASlidingDoor_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_ASlidingDoor_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ASlidingDoor_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ASlidingDoor()
 	{
@@ -137,7 +143,7 @@ void EmptyLinkFunctionForGeneratedCodeSlidingDoor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASlidingDoor, 754985011);
+	IMPLEMENT_CLASS(ASlidingDoor, 214373849);
 	template<> MYPROJECTCPP_API UClass* StaticClass<ASlidingDoor>()
 	{
 		return ASlidingDoor::StaticClass();

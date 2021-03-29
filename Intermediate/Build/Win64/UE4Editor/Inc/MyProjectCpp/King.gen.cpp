@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -18,7 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeKing() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_AKing_NoRegister();
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_AKing();
 	ENGINE_API UClass* Z_Construct_UClass_AStaticMeshActor();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AKing_Die();
 // End Cross Module References
 	struct Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics
 	{
@@ -39,10 +38,11 @@ void EmptyLinkFunctionForGeneratedCodeKing() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "ModuleRelativePath", "King.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_MyProjectCpp, nullptr, "OnKingDeathSignature__DelegateSignature", sizeof(_Script_MyProjectCpp_eventOnKingDeathSignature_Parms), Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_MyProjectCpp, nullptr, "OnKingDeathSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_MyProjectCpp_eventOnKingDeathSignature_Parms), Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -52,13 +52,20 @@ void EmptyLinkFunctionForGeneratedCodeKing() {}
 		}
 		return ReturnFunction;
 	}
+	DEFINE_FUNCTION(AKing::execDie)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Die();
+		P_NATIVE_END;
+	}
 	void AKing::StaticRegisterNativesAKing()
 	{
 		UClass* Class = AKing::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Die", &AKing::execDie },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_AKing_Die_Statics
 	{
@@ -73,7 +80,7 @@ void EmptyLinkFunctionForGeneratedCodeKing() {}
 		{ "ModuleRelativePath", "King.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AKing_Die_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AKing, nullptr, "Die", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AKing_Die_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AKing_Die_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AKing_Die_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AKing, nullptr, "Die", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AKing_Die_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AKing_Die_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AKing_Die()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -107,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeKing() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AKing_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AKing_Die, "Die" }, // 330758249
+		{ &Z_Construct_UFunction_AKing_Die, "Die" }, // 1723394704
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AKing_Statics::Class_MetaDataParams[] = {
@@ -122,7 +129,7 @@ void EmptyLinkFunctionForGeneratedCodeKing() {}
 		{ "ModuleRelativePath", "King.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AKing_Statics::NewProp_OnKingDeath = { "OnKingDeath", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKing, OnKingDeath), Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AKing_Statics::NewProp_OnKingDeath_MetaData, ARRAY_COUNT(Z_Construct_UClass_AKing_Statics::NewProp_OnKingDeath_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AKing_Statics::NewProp_OnKingDeath = { "OnKingDeath", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKing, OnKingDeath), Z_Construct_UDelegateFunction_MyProjectCpp_OnKingDeathSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AKing_Statics::NewProp_OnKingDeath_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AKing_Statics::NewProp_OnKingDeath_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AKing_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKing_Statics::NewProp_OnKingDeath,
 	};
@@ -131,18 +138,18 @@ void EmptyLinkFunctionForGeneratedCodeKing() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AKing_Statics::ClassParams = {
 		&AKing::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
 		Z_Construct_UClass_AKing_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_AKing_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AKing_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AKing_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AKing_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AKing_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AKing_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AKing()
 	{
@@ -153,7 +160,7 @@ void EmptyLinkFunctionForGeneratedCodeKing() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AKing, 83044934);
+	IMPLEMENT_CLASS(AKing, 1534464498);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AKing>()
 	{
 		return AKing::StaticClass();

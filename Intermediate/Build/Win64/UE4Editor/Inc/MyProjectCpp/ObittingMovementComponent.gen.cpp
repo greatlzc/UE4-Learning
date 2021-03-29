@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -66,13 +66,13 @@ void EmptyLinkFunctionForGeneratedCodeObittingMovementComponent() {}
 		{ "ModuleRelativePath", "ObittingMovementComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_OrbitDistance = { "OrbitDistance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UObittingMovementComponent, OrbitDistance), METADATA_PARAMS(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_OrbitDistance_MetaData, ARRAY_COUNT(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_OrbitDistance_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_OrbitDistance = { "OrbitDistance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UObittingMovementComponent, OrbitDistance), METADATA_PARAMS(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_OrbitDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_OrbitDistance_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotationSpeed_MetaData[] = {
 		{ "ModuleRelativePath", "ObittingMovementComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotationSpeed = { "RotationSpeed", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UObittingMovementComponent, RotationSpeed), METADATA_PARAMS(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotationSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotationSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotationSpeed = { "RotationSpeed", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UObittingMovementComponent, RotationSpeed), METADATA_PARAMS(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotationSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotationSpeed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotateToFaceOutwards_MetaData[] = {
 		{ "ModuleRelativePath", "ObittingMovementComponent.h" },
@@ -82,7 +82,7 @@ void EmptyLinkFunctionForGeneratedCodeObittingMovementComponent() {}
 	{
 		((UObittingMovementComponent*)Obj)->RotateToFaceOutwards = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotateToFaceOutwards = { "RotateToFaceOutwards", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UObittingMovementComponent), &Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotateToFaceOutwards_SetBit, METADATA_PARAMS(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotateToFaceOutwards_MetaData, ARRAY_COUNT(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotateToFaceOutwards_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotateToFaceOutwards = { "RotateToFaceOutwards", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UObittingMovementComponent), &Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotateToFaceOutwards_SetBit, METADATA_PARAMS(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotateToFaceOutwards_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotateToFaceOutwards_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UObittingMovementComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_OrbitDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UObittingMovementComponent_Statics::NewProp_RotationSpeed,
@@ -99,12 +99,12 @@ void EmptyLinkFunctionForGeneratedCodeObittingMovementComponent() {}
 		nullptr,
 		Z_Construct_UClass_UObittingMovementComponent_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_UObittingMovementComponent_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_UObittingMovementComponent_Statics::PropPointers),
 		0,
 		0x00B000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_UObittingMovementComponent_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UObittingMovementComponent_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UObittingMovementComponent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UObittingMovementComponent_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UObittingMovementComponent()
 	{
@@ -115,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeObittingMovementComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UObittingMovementComponent, 1711818668);
+	IMPLEMENT_CLASS(UObittingMovementComponent, 2054163723);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UObittingMovementComponent>()
 	{
 		return UObittingMovementComponent::StaticClass();

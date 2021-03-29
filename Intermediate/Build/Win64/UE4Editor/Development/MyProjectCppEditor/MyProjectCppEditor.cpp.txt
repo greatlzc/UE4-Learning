@@ -1,22 +1,29 @@
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\LevelEditor\Public\LevelEditor.h
-d:\program files\epic games\ue_4.22\engine\source\editor\leveleditor\public\ILevelEditor.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\AssetThumbnail.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkitHost.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkit.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorManager.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/BaseToolkit.h
-d:\program files\epic games\ue_4.22\engine\source\editor\leveleditor\public\ViewportTypeDefinition.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor/MainFrame/Public/Interfaces/IMainFrameModule.h
-f:\ue projects\myprojectcpp\source\myprojectcppeditor\MyCustomAssetActions.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Developer\AssetTools\Public\AssetTypeActions_Base.h
-d:\program files\epic games\ue_4.22\engine\source\developer\assettools\public\IAssetTools.h
-d:\program files\epic games\ue_4.22\engine\source\developer\assettools\public\AssetTypeCategories.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\AutomatedAssetImportData.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\AutomatedAssetImportData.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\AssetRegistry\Public\ARFilter.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\ARFilter.generated.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools\IAssetTools.generated.h
-d:\program files\epic games\ue_4.22\engine\source\developer\assettools\public\AssetToolsModule.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Toolkits/SimpleAssetEditor.h
-D:\Program Files\Epic Games\UE_4.22\Engine\Source\Editor/PropertyEditor/Public/PropertyEditorDelegates.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor\LevelEditor\Public\LevelEditor.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor\LevelEditor\Public\ILevelEditor.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor\UnrealEd\Public\AssetThumbnail.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor\UnrealEd\Public\Toolkits/BaseToolkit.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor\UnrealEd\Public\Subsystems/AssetEditorSubsystem.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Messaging\Public\IMessageContext.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\MessagingCommon\Public\MessageEndpoint.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Messaging\Public\IMessageAttachment.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Messaging\Public\IMessageBus.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Messaging\Public\IMessageHandler.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Messaging\Public\IMessageReceiver.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Messaging\Public\IMessageSender.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\Messaging\Public\IMessageBusListener.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\AssetEditorSubsystem.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor\LevelEditor\Public\ViewportTypeDefinition.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor/MainFrame/Public/Interfaces/IMainFrameModule.h
+F:\UE Projects\MyProjectCpp\Source\MyProjectCppEditor\MyCustomAssetActions.h
+E:\Epic Games\UE_4.25\Engine\Source\Developer\AssetTools\Public\AssetTypeActions_Base.h
+E:\Epic Games\UE_4.25\Engine\Source\Developer\AssetTools\Public\IAssetTools.h
+E:\Epic Games\UE_4.25\Engine\Source\Developer\AssetTools\Public\AssetTypeCategories.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor\UnrealEd\Public\AutomatedAssetImportData.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\AutomatedAssetImportData.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\AssetRegistry\Public\ARFilter.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\ARFilter.generated.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools\IAssetTools.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Developer\AssetTools\Public\AssetToolsModule.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorManager.h
+E:\Epic Games\UE_4.25\Engine\Source\Editor\UnrealEd\Public\Toolkits/SimpleAssetEditor.h

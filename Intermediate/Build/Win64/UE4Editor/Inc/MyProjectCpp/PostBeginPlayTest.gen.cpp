@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -54,18 +54,18 @@ void EmptyLinkFunctionForGeneratedCodePostBeginPlayTest() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_APostBeginPlayTest_Statics::ClassParams = {
 		&APostBeginPlayTest::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		nullptr,
 		InterfaceParams,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
-		ARRAY_COUNT(InterfaceParams),
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_APostBeginPlayTest_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_APostBeginPlayTest_Statics::Class_MetaDataParams))
+		UE_ARRAY_COUNT(InterfaceParams),
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_APostBeginPlayTest_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APostBeginPlayTest_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_APostBeginPlayTest()
 	{
@@ -76,7 +76,7 @@ void EmptyLinkFunctionForGeneratedCodePostBeginPlayTest() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APostBeginPlayTest, 2445034776);
+	IMPLEMENT_CLASS(APostBeginPlayTest, 270837292);
 	template<> MYPROJECTCPP_API UClass* StaticClass<APostBeginPlayTest>()
 	{
 		return APostBeginPlayTest::StaticClass();

@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomHUDPlayerController() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACustomHUDPlayerController_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "CustomHUDPlayerController.h" },
 		{ "ModuleRelativePath", "CustomHUDPlayerController.h" },
@@ -56,12 +57,12 @@ void EmptyLinkFunctionForGeneratedCodeCustomHUDPlayerController() {}
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
 		0x009002A4u,
-		METADATA_PARAMS(Z_Construct_UClass_ACustomHUDPlayerController_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ACustomHUDPlayerController_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_ACustomHUDPlayerController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ACustomHUDPlayerController_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ACustomHUDPlayerController()
 	{
@@ -72,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomHUDPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACustomHUDPlayerController, 4280074099);
+	IMPLEMENT_CLASS(ACustomHUDPlayerController, 463946760);
 	template<> MYPROJECTCPP_API UClass* StaticClass<ACustomHUDPlayerController>()
 	{
 		return ACustomHUDPlayerController::StaticClass();

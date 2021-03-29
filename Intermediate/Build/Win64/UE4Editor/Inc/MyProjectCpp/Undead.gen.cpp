@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -54,12 +54,12 @@ void EmptyLinkFunctionForGeneratedCodeUndead() {}
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
 		0x000840A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UUndead_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UUndead_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UUndead_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UUndead_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UUndead()
 	{
@@ -70,7 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeUndead() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UUndead, 2718766239);
+	IMPLEMENT_CLASS(UUndead, 3319564425);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UUndead>()
 	{
 		return UUndead::StaticClass();

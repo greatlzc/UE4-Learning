@@ -39,6 +39,7 @@ void UActorSpawnerComponent::Spawn()
 	{
 		FTransform ComponentTransform(this->GetComponentTransform());
 		TheWorld->SpawnActor(ActorToSpawn, &ComponentTransform);
+		ActorToSpawn.Get();
 	}
 }
 

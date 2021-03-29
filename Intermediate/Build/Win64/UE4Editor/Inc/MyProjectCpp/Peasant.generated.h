@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -14,28 +14,15 @@ class AKing;
 #endif
 #define MYPROJECTCPP_Peasant_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execFlee) \
-	{ \
-		P_GET_OBJECT(AKing,Z_Param_DeadKing); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Flee(Z_Param_DeadKing); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execFlee);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execFlee) \
-	{ \
-		P_GET_OBJECT(AKing,Z_Param_DeadKing); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Flee(Z_Param_DeadKing); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execFlee);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_INCLASS_NO_PURE_DECLS \
@@ -43,7 +30,7 @@ private: \
 	static void StaticRegisterNativesAPeasant(); \
 	friend struct Z_Construct_UClass_APeasant_Statics; \
 public: \
-	DECLARE_CLASS(APeasant, AStaticMeshActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(APeasant, AStaticMeshActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(APeasant)
 
 
@@ -52,7 +39,7 @@ private: \
 	static void StaticRegisterNativesAPeasant(); \
 	friend struct Z_Construct_UClass_APeasant_Statics; \
 public: \
-	DECLARE_CLASS(APeasant, AStaticMeshActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(APeasant, AStaticMeshActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(APeasant)
 
 
@@ -86,6 +73,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APeasant); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_STANDARD_CONSTRUCTORS \
@@ -97,6 +85,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Peasant_h_16_ENHANCED_CONSTRUCTORS \

@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeSpotter() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_ASpotter();
 	ENGINE_API UClass* Z_Construct_UClass_AStaticMeshActor();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_ASpotter_OnPlayerSpotted();
 	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 // End Cross Module References
 	static FName NAME_ASpotter_OnPlayerSpotted = FName(TEXT("OnPlayerSpotted"));
@@ -48,7 +47,7 @@ void EmptyLinkFunctionForGeneratedCodeSpotter() {}
 		{ "ModuleRelativePath", "Spotter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASpotter_OnPlayerSpotted_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASpotter, nullptr, "OnPlayerSpotted", sizeof(Spotter_eventOnPlayerSpotted_Parms), Z_Construct_UFunction_ASpotter_OnPlayerSpotted_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASpotter_OnPlayerSpotted_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASpotter_OnPlayerSpotted_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASpotter_OnPlayerSpotted_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASpotter_OnPlayerSpotted_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASpotter, nullptr, "OnPlayerSpotted", nullptr, nullptr, sizeof(Spotter_eventOnPlayerSpotted_Parms), Z_Construct_UFunction_ASpotter_OnPlayerSpotted_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ASpotter_OnPlayerSpotted_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASpotter_OnPlayerSpotted_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ASpotter_OnPlayerSpotted_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ASpotter_OnPlayerSpotted()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -77,10 +76,11 @@ void EmptyLinkFunctionForGeneratedCodeSpotter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASpotter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ASpotter_OnPlayerSpotted, "OnPlayerSpotted" }, // 2567212282
+		{ &Z_Construct_UFunction_ASpotter_OnPlayerSpotted, "OnPlayerSpotted" }, // 2008034123
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpotter_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Input" },
 		{ "IncludePath", "Spotter.h" },
 		{ "ModuleRelativePath", "Spotter.h" },
@@ -92,18 +92,18 @@ void EmptyLinkFunctionForGeneratedCodeSpotter() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ASpotter_Statics::ClassParams = {
 		&ASpotter::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_ASpotter_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ASpotter_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_ASpotter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ASpotter_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ASpotter()
 	{
@@ -114,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeSpotter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASpotter, 1603650982);
+	IMPLEMENT_CLASS(ASpotter, 2382698015);
 	template<> MYPROJECTCPP_API UClass* StaticClass<ASpotter>()
 	{
 		return ASpotter::StaticClass();

@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MyPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\UE Projects\MyProjectCpp\Intermediate\Build\Win64\MyProjectCppEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"F:\UE Projects\MyProjectCpp\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\Module.MyPlugin.cpp.obj"
+"F:\UE Projects\MyProjectCpp\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\Default.rc2.res"
+/OUT:"F:\UE Projects\MyProjectCpp\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin.lib"
+/INCLUDE:IMPLEMENT_MODULE_MyPlugin

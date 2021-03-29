@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,17 +17,23 @@ void EmptyLinkFunctionForGeneratedCodeActorSpawnerComponent() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UActorSpawnerComponent();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UActorSpawnerComponent_Spawn();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(UActorSpawnerComponent::execSpawn)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Spawn();
+		P_NATIVE_END;
+	}
 	void UActorSpawnerComponent::StaticRegisterNativesUActorSpawnerComponent()
 	{
 		UClass* Class = UActorSpawnerComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Spawn", &UActorSpawnerComponent::execSpawn },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_UActorSpawnerComponent_Spawn_Statics
 	{
@@ -42,7 +48,7 @@ void EmptyLinkFunctionForGeneratedCodeActorSpawnerComponent() {}
 		{ "ModuleRelativePath", "ActorSpawnerComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UActorSpawnerComponent_Spawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UActorSpawnerComponent, nullptr, "Spawn", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UActorSpawnerComponent_Spawn_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UActorSpawnerComponent_Spawn_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UActorSpawnerComponent_Spawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UActorSpawnerComponent, nullptr, "Spawn", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UActorSpawnerComponent_Spawn_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UActorSpawnerComponent_Spawn_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UActorSpawnerComponent_Spawn()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -76,7 +82,7 @@ void EmptyLinkFunctionForGeneratedCodeActorSpawnerComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UActorSpawnerComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UActorSpawnerComponent_Spawn, "Spawn" }, // 2232931905
+		{ &Z_Construct_UFunction_UActorSpawnerComponent_Spawn, "Spawn" }, // 2839449651
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UActorSpawnerComponent_Statics::Class_MetaDataParams[] = {
@@ -93,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeActorSpawnerComponent() {}
 		{ "ModuleRelativePath", "ActorSpawnerComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UActorSpawnerComponent_Statics::NewProp_ActorToSpawn = { "ActorToSpawn", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UActorSpawnerComponent, ActorToSpawn), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UActorSpawnerComponent_Statics::NewProp_ActorToSpawn_MetaData, ARRAY_COUNT(Z_Construct_UClass_UActorSpawnerComponent_Statics::NewProp_ActorToSpawn_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UActorSpawnerComponent_Statics::NewProp_ActorToSpawn = { "ActorToSpawn", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UActorSpawnerComponent, ActorToSpawn), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UActorSpawnerComponent_Statics::NewProp_ActorToSpawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UActorSpawnerComponent_Statics::NewProp_ActorToSpawn_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UActorSpawnerComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UActorSpawnerComponent_Statics::NewProp_ActorToSpawn,
 	};
@@ -108,12 +114,12 @@ void EmptyLinkFunctionForGeneratedCodeActorSpawnerComponent() {}
 		FuncInfo,
 		Z_Construct_UClass_UActorSpawnerComponent_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_UActorSpawnerComponent_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_UActorSpawnerComponent_Statics::PropPointers),
 		0,
 		0x00B000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_UActorSpawnerComponent_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UActorSpawnerComponent_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UActorSpawnerComponent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UActorSpawnerComponent_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UActorSpawnerComponent()
 	{
@@ -124,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeActorSpawnerComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UActorSpawnerComponent, 3893582117);
+	IMPLEMENT_CLASS(UActorSpawnerComponent, 3995800412);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UActorSpawnerComponent>()
 	{
 		return UActorSpawnerComponent::StaticClass();

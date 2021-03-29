@@ -32,7 +32,9 @@ void AMyGameMode::BeginPlay()
 	UE_LOG(LogTemp, Warning, TEXT("Some WARNING Messages:"));
 	UE_LOG(LogMyProjectCpp, Display, TEXT("A display message, log is working" ) ); // shows in gray
 	UE_LOG(LogMyProjectCpp, Warning, TEXT("A warning message"));
-	UE_LOG(LogMyProjectCpp, Error, TEXT("An error message "));
+	enum e1{ MAX_NODE_VERTICES = 255 };	// Max vertices in a Bsp node.
+	enum e2{ MAX_ZONES = 64 };			// Max zones per level.
+	UE_LOG(LogMyProjectCpp, Error, TEXT("An error message %d %d %d %d"), sizeof(FBspNode), sizeof(FPlane), sizeof(e1), sizeof(e2));
 	CreateLogger(LoggerName); // Retrieve the Log by using the LoggerName.
 	FMessageLog(LoggerName).Warning(FTEXT("A warning message from gamemode ctor"));
 
@@ -169,7 +171,7 @@ bool AMyGameMode::CovertPNG2JPG(const FString& SourceName, const FString& Target
 	TArray<uint8> SourceImageData;    
 	TArray<uint8> TargetImageData;    
 	int32 Width, Height;    
-	const TArray <uint8>* UncompressedRGBA = nullptr;    
+	TArray <uint8> UncompressedRGBA;    
 	if (!FPlatformFileManager::Get().GetPlatformFile().FileExists(*SourceName)) 
 	{     
 		return false;    
@@ -180,11 +182,11 @@ bool AMyGameMode::CovertPNG2JPG(const FString& SourceName, const FString& Target
 	}    
 	if (SourceImageWrapper.IsValid() && SourceImageWrapper->SetCompressed(SourceImageData.GetData(), SourceImageData.Num())) 
 	{
-		if (SourceImageWrapper->GetRaw(ERGBFormat::RGBA, 8, UncompressedRGBA)) 
+		if (SourceImageWrapper->GetRaw(ERGBFormat::RGBA, 8, UncompressedRGBA))
 		{ 
 			Height = SourceImageWrapper->GetHeight();            
 			Width = SourceImageWrapper->GetWidth();            
-			if (TargetImageWrapper->SetRaw(UncompressedRGBA->GetData(), UncompressedRGBA->Num(), Width, Height, ERGBFormat::RGBA, 8)) 
+			if (TargetImageWrapper->SetRaw(UncompressedRGBA.GetData(), UncompressedRGBA.Num(), Width, Height, ERGBFormat::RGBA, 8)) 
 			{ 
 				TargetImageData = TargetImageWrapper->GetCompressed();                
 				if (!FFileManagerGeneric::Get().DirectoryExists(*TargetName)) 
@@ -232,7 +234,7 @@ UTexture2D* AMyGameMode::LoadTexture2DFromBytesAndExtension(const FString& Image
 	}   
 	if (ImageWrapper.IsValid() && ImageWrapper->SetCompressed(InCompressedData, InCompressedSize)) //读取压缩后的图片数据    
 	{
-		const TArray <uint8>* UncompressedRGBA = nullptr;
+		TArray <uint8> UncompressedRGBA;
 		if (ImageWrapper->GetRaw(ERGBFormat::RGBA, 8, UncompressedRGBA)) //获取原始图片数据        
 		{
 			Texture = UTexture2D::CreateTransient(ImageWrapper->GetWidth(), ImageWrapper->GetHeight(), PF_R8G8B8A8);
@@ -242,7 +244,7 @@ UTexture2D* AMyGameMode::LoadTexture2DFromBytesAndExtension(const FString& Image
 				OutWidth = ImageWrapper->GetWidth();
 				OutHeight = ImageWrapper->GetHeight();
 				void* TextureData = Texture->PlatformData->Mips[0].BulkData.Lock(LOCK_READ_WRITE);
-				FMemory::Memcpy(TextureData, UncompressedRGBA->GetData(), UncompressedRGBA->Num());
+				FMemory::Memcpy(TextureData, UncompressedRGBA.GetData(), UncompressedRGBA.Num());
 				Texture->PlatformData->Mips[0].BulkData.Unlock();
 				Texture->UpdateResource();
 			}

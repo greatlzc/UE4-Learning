@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,9 +17,21 @@ void EmptyLinkFunctionForGeneratedCodeKillable() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UKillable();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UInterface();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UKillable_Die();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UKillable_IsDead();
 // End Cross Module References
+	DEFINE_FUNCTION(IKillable::execDie)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Die();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(IKillable::execIsDead)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsDead();
+		P_NATIVE_END;
+	}
 	void UKillable::StaticRegisterNativesUKillable()
 	{
 		UClass* Class = UKillable::StaticClass();
@@ -27,7 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeKillable() {}
 			{ "Die", &IKillable::execDie },
 			{ "IsDead", &IKillable::execIsDead },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_UKillable_Die_Statics
 	{
@@ -42,7 +54,7 @@ void EmptyLinkFunctionForGeneratedCodeKillable() {}
 		{ "ModuleRelativePath", "Killable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UKillable_Die_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UKillable, nullptr, "Die", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UKillable_Die_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UKillable_Die_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UKillable_Die_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UKillable, nullptr, "Die", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UKillable_Die_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UKillable_Die_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UKillable_Die()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -80,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeKillable() {}
 		{ "ModuleRelativePath", "Killable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UKillable_IsDead_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UKillable, nullptr, "IsDead", sizeof(Killable_eventIsDead_Parms), Z_Construct_UFunction_UKillable_IsDead_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UKillable_IsDead_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UKillable_IsDead_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UKillable_IsDead_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UKillable_IsDead_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UKillable, nullptr, "IsDead", nullptr, nullptr, sizeof(Killable_eventIsDead_Parms), Z_Construct_UFunction_UKillable_IsDead_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UKillable_IsDead_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UKillable_IsDead_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UKillable_IsDead_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UKillable_IsDead()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -109,8 +121,8 @@ void EmptyLinkFunctionForGeneratedCodeKillable() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UKillable_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UKillable_Die, "Die" }, // 1937953769
-		{ &Z_Construct_UFunction_UKillable_IsDead, "IsDead" }, // 1251103626
+		{ &Z_Construct_UFunction_UKillable_Die, "Die" }, // 3927537395
+		{ &Z_Construct_UFunction_UKillable_IsDead, "IsDead" }, // 3052438572
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UKillable_Statics::Class_MetaDataParams[] = {
@@ -129,12 +141,12 @@ void EmptyLinkFunctionForGeneratedCodeKillable() {}
 		FuncInfo,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x000840A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UKillable_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UKillable_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UKillable_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UKillable_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UKillable()
 	{
@@ -145,7 +157,7 @@ void EmptyLinkFunctionForGeneratedCodeKillable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UKillable, 2779388212);
+	IMPLEMENT_CLASS(UKillable, 3412399852);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UKillable>()
 	{
 		return UKillable::StaticClass();

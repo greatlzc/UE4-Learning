@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_NonSelectableCube_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_RPC_WRAPPERS
 #define MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_INCLASS_NO_PURE_DECLS \
@@ -20,7 +21,7 @@ private: \
 	static void StaticRegisterNativesANonSelectableCube(); \
 	friend struct Z_Construct_UClass_ANonSelectableCube_Statics; \
 public: \
-	DECLARE_CLASS(ANonSelectableCube, ASelectableCube, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(ANonSelectableCube, ASelectableCube, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(ANonSelectableCube)
 
 
@@ -29,7 +30,7 @@ private: \
 	static void StaticRegisterNativesANonSelectableCube(); \
 	friend struct Z_Construct_UClass_ANonSelectableCube_Statics; \
 public: \
-	DECLARE_CLASS(ANonSelectableCube, ASelectableCube, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(ANonSelectableCube, ASelectableCube, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(ANonSelectableCube)
 
 
@@ -65,6 +66,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANonSelectableCube); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_STANDARD_CONSTRUCTORS \
@@ -76,6 +78,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_NonSelectableCube_h_15_ENHANCED_CONSTRUCTORS \

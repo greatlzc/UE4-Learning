@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,12 +17,30 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_ADoor();
 	ENGINE_API UClass* Z_Construct_UClass_AStaticMeshActor();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_ADoor_CanInteract_Implementation();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_ADoor_Open_Implementation();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_ADoor_PerformInteract_Implementation();
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UOpenable_NoRegister();
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UInteractable_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ADoor::execOpen_Implementation)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Open_Implementation();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ADoor::execPerformInteract_Implementation)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->PerformInteract_Implementation();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ADoor::execCanInteract_Implementation)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->CanInteract_Implementation();
+		P_NATIVE_END;
+	}
 	void ADoor::StaticRegisterNativesADoor()
 	{
 		UClass* Class = ADoor::StaticClass();
@@ -31,7 +49,7 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 			{ "Open_Implementation", &ADoor::execOpen_Implementation },
 			{ "PerformInteract_Implementation", &ADoor::execPerformInteract_Implementation },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics
 	{
@@ -60,7 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 		{ "ModuleRelativePath", "Door.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADoor, nullptr, "CanInteract_Implementation", sizeof(Door_eventCanInteract_Implementation_Parms), Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADoor, nullptr, "CanInteract_Implementation", nullptr, nullptr, sizeof(Door_eventCanInteract_Implementation_Parms), Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ADoor_CanInteract_Implementation_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ADoor_CanInteract_Implementation()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -82,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 		{ "ModuleRelativePath", "Door.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADoor_Open_Implementation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADoor, nullptr, "Open_Implementation", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADoor_Open_Implementation_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ADoor_Open_Implementation_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADoor_Open_Implementation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADoor, nullptr, "Open_Implementation", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADoor_Open_Implementation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ADoor_Open_Implementation_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ADoor_Open_Implementation()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -104,7 +122,7 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 		{ "ModuleRelativePath", "Door.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADoor_PerformInteract_Implementation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADoor, nullptr, "PerformInteract_Implementation", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADoor_PerformInteract_Implementation_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ADoor_PerformInteract_Implementation_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADoor_PerformInteract_Implementation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADoor, nullptr, "PerformInteract_Implementation", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADoor_PerformInteract_Implementation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ADoor_PerformInteract_Implementation_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ADoor_PerformInteract_Implementation()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -134,12 +152,13 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ADoor_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ADoor_CanInteract_Implementation, "CanInteract_Implementation" }, // 1468382031
-		{ &Z_Construct_UFunction_ADoor_Open_Implementation, "Open_Implementation" }, // 1241370426
-		{ &Z_Construct_UFunction_ADoor_PerformInteract_Implementation, "PerformInteract_Implementation" }, // 2819566061
+		{ &Z_Construct_UFunction_ADoor_CanInteract_Implementation, "CanInteract_Implementation" }, // 3239238563
+		{ &Z_Construct_UFunction_ADoor_Open_Implementation, "Open_Implementation" }, // 3301784441
+		{ &Z_Construct_UFunction_ADoor_PerformInteract_Implementation, "PerformInteract_Implementation" }, // 192804434
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoor_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Input" },
 		{ "IncludePath", "Door.h" },
 		{ "ModuleRelativePath", "Door.h" },
@@ -155,18 +174,18 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ADoor_Statics::ClassParams = {
 		&ADoor::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
 		nullptr,
 		InterfaceParams,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
-		ARRAY_COUNT(InterfaceParams),
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_ADoor_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ADoor_Statics::Class_MetaDataParams))
+		UE_ARRAY_COUNT(InterfaceParams),
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_ADoor_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ADoor_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ADoor()
 	{
@@ -177,7 +196,7 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADoor, 1930229716);
+	IMPLEMENT_CLASS(ADoor, 3100706674);
 	template<> MYPROJECTCPP_API UClass* StaticClass<ADoor>()
 	{
 		return ADoor::StaticClass();

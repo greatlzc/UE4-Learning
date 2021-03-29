@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,16 +17,23 @@ void EmptyLinkFunctionForGeneratedCodePeasant() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_APeasant();
 	ENGINE_API UClass* Z_Construct_UClass_AStaticMeshActor();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_APeasant_Flee();
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_AKing_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(APeasant::execFlee)
+	{
+		P_GET_OBJECT(AKing,Z_Param_DeadKing);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Flee(Z_Param_DeadKing);
+		P_NATIVE_END;
+	}
 	void APeasant::StaticRegisterNativesAPeasant()
 	{
 		UClass* Class = APeasant::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Flee", &APeasant::execFlee },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_APeasant_Flee_Statics
 	{
@@ -51,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodePeasant() {}
 		{ "ModuleRelativePath", "Peasant.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APeasant_Flee_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APeasant, nullptr, "Flee", sizeof(Peasant_eventFlee_Parms), Z_Construct_UFunction_APeasant_Flee_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APeasant_Flee_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APeasant_Flee_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APeasant_Flee_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APeasant_Flee_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APeasant, nullptr, "Flee", nullptr, nullptr, sizeof(Peasant_eventFlee_Parms), Z_Construct_UFunction_APeasant_Flee_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APeasant_Flee_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APeasant_Flee_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APeasant_Flee_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_APeasant_Flee()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -80,10 +87,11 @@ void EmptyLinkFunctionForGeneratedCodePeasant() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APeasant_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APeasant_Flee, "Flee" }, // 2158554781
+		{ &Z_Construct_UFunction_APeasant_Flee, "Flee" }, // 647984113
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APeasant_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Input" },
 		{ "IncludePath", "Peasant.h" },
 		{ "ModuleRelativePath", "Peasant.h" },
@@ -95,18 +103,18 @@ void EmptyLinkFunctionForGeneratedCodePeasant() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_APeasant_Statics::ClassParams = {
 		&APeasant::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_APeasant_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_APeasant_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_APeasant_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APeasant_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_APeasant()
 	{
@@ -117,7 +125,7 @@ void EmptyLinkFunctionForGeneratedCodePeasant() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APeasant, 1742150839);
+	IMPLEMENT_CLASS(APeasant, 619186984);
 	template<> MYPROJECTCPP_API UClass* StaticClass<APeasant>()
 	{
 		return APeasant::StaticClass();

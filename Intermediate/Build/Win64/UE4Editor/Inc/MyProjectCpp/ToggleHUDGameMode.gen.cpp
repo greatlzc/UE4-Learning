@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -46,6 +46,7 @@ void EmptyLinkFunctionForGeneratedCodeToggleHUDGameMode() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AToggleHUDGameMode_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "ToggleHUDGameMode.h" },
 		{ "ModuleRelativePath", "ToggleHUDGameMode.h" },
@@ -57,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeToggleHUDGameMode() {}
 		{ "ModuleRelativePath", "ToggleHUDGameMode.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AToggleHUDGameMode_Statics::NewProp_HUDToggleTimer = { "HUDToggleTimer", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AToggleHUDGameMode, HUDToggleTimer), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(Z_Construct_UClass_AToggleHUDGameMode_Statics::NewProp_HUDToggleTimer_MetaData, ARRAY_COUNT(Z_Construct_UClass_AToggleHUDGameMode_Statics::NewProp_HUDToggleTimer_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AToggleHUDGameMode_Statics::NewProp_HUDToggleTimer = { "HUDToggleTimer", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AToggleHUDGameMode, HUDToggleTimer), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(Z_Construct_UClass_AToggleHUDGameMode_Statics::NewProp_HUDToggleTimer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AToggleHUDGameMode_Statics::NewProp_HUDToggleTimer_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AToggleHUDGameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AToggleHUDGameMode_Statics::NewProp_HUDToggleTimer,
 	};
@@ -72,12 +73,12 @@ void EmptyLinkFunctionForGeneratedCodeToggleHUDGameMode() {}
 		nullptr,
 		Z_Construct_UClass_AToggleHUDGameMode_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_AToggleHUDGameMode_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AToggleHUDGameMode_Statics::PropPointers),
 		0,
 		0x009002ACu,
-		METADATA_PARAMS(Z_Construct_UClass_AToggleHUDGameMode_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AToggleHUDGameMode_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_AToggleHUDGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AToggleHUDGameMode_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AToggleHUDGameMode()
 	{
@@ -88,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeToggleHUDGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AToggleHUDGameMode, 1274753108);
+	IMPLEMENT_CLASS(AToggleHUDGameMode, 3585332478);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AToggleHUDGameMode>()
 	{
 		return AToggleHUDGameMode::StaticClass();

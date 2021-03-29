@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -56,7 +56,7 @@ void EmptyLinkFunctionForGeneratedCodeRandomMovementComponent() {}
 		{ "ModuleRelativePath", "RandomMovementComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_URandomMovementComponent_Statics::NewProp_MovementRadius = { "MovementRadius", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(URandomMovementComponent, MovementRadius), METADATA_PARAMS(Z_Construct_UClass_URandomMovementComponent_Statics::NewProp_MovementRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_URandomMovementComponent_Statics::NewProp_MovementRadius_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_URandomMovementComponent_Statics::NewProp_MovementRadius = { "MovementRadius", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(URandomMovementComponent, MovementRadius), METADATA_PARAMS(Z_Construct_UClass_URandomMovementComponent_Statics::NewProp_MovementRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URandomMovementComponent_Statics::NewProp_MovementRadius_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_URandomMovementComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URandomMovementComponent_Statics::NewProp_MovementRadius,
 	};
@@ -71,12 +71,12 @@ void EmptyLinkFunctionForGeneratedCodeRandomMovementComponent() {}
 		nullptr,
 		Z_Construct_UClass_URandomMovementComponent_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_URandomMovementComponent_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_URandomMovementComponent_Statics::PropPointers),
 		0,
 		0x00B000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_URandomMovementComponent_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_URandomMovementComponent_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_URandomMovementComponent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_URandomMovementComponent_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_URandomMovementComponent()
 	{
@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeRandomMovementComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(URandomMovementComponent, 1232208367);
+	IMPLEMENT_CLASS(URandomMovementComponent, 2660403190);
 	template<> MYPROJECTCPP_API UClass* StaticClass<URandomMovementComponent>()
 	{
 		return URandomMovementComponent::StaticClass();

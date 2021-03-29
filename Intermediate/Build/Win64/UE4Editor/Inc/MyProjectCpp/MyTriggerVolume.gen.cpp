@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,11 +17,25 @@ void EmptyLinkFunctionForGeneratedCodeMyTriggerVolume() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_AMyTriggerVolume();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AMyTriggerVolume::execNotifyActorEndOverlap)
+	{
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->NotifyActorEndOverlap(Z_Param_OtherActor);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AMyTriggerVolume::execNotifyActorBeginOverlap)
+	{
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->NotifyActorBeginOverlap(Z_Param_OtherActor);
+		P_NATIVE_END;
+	}
 	void AMyTriggerVolume::StaticRegisterNativesAMyTriggerVolume()
 	{
 		UClass* Class = AMyTriggerVolume::StaticClass();
@@ -29,7 +43,7 @@ void EmptyLinkFunctionForGeneratedCodeMyTriggerVolume() {}
 			{ "NotifyActorBeginOverlap", &AMyTriggerVolume::execNotifyActorBeginOverlap },
 			{ "NotifyActorEndOverlap", &AMyTriggerVolume::execNotifyActorEndOverlap },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics
 	{
@@ -53,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeMyTriggerVolume() {}
 		{ "ModuleRelativePath", "MyTriggerVolume.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyTriggerVolume, nullptr, "NotifyActorBeginOverlap", sizeof(MyTriggerVolume_eventNotifyActorBeginOverlap_Parms), Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyTriggerVolume, nullptr, "NotifyActorBeginOverlap", nullptr, nullptr, sizeof(MyTriggerVolume_eventNotifyActorBeginOverlap_Parms), Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -85,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeMyTriggerVolume() {}
 		{ "ModuleRelativePath", "MyTriggerVolume.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyTriggerVolume, nullptr, "NotifyActorEndOverlap", sizeof(MyTriggerVolume_eventNotifyActorEndOverlap_Parms), Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyTriggerVolume, nullptr, "NotifyActorEndOverlap", nullptr, nullptr, sizeof(MyTriggerVolume_eventNotifyActorEndOverlap_Parms), Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -119,8 +133,8 @@ void EmptyLinkFunctionForGeneratedCodeMyTriggerVolume() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMyTriggerVolume_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap, "NotifyActorBeginOverlap" }, // 1370301271
-		{ &Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap, "NotifyActorEndOverlap" }, // 1051209124
+		{ &Z_Construct_UFunction_AMyTriggerVolume_NotifyActorBeginOverlap, "NotifyActorBeginOverlap" }, // 2326266052
+		{ &Z_Construct_UFunction_AMyTriggerVolume_NotifyActorEndOverlap, "NotifyActorEndOverlap" }, // 3050963900
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyTriggerVolume_Statics::Class_MetaDataParams[] = {
@@ -134,7 +148,7 @@ void EmptyLinkFunctionForGeneratedCodeMyTriggerVolume() {}
 		{ "ModuleRelativePath", "MyTriggerVolume.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyTriggerVolume_Statics::NewProp_TriggerZone = { "TriggerZone", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyTriggerVolume, TriggerZone), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyTriggerVolume_Statics::NewProp_TriggerZone_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyTriggerVolume_Statics::NewProp_TriggerZone_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyTriggerVolume_Statics::NewProp_TriggerZone = { "TriggerZone", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyTriggerVolume, TriggerZone), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyTriggerVolume_Statics::NewProp_TriggerZone_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyTriggerVolume_Statics::NewProp_TriggerZone_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyTriggerVolume_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyTriggerVolume_Statics::NewProp_TriggerZone,
 	};
@@ -143,18 +157,18 @@ void EmptyLinkFunctionForGeneratedCodeMyTriggerVolume() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AMyTriggerVolume_Statics::ClassParams = {
 		&AMyTriggerVolume::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
 		Z_Construct_UClass_AMyTriggerVolume_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_AMyTriggerVolume_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AMyTriggerVolume_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AMyTriggerVolume_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AMyTriggerVolume_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AMyTriggerVolume_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMyTriggerVolume_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AMyTriggerVolume()
 	{
@@ -165,7 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeMyTriggerVolume() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyTriggerVolume, 1341275038);
+	IMPLEMENT_CLASS(AMyTriggerVolume, 3251643161);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AMyTriggerVolume>()
 	{
 		return AMyTriggerVolume::StaticClass();

@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,44 +13,17 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_MyGameState_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetScore) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(int32*)Z_Param__Result=P_THIS->GetScore(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetScore) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_NewScore); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetScore(Z_Param_NewScore); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetScore); \
+	DECLARE_FUNCTION(execSetScore);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetScore) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(int32*)Z_Param__Result=P_THIS->GetScore(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetScore) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_NewScore); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetScore(Z_Param_NewScore); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetScore); \
+	DECLARE_FUNCTION(execSetScore);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_INCLASS_NO_PURE_DECLS \
@@ -58,7 +31,7 @@ private: \
 	static void StaticRegisterNativesAMyGameState(); \
 	friend struct Z_Construct_UClass_AMyGameState_Statics; \
 public: \
-	DECLARE_CLASS(AMyGameState, AGameState, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AMyGameState, AGameState, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AMyGameState)
 
 
@@ -67,7 +40,7 @@ private: \
 	static void StaticRegisterNativesAMyGameState(); \
 	friend struct Z_Construct_UClass_AMyGameState_Statics; \
 public: \
-	DECLARE_CLASS(AMyGameState, AGameState, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AMyGameState, AGameState, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AMyGameState)
 
 
@@ -104,6 +77,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyGameState); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_STANDARD_CONSTRUCTORS \
@@ -115,6 +89,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_MyGameState_h_15_ENHANCED_CONSTRUCTORS \

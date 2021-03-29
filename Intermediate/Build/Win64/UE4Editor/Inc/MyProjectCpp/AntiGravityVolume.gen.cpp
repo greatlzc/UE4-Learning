@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -56,7 +56,7 @@ void EmptyLinkFunctionForGeneratedCodeAntiGravityVolume() {}
 		{ "ModuleRelativePath", "AntiGravityVolume.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAntiGravityVolume_Statics::NewProp_CollisionComponent = { "CollisionComponent", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAntiGravityVolume, CollisionComponent), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAntiGravityVolume_Statics::NewProp_CollisionComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAntiGravityVolume_Statics::NewProp_CollisionComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAntiGravityVolume_Statics::NewProp_CollisionComponent = { "CollisionComponent", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAntiGravityVolume, CollisionComponent), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAntiGravityVolume_Statics::NewProp_CollisionComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAntiGravityVolume_Statics::NewProp_CollisionComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAntiGravityVolume_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAntiGravityVolume_Statics::NewProp_CollisionComponent,
 	};
@@ -65,18 +65,18 @@ void EmptyLinkFunctionForGeneratedCodeAntiGravityVolume() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AAntiGravityVolume_Statics::ClassParams = {
 		&AAntiGravityVolume::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_AAntiGravityVolume_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_AAntiGravityVolume_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AAntiGravityVolume_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AAntiGravityVolume_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AAntiGravityVolume_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AAntiGravityVolume_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AAntiGravityVolume_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AAntiGravityVolume()
 	{
@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeAntiGravityVolume() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAntiGravityVolume, 2307432801);
+	IMPLEMENT_CLASS(AAntiGravityVolume, 1833664064);
 	template<> MYPROJECTCPP_API UClass* StaticClass<AAntiGravityVolume>()
 	{
 		return AAntiGravityVolume::StaticClass();

@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -16,40 +16,17 @@ struct FHitResult;
 #endif
 #define MYPROJECTCPP_MyProjectCppCharacter_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_RPC_WRAPPERS \
 	virtual void OnOverlapsBegin_Implementation(UPrimitiveComponent* Comp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, FHitResult const& SweepResult); \
  \
-	DECLARE_FUNCTION(execOnOverlapsBegin) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_Comp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
-		P_GET_UBOOL(Z_Param_bFromSweep); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnOverlapsBegin_Implementation(Z_Param_Comp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execOnOverlapsBegin);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void OnOverlapsBegin_Implementation(UPrimitiveComponent* Comp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, FHitResult const& SweepResult); \
  \
-	DECLARE_FUNCTION(execOnOverlapsBegin) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_Comp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
-		P_GET_UBOOL(Z_Param_bFromSweep); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnOverlapsBegin_Implementation(Z_Param_Comp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execOnOverlapsBegin);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_EVENT_PARMS \
@@ -70,7 +47,7 @@ private: \
 	static void StaticRegisterNativesAMyProjectCppCharacter(); \
 	friend struct Z_Construct_UClass_AMyProjectCppCharacter_Statics; \
 public: \
-	DECLARE_CLASS(AMyProjectCppCharacter, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AMyProjectCppCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AMyProjectCppCharacter)
 
 
@@ -79,7 +56,7 @@ private: \
 	static void StaticRegisterNativesAMyProjectCppCharacter(); \
 	friend struct Z_Construct_UClass_AMyProjectCppCharacter_Statics; \
 public: \
-	DECLARE_CLASS(AMyProjectCppCharacter, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AMyProjectCppCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AMyProjectCppCharacter)
 
 
@@ -126,6 +103,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyProjectCppCharacter); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_CALLBACK_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_INCLASS \
@@ -138,6 +116,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_CALLBACK_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_MyProjectCppCharacter_h_14_INCLASS_NO_PURE_DECLS \

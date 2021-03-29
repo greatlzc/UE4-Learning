@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,26 +13,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_ActorSpawnerComponent_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execSpawn) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Spawn(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execSpawn);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execSpawn) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Spawn(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execSpawn);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_INCLASS_NO_PURE_DECLS \
@@ -83,6 +72,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UActorSpawnerComponent); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_STANDARD_CONSTRUCTORS \
@@ -94,6 +84,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_ActorSpawnerComponent_h_13_ENHANCED_CONSTRUCTORS \

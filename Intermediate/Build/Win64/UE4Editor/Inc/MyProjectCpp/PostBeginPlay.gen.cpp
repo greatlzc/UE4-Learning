@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,15 +17,21 @@ void EmptyLinkFunctionForGeneratedCodePostBeginPlay() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UPostBeginPlay();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UInterface();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay();
 // End Cross Module References
+	DEFINE_FUNCTION(IPostBeginPlay::execOnPostBeginPlay)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnPostBeginPlay();
+		P_NATIVE_END;
+	}
 	void UPostBeginPlay::StaticRegisterNativesUPostBeginPlay()
 	{
 		UClass* Class = UPostBeginPlay::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnPostBeginPlay", &IPostBeginPlay::execOnPostBeginPlay },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay_Statics
 	{
@@ -40,7 +46,7 @@ void EmptyLinkFunctionForGeneratedCodePostBeginPlay() {}
 		{ "ModuleRelativePath", "PostBeginPlay.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPostBeginPlay, nullptr, "OnPostBeginPlay", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPostBeginPlay, nullptr, "OnPostBeginPlay", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -69,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodePostBeginPlay() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UPostBeginPlay_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay, "OnPostBeginPlay" }, // 519921999
+		{ &Z_Construct_UFunction_UPostBeginPlay_OnPostBeginPlay, "OnPostBeginPlay" }, // 1197929523
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPostBeginPlay_Statics::Class_MetaDataParams[] = {
@@ -90,12 +96,12 @@ void EmptyLinkFunctionForGeneratedCodePostBeginPlay() {}
 		FuncInfo,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x000040A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UPostBeginPlay_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UPostBeginPlay_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UPostBeginPlay_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UPostBeginPlay_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UPostBeginPlay()
 	{
@@ -106,7 +112,7 @@ void EmptyLinkFunctionForGeneratedCodePostBeginPlay() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPostBeginPlay, 2148452119);
+	IMPLEMENT_CLASS(UPostBeginPlay, 2844986249);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UPostBeginPlay>()
 	{
 		return UPostBeginPlay::StaticClass();

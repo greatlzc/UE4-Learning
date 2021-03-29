@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,8 +17,14 @@ void EmptyLinkFunctionForGeneratedCodeTalker() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_UTalker();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UInterface();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_UTalker_StartTalking();
 // End Cross Module References
+	DEFINE_FUNCTION(ITalker::execStartTalking)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->StartTalking_Implementation();
+		P_NATIVE_END;
+	}
 	void ITalker::StartTalking()
 	{
 		check(0 && "Do not directly call Event functions in Interfaces. Call Execute_StartTalking instead.");
@@ -29,7 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeTalker() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "StartTalking", &ITalker::execStartTalking },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_UTalker_StartTalking_Statics
 	{
@@ -44,7 +50,7 @@ void EmptyLinkFunctionForGeneratedCodeTalker() {}
 		{ "ModuleRelativePath", "Talker.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTalker_StartTalking_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTalker, nullptr, "StartTalking", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTalker_StartTalking_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTalker_StartTalking_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTalker_StartTalking_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTalker, nullptr, "StartTalking", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTalker_StartTalking_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UTalker_StartTalking_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTalker_StartTalking()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -73,7 +79,7 @@ void EmptyLinkFunctionForGeneratedCodeTalker() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTalker_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UTalker_StartTalking, "StartTalking" }, // 2368098038
+		{ &Z_Construct_UFunction_UTalker_StartTalking, "StartTalking" }, // 1508606145
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTalker_Statics::Class_MetaDataParams[] = {
@@ -93,12 +99,12 @@ void EmptyLinkFunctionForGeneratedCodeTalker() {}
 		FuncInfo,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x000040A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UTalker_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UTalker_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UTalker_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UTalker_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UTalker()
 	{
@@ -109,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeTalker() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTalker, 1626047794);
+	IMPLEMENT_CLASS(UTalker, 85179162);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UTalker>()
 	{
 		return UTalker::StaticClass();

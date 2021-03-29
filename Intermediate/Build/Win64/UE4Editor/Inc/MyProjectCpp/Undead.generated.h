@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_Undead_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_Undead_h_14_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_Undead_h_14_RPC_WRAPPERS
 #define MyProjectCpp_Source_MyProjectCpp_Undead_h_14_RPC_WRAPPERS_NO_PURE_DECLS
 #define MyProjectCpp_Source_MyProjectCpp_Undead_h_14_STANDARD_CONSTRUCTORS \
@@ -87,6 +88,7 @@ public: \
 #define MyProjectCpp_Source_MyProjectCpp_Undead_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	MyProjectCpp_Source_MyProjectCpp_Undead_h_14_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Undead_h_14_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Undead_h_14_INCLASS_IINTERFACE \
 public: \
@@ -96,6 +98,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define MyProjectCpp_Source_MyProjectCpp_Undead_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	MyProjectCpp_Source_MyProjectCpp_Undead_h_14_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Undead_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Undead_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \

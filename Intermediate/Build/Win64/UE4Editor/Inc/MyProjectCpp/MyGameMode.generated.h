@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,42 +13,17 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_MyGameMode_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execButtonClicked) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ButtonClicked(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execDestroyActorFunction) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->DestroyActorFunction(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execButtonClicked); \
+	DECLARE_FUNCTION(execDestroyActorFunction);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execButtonClicked) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ButtonClicked(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execDestroyActorFunction) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->DestroyActorFunction(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execButtonClicked); \
+	DECLARE_FUNCTION(execDestroyActorFunction);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_INCLASS_NO_PURE_DECLS \
@@ -99,6 +74,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyGameMode); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_STANDARD_CONSTRUCTORS \
@@ -110,6 +86,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_MyGameMode_h_26_ENHANCED_CONSTRUCTORS \

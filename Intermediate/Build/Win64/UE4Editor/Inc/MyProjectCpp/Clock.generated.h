@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,30 +13,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECTCPP_Clock_generated_h
 
+#define MyProjectCpp_Source_MyProjectCpp_Clock_h_12_SPARSE_DATA
 #define MyProjectCpp_Source_MyProjectCpp_Clock_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execTimeChanged) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_Hours); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_Minutes); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->TimeChanged(Z_Param_Hours,Z_Param_Minutes); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execTimeChanged);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Clock_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execTimeChanged) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_Hours); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_Minutes); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->TimeChanged(Z_Param_Hours,Z_Param_Minutes); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execTimeChanged);
 
 
 #define MyProjectCpp_Source_MyProjectCpp_Clock_h_12_INCLASS_NO_PURE_DECLS \
@@ -44,7 +29,7 @@ private: \
 	static void StaticRegisterNativesAClock(); \
 	friend struct Z_Construct_UClass_AClock_Statics; \
 public: \
-	DECLARE_CLASS(AClock, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AClock, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AClock)
 
 
@@ -53,7 +38,7 @@ private: \
 	static void StaticRegisterNativesAClock(); \
 	friend struct Z_Construct_UClass_AClock_Statics; \
 public: \
-	DECLARE_CLASS(AClock, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
+	DECLARE_CLASS(AClock, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProjectCpp"), NO_API) \
 	DECLARE_SERIALIZER(AClock)
 
 
@@ -87,6 +72,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AClock); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_Clock_h_12_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_Clock_h_12_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Clock_h_12_RPC_WRAPPERS \
 	MyProjectCpp_Source_MyProjectCpp_Clock_h_12_INCLASS \
 	MyProjectCpp_Source_MyProjectCpp_Clock_h_12_STANDARD_CONSTRUCTORS \
@@ -98,6 +84,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	MyProjectCpp_Source_MyProjectCpp_Clock_h_12_PRIVATE_PROPERTY_OFFSET \
+	MyProjectCpp_Source_MyProjectCpp_Clock_h_12_SPARSE_DATA \
 	MyProjectCpp_Source_MyProjectCpp_Clock_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Clock_h_12_INCLASS_NO_PURE_DECLS \
 	MyProjectCpp_Source_MyProjectCpp_Clock_h_12_ENHANCED_CONSTRUCTORS \

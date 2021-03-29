@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -54,12 +54,12 @@ void EmptyLinkFunctionForGeneratedCodeGravityObject() {}
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
 		0x000840A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UGravityObject_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UGravityObject_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UGravityObject_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UGravityObject_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UGravityObject()
 	{
@@ -70,7 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeGravityObject() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGravityObject, 3071480693);
+	IMPLEMENT_CLASS(UGravityObject, 3228649980);
 	template<> MYPROJECTCPP_API UClass* StaticClass<UGravityObject>()
 	{
 		return UGravityObject::StaticClass();

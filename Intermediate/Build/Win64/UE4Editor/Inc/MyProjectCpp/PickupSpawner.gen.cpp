@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,11 +17,23 @@ void EmptyLinkFunctionForGeneratedCodePickupSpawner() {}
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_APickupSpawner();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_MyProjectCpp();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_APickupSpawner_PickupCollected();
-	MYPROJECTCPP_API UFunction* Z_Construct_UFunction_APickupSpawner_SpawnPickup();
 	MYPROJECTCPP_API UClass* Z_Construct_UClass_APickup_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(APickupSpawner::execSpawnPickup)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SpawnPickup();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(APickupSpawner::execPickupCollected)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->PickupCollected();
+		P_NATIVE_END;
+	}
 	void APickupSpawner::StaticRegisterNativesAPickupSpawner()
 	{
 		UClass* Class = APickupSpawner::StaticClass();
@@ -29,7 +41,7 @@ void EmptyLinkFunctionForGeneratedCodePickupSpawner() {}
 			{ "PickupCollected", &APickupSpawner::execPickupCollected },
 			{ "SpawnPickup", &APickupSpawner::execSpawnPickup },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_APickupSpawner_PickupCollected_Statics
 	{
@@ -43,7 +55,7 @@ void EmptyLinkFunctionForGeneratedCodePickupSpawner() {}
 		{ "ModuleRelativePath", "PickupSpawner.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APickupSpawner_PickupCollected_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APickupSpawner, nullptr, "PickupCollected", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APickupSpawner_PickupCollected_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APickupSpawner_PickupCollected_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APickupSpawner_PickupCollected_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APickupSpawner, nullptr, "PickupCollected", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APickupSpawner_PickupCollected_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APickupSpawner_PickupCollected_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_APickupSpawner_PickupCollected()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -65,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodePickupSpawner() {}
 		{ "ModuleRelativePath", "PickupSpawner.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APickupSpawner_SpawnPickup_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APickupSpawner, nullptr, "SpawnPickup", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APickupSpawner_SpawnPickup_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APickupSpawner_SpawnPickup_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APickupSpawner_SpawnPickup_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APickupSpawner, nullptr, "SpawnPickup", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APickupSpawner_SpawnPickup_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APickupSpawner_SpawnPickup_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_APickupSpawner_SpawnPickup()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -103,8 +115,8 @@ void EmptyLinkFunctionForGeneratedCodePickupSpawner() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProjectCpp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APickupSpawner_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APickupSpawner_PickupCollected, "PickupCollected" }, // 3376338252
-		{ &Z_Construct_UFunction_APickupSpawner_SpawnPickup, "SpawnPickup" }, // 2301715965
+		{ &Z_Construct_UFunction_APickupSpawner_PickupCollected, "PickupCollected" }, // 2583366860
+		{ &Z_Construct_UFunction_APickupSpawner_SpawnPickup, "SpawnPickup" }, // 1813791293
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupSpawner_Statics::Class_MetaDataParams[] = {
@@ -117,14 +129,14 @@ void EmptyLinkFunctionForGeneratedCodePickupSpawner() {}
 		{ "ModuleRelativePath", "PickupSpawner.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupSpawner_Statics::NewProp_CurrentPickup = { "CurrentPickup", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupSpawner, CurrentPickup), Z_Construct_UClass_APickup_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupSpawner_Statics::NewProp_CurrentPickup_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickupSpawner_Statics::NewProp_CurrentPickup_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupSpawner_Statics::NewProp_CurrentPickup = { "CurrentPickup", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupSpawner, CurrentPickup), Z_Construct_UClass_APickup_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupSpawner_Statics::NewProp_CurrentPickup_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickupSpawner_Statics::NewProp_CurrentPickup_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupSpawner_Statics::NewProp_SpawnLocation_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "PickupSpawner.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupSpawner_Statics::NewProp_SpawnLocation = { "SpawnLocation", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupSpawner, SpawnLocation), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupSpawner_Statics::NewProp_SpawnLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickupSpawner_Statics::NewProp_SpawnLocation_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupSpawner_Statics::NewProp_SpawnLocation = { "SpawnLocation", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupSpawner, SpawnLocation), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupSpawner_Statics::NewProp_SpawnLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickupSpawner_Statics::NewProp_SpawnLocation_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APickupSpawner_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupSpawner_Statics::NewProp_CurrentPickup,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupSpawner_Statics::NewProp_SpawnLocation,
@@ -134,18 +146,18 @@ void EmptyLinkFunctionForGeneratedCodePickupSpawner() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_APickupSpawner_Statics::ClassParams = {
 		&APickupSpawner::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
 		Z_Construct_UClass_APickupSpawner_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_APickupSpawner_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_APickupSpawner_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_APickupSpawner_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_APickupSpawner_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_APickupSpawner_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APickupSpawner_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_APickupSpawner()
 	{
@@ -156,7 +168,7 @@ void EmptyLinkFunctionForGeneratedCodePickupSpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickupSpawner, 1888900644);
+	IMPLEMENT_CLASS(APickupSpawner, 3952754240);
 	template<> MYPROJECTCPP_API UClass* StaticClass<APickupSpawner>()
 	{
 		return APickupSpawner::StaticClass();

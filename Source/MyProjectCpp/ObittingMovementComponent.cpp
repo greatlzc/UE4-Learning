@@ -35,10 +35,10 @@ void UObittingMovementComponent::TickComponent(float DeltaTime, ELevelTick TickT
 
 	// ...
 	float CurrentValueInRadians = FMath::DegreesToRadians<float>(CurrentValue);
-	SetRelativeLocation(FVector(OrbitDistance * FMath::Cos(CurrentValueInRadians), OrbitDistance * FMath::Sin(CurrentValueInRadians), RelativeLocation.Z));
+	SetRelativeLocation(FVector(OrbitDistance * FMath::Cos(CurrentValueInRadians), OrbitDistance * FMath::Sin(CurrentValueInRadians), GetRelativeLocation().Z));
 	if (RotateToFaceOutwards)
 	{
-		FVector LookDir = (RelativeLocation).GetSafeNormal();
+		FVector LookDir = GetRelativeLocation().GetSafeNormal();
 		FRotator LookAtRot = LookDir.Rotation();
 		SetRelativeRotation(LookAtRot);
 	}
