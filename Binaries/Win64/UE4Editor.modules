@@ -1,8 +1,0 @@
-{
-	"BuildId": "13144385",
-	"Modules": 
-	{
-		"MyProjectCpp": "UE4Editor-MyProjectCpp.dll",
-		"MyProjectCppEditor": "UE4Editor-MyProjectCppEditor.dll"
-	}
-}
